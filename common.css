@@ -1,0 +1,118 @@
+/**************/
+/* typography */
+
+p {
+  font-size: 20px;
+  line-height: 133%;
+  width: 765px;
+}
+
+/* typography */
+/**************/
+
+.container {
+  /*background-color: gray;*/
+  width: 940px;
+  margin: 0 auto;
+}
+
+
+/*@media all {html {font-size: 24px;}}
+@media all and (max-width:1000px){html {font-size: 24px;}}
+@media all and (max-width:960px){html {font-size: 23px;}}
+@media all and (max-width:920px){html {font-size: 22px;}}
+@media all and (max-width:880px){html {font-size: 21px;}}
+@media all and (max-width:840px){html {font-size: 20px;}}
+@media all and (max-width:800px){html {font-size: 19px;}}
+@media all and (max-width:760px){html {font-size: 18px;}}
+@media all and (max-width:720px){html {font-size: 17px;}}
+@media all and (max-width:680px){html {font-size: 16px;}}
+@media all and (max-width:640px){html {font-size: 15px;}}
+@media all and (max-width:600px){html {font-size: 14px;}}
+@media all and (max-width:560px){html {font-size: 13px;}}
+@media all and (max-width:520px){html {font-size: 12px;}}*/
+
+/*****************/
+/* header styles */
+
+@font-face {
+  font-family: devil_breeze;
+  src: url(devil_breeze/Devil_Breeze_Demi.ttf);
+}
+
+/* artypos */
+/*h1 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    line-height: 46px;
+    font-size: 42px;
+    margin: 0 0 23px 0;
+    }
+h2 {
+    font-family: 'EB Garamond', serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 2px;
+    margin: 0 0 23px 0;
+    }
+p {
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+    /*font-size: 16px;*
+    line-height: 23px;
+    margin: 0 0 23px 0;
+    }*/
+/***********/
+
+#logo {
+  font-family: devil_breeze;
+  position: absolute;
+  top: 10px;
+  float: left;
+}
+
+.header {
+  background-color: #353535;
+  height: 100px;
+  margin-bottom: 50px;
+}
+
+.header a {
+  color: #c3c3c3;
+  text-decoration: none;
+}
+
+.header a:hover{
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+  /*text-decoration: underline;*/
+}
+
+.menu {
+  float: right;
+  margin-top: 28px; /*en linea*/
+  margin-top: 21px; /*en el centro */
+  margin-top: 28px; /*en linea uppercase*/
+  /*margin-top: 22px; en el centro uppercase*/
+}
+
+.menu_item {
+  display: inline-block;
+  padding: 0 15px 0 10px;
+  border-right: 1px solid #c3c3c3;
+  text-transform: uppercase;
+}
+
+#menu_item_last {
+  border: none;
+  padding-right: 0px;
+}
+
+.menu_item_active a {
+  color: #ffffff;
+}
+
+/* header styles */
+/*****************/
