@@ -19,3 +19,15 @@ blockquote {
     color: gray;
     border-left: 3px solid gray;
 }
+
+#about a {
+  color: #353535;
+  border-bottom: 1px solid #353535;
+  text-decoration: none;
+}
+
+#about a:hover {
+  color: #353535;
+  border-bottom: 0px solid #353535;
+  text-decoration: none;
+}
