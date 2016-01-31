@@ -1,0 +1,20 @@
+#about > h1{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 3em;
+  margin-bottom: 50px;
+}
+
+#about {
+  margin-top: 50px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+blockquote {
+    font-size: 23px;
+    margin-left: 0px;
+    padding: 10px;
+    font-style: italic;
+    border-left: 3px solid gray;
+}
