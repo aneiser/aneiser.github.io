@@ -1,0 +1,92 @@
+#work h1{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 3em;
+  color: #353535;
+}
+
+#work p{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #353535;
+}
+
+.work {
+  border: 1px solid lightgray;
+  width: 45%;
+  float: left;
+  margin: 50px 2%;
+}
+
+.work header {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  z-index: -1;
+  background-size: cover;
+  height: 200px;
+  position: relative;
+
+}
+.work header:before {
+  position: absolute;
+  content:"";
+  height:100%;
+  width:100%;
+  top:0;
+  left:0;
+  background: -moz-linear-gradient(top,   rgba(0,0,0,0) 65%, rgba(0,0,0,0.65) 110%);
+  background: -webkit-linear-gradient(top,rgba(0,0,0,0) 65%, rgba(0,0,0,0.65) 110%);
+  background: linear-gradient(to bottom,  rgba(0,0,0,0) 65%, rgba(0,0,0,0.65) 110%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 );
+}
+
+#h_asociacion_mkt {background-image: url(img/work/h_asociacion_mkt.png);}
+#h_bahiazul {background-image: url(img/work/h_bahiazul.png);}
+#h_el_deseazo {background-image: url(img/work/h_el_deseazo.png);}
+#h_politica_exterior {background-image: url(img/work/h_politica_exterior.png);}
+#h_shot_and_shop {background-image: url(img/work/h_shot_and_shop.png);}
+
+.work .tile {
+  position: absolute;
+  width: 60%;
+  left: 50%;
+  bottom: 0;
+  -webkit-transform: translate(-50%, 0);
+  -moz-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+}
+
+.work h1 {
+  color: #353535;
+  font-family: 'Dancing Script';
+  margin: 0px;
+  padding: 5px 0px;
+  background-color: white;
+  text-align: center;
+  line-height: 32px;
+}
+
+.work p {
+  width: initial;
+  padding: 0px 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  height: 52px;
+  color: #353535;
+}
+
+.see_more {
+  color: #353535;
+  border-bottom: 1px solid #353535;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.see_more:hover {
+  color: #353535;
+  border-bottom: 0px solid #353535;
+  text-decoration: none;
+}
