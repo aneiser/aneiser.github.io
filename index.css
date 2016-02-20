@@ -90,15 +90,16 @@ body {
 
 h1 {
   color: #353535;
-  font-family: 'Dancing Script';
-  font-weight: 700;
+  /*font-family: 'Dancing Script';*/
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
   line-height: 46px;
   font-size: 62px;
   margin: 0 0 50px 0;
 }
 
 p {
-  font-family: 'Roboto', serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 23px;
 }
 
