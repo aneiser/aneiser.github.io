@@ -88,15 +88,17 @@ body {
   margin-left: 120px;
 }
 
-h1{
-  font-family: 'Roboto', sans-serif;
-  font-weight: 100;
-  font-size: 3em;
-  margin-bottom: 50px;
+h1 {
+  color: #353535;
+  font-family: 'Roboto';
+  font-weight: 700;
+  line-height: 46px;
+  font-size: 62px;
+  margin: 0 0 50px 0;
 }
 
 p {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', serif;
   line-height: 23px;
 }
 
