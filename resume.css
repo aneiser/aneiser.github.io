@@ -25,13 +25,16 @@ h1, h2, p {
 }
 
 .button{
-  width: 100%;
+  display: block;
+  width: 91%;
   padding: 8px;
   border-radius: 3px;
   border: solid 1px #353535;
   color: #353535;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  text-align: center;
+  text-decoration: none;
 }
 
 .button:hover{
@@ -41,14 +44,14 @@ h1, h2, p {
 }
 
 #pdf_format {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   background-color: transparent;
   border: solid 1px #bc0303;
   color: #bc0303;
 }
 
 #pdf_format:hover{
-  background-image: url("pdf_button_bg.jpg");
+  background-image: url("img/resume/pdf_button_bg.jpg");
   background-position-y: -7px;
   color: #ffffff;
   /*background-size: cover;
@@ -56,14 +59,13 @@ h1, h2, p {
 }
 
 #word_format {
-  margin-top: 5px;
   background-color: transparent;
   border: solid 1px #2B569A;
   color: #2B569A;
 }
 
 #word_format:hover{
-  background-image: url("word_button_bg.jpg");
+  background-image: url("img/resume/word_button_bg.jpg");
   background-position-y: -2px;
   color: #ffffff;
 /*  background-size: cover;
