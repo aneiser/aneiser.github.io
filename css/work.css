@@ -41,11 +41,11 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 );
 }
 
-#h_asociacion_mkt {background-image: url(img/work/h_asociacion_mkt.png);}
-#h_bahiazul {background-image: url(img/work/h_bahiazul.png);}
-#h_el_deseazo {background-image: url(img/work/h_el_deseazo.png);}
-#h_politica_exterior {background-image: url(img/work/h_politica_exterior.png);}
-#h_shot_and_shop {background-image: url(img/work/h_shot_and_shop.png);}
+#h_asociacion_mkt {background-image: url(../img/work/h_asociacion_mkt.png);}
+#h_bahiazul {background-image: url(../img/work/h_bahiazul.png);}
+#h_el_deseazo {background-image: url(../img/work/h_el_deseazo.png);}
+#h_politica_exterior {background-image: url(../img/work/h_politica_exterior.png);}
+#h_shot_and_shop {background-image: url(../img/work/h_shot_and_shop.png);}
 
 .work .tile {
   position: absolute;
@@ -57,6 +57,9 @@
   -ms-transform: translate(-50%, 0);
   -o-transform: translate(-50%, 0);
   transform: translate(-50%, 0);
+  border-left: 1px solid lightgray;
+  border-top: 1px solid lightgray;
+  border-right: 1px solid lightgray;
 }
 
 .work h1 {

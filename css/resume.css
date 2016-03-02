@@ -51,7 +51,7 @@ h1, h2, p {
 }
 
 #pdf_format:hover{
-  background-image: url("img/resume/pdf_button_bg.jpg");
+  background-image: url("../img/resume/pdf_button_bg.jpg");
   background-position-y: -7px;
   color: #ffffff;
   /*background-size: cover;
@@ -65,7 +65,7 @@ h1, h2, p {
 }
 
 #word_format:hover{
-  background-image: url("img/resume/word_button_bg.jpg");
+  background-image: url("../img/resume/word_button_bg.jpg");
   background-position-y: -2px;
   color: #ffffff;
 /*  background-size: cover;
