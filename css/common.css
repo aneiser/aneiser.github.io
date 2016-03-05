@@ -104,6 +104,7 @@ p {
 
 .menu_item_active a {
   color: #ffffff;
+  font-weight: bold;
 }
 
 /* header styles */
