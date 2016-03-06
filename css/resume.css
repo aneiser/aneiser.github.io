@@ -41,6 +41,7 @@ h1, h2, p {
   background-size: cover;
   text-shadow: 1px 1px 1px #000000;
   font-weight: bold;
+  text-decoration: none;
 }
 
 #pdf_format {
