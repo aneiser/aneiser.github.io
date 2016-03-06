@@ -13,9 +13,7 @@
 
 .work {
   border: 1px solid lightgray;
-  width: 45%;
-  float: left;
-  margin: 50px 2%;
+  margin: 50px 0px;
 }
 
 .work header {
@@ -52,7 +50,7 @@
 
 .work .tile {
   position: absolute;
-  width: 60%;
+  width: 65%;
   left: 50%;
   bottom: 0;
   -webkit-transform: translate(-50%, 0);
@@ -74,7 +72,7 @@
 
 .work p {
   width: initial;
-  padding: 0px 20px;
+  margin: 20px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   height: 52px;
