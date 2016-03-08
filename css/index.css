@@ -95,9 +95,9 @@ h1 {
   font-family: 'Dancing Script';
   font-weight: 700;
   line-height: 46px;
-  font-size: 62px;
+  /*font-size: 62px;*/
   margin: 0 0 50px 0;
-  text-shadow: 1px 1px 1px #ffffff;
+  text-shadow: 1px 1px 3px #ffffff;
 }
 
 p {
