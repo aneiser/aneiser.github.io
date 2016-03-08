@@ -86,6 +86,8 @@ body {
 
 #index {
   margin-left: 120px;
+  width: 70%;
+  margin: 0 auto;
 }
 
 h1 {
@@ -95,6 +97,7 @@ h1 {
   line-height: 46px;
   font-size: 62px;
   margin: 0 0 50px 0;
+  text-shadow: 1px 1px 1px #ffffff;
 }
 
 p {
