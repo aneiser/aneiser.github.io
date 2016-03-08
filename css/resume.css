@@ -29,7 +29,7 @@ h1, h2, p {
   display: block;
   /*width: 91%;*/
   padding: 8px;
-  margin-left: 10px;
+  margin: 0 10px;
   border-radius: 3px;
   border: solid 1px #353535;
   color: #353535;
