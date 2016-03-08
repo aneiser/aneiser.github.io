@@ -18,16 +18,12 @@ h1, h2, p {
 }
 
 #download {
-  /*float: right;*/
-  /*margin-top: -110px;*/
-  /*width: 200px;*/
   margin-top: 20px;
   font-size: 15px;
 }
 
 .button{
   display: block;
-  /*width: 91%;*/
   padding: 8px;
   margin: 0 10px;
   border-radius: 3px;
@@ -55,7 +51,7 @@ h1, h2, p {
 
 #pdf_format:hover{
   background-image: url("../img/resume/pdf_button_bg.jpg");
-  background-position-y: -7px;
+  background-position-y: 60%;
   color: #ffffff;
   /*background-size: cover;
   text-shadow: 1px 1px 1px #000000;*/
@@ -69,7 +65,7 @@ h1, h2, p {
 
 #word_format:hover{
   background-image: url("../img/resume/word_button_bg.jpg");
-  background-position-y: -2px;
+  background-position-y: 5%;
   color: #ffffff;
 /*  background-size: cover;
   text-shadow: 1px 1px 1px #000000;*/
