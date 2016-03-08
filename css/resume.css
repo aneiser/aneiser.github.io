@@ -3,14 +3,14 @@ h1, h2, p {
   padding-right: 10px;
 }
 
-#resume > h1{
+#resume h1{
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   font-size: 3em;
   margin-bottom: 0px;
 }
 
-#resume > h2{
+#resume h2{
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 1.83em;
@@ -18,16 +18,18 @@ h1, h2, p {
 }
 
 #download {
-  float: right;
-  margin-top: -110px;
-  width: 200px;
+  /*float: right;*/
+  /*margin-top: -110px;*/
+  /*width: 200px;*/
+  margin-top: 20px;
   font-size: 15px;
 }
 
 .button{
   display: block;
-  width: 91%;
+  /*width: 91%;*/
   padding: 8px;
+  margin-left: 10px;
   border-radius: 3px;
   border: solid 1px #353535;
   color: #353535;
