@@ -19,19 +19,27 @@
   </head>
 
 <body>
-  <header class="header">
-    <div class="container">
-      <h1 id="logo"><a href="index.html">AneiseR</a></h1>
-      <nav class="menu">
-        <ul>
-          <li class="menu_item"><a href="about.html">About</a></li>
-          <li class="menu_item"><a href="resume.html">Resume</a></li>
-          <li class="menu_item menu_item_active"><a href="work.html">work</a></li>
-          <li class="menu_item" id="menu_item_last"><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+  <nav id="menu" class="navbar navbar-inverse" role="navigation">
+      <div class="container">
+          <div class="navbar-header">
+            <a id="logo" class="navbar-brand" href="index.html">AneiseR</a>
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+          </div>
+          <div class="collapse navbar-collapse navbar-menubuilder">
+              <ul class="nav navbar-nav navbar-right">
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="resume.html">Resume</a></li>
+                  <li class="active"><a href="work.html">Work</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+              </ul>
+          </div>
+      </div>
+  </nav>
 
   <div class="container">
     <div class="row">
@@ -124,6 +132,9 @@
     </div>
   </div>
 
+  <!-- mscripteta -->
+  <script src="https://code.jquery.com/jquery-2.1.3.js"></script>
+  <script src="js/bootstrap/bootstrap.min.js"></script>
 </body>
 
 </html>
