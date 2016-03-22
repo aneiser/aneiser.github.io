@@ -145,9 +145,6 @@ p {
     background-color: rgba(0, 0, 0, 1);
     font-weight: bold;
 }
-#menu.navbar-inverse .navbar-toggle {
-    border-color: #000000;
-}
 #menu.navbar-inverse .navbar-toggle:hover,
 #menu.navbar-inverse .navbar-toggle:focus {
     background-color: #000000;
