@@ -63,6 +63,7 @@ p {
   top: 2px;
   float: left;
   font-size: 24px;
+  transition: all 0.3s ease 0s;
 }
 
 #logo:hover {
@@ -132,6 +133,8 @@ p {
     background-color: rgba(53, 53, 53, 1);
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
+    transition: all 0.3s ease 0s;
+
 }
 #menu.navbar-inverse .navbar-nav>li>a:hover,
 #menu.navbar-inverse .navbar-nav>li>a:focus {
@@ -144,6 +147,8 @@ p {
     color: rgba(255, 255, 255, 1);
     background-color: rgba(0, 0, 0, 1);
     font-weight: bold;
+    transition: all 0.3s ease 0s;
+
 }
 #menu.navbar-inverse .navbar-toggle:hover,
 #menu.navbar-inverse .navbar-toggle:focus {

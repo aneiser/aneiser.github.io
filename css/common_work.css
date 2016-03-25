@@ -42,9 +42,9 @@
 }
 .original_web .web_link {
   font-size: 16px;
+  transition: all 0.3s ease 0s;
 }
 .original_web .web_link:hover {
-  text-shadow: 1px 1px 1px #000000;
   font-weight: bold;
   text-decoration: none;
 }
