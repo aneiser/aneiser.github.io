@@ -6,6 +6,10 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+#landing_header {
+  /*background-color: #353535;*/
+  height: 80px;
+}
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   body {
@@ -14,7 +18,10 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  }
+  }#landing_header {
+  /*background-color: #353535;*/
+  height: 280px;
+}
 }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
@@ -24,6 +31,10 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+  }
+  #landing_header {
+    /*background-color: #353535;*/
+    height: 280px;
   }
 }
 /* Large devices (large desktops, 1200px and up) */
@@ -35,12 +46,10 @@ body {
     -o-background-size: cover;
     background-size: cover;
   }
-}
-
-
-#landing_header {
-  /*background-color: #353535;*/
-  height: 280px;
+  #landing_header {
+    /*background-color: #353535;*/
+    height: 280px;
+  }
 }
 
 #mr_aneiser {
