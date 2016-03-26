@@ -8,7 +8,7 @@ body {
 }
 #landing_header {
   /*background-color: #353535;*/
-  height: 150px;
+  height: 130px;
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
@@ -129,7 +129,7 @@ body {
   margin-left: 120px;
   width: 70%;
   margin: 0 auto;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 
 h1 {
