@@ -7,8 +7,7 @@ body {
   background-size: cover;
 }
 #landing_header {
-  /*background-color: #353535;*/
-  height: 130px;
+  height: 120px;
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
@@ -19,7 +18,6 @@ body {
     -o-background-size: cover;
     background-size: cover;
   }#landing_header {
-  /*background-color: #353535;*/
   height: 280px;
 }
 }
@@ -33,7 +31,6 @@ body {
     background-size: cover;
   }
   #landing_header {
-    /*background-color: #353535;*/
     height: 280px;
   }
 }
@@ -47,7 +44,6 @@ body {
     background-size: cover;
   }
   #landing_header {
-    /*background-color: #353535;*/
     height: 280px;
   }
 }
@@ -129,7 +125,7 @@ body {
   margin-left: 120px;
   width: 70%;
   margin: 0 auto;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 h1 {
