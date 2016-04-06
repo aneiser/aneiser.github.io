@@ -1,3 +1,9 @@
+$(document).ready(function() {
+    
+    function myFunction() {
+        alert("Hello! I am an alert box!");
+    }
+}
 (function($) {
     $(function() {
         var container = $('.js-article-content');
