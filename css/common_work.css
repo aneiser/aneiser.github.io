@@ -83,16 +83,6 @@
 }
 /*************** end aside styles ***************/
 
-
-
-
-
-
-
-
-
-
-
 .before-after-slider {
   position: relative;
 }
@@ -101,6 +91,7 @@
   top: 0px;
   left: 0px;
   overflow: hidden;
+  border: 1px solid lightgray;
 }
 .before-after-slider .before {
   border-right: solid 4px black;
@@ -108,14 +99,15 @@
   max-width: 100%;
 }
 .before-after-slider .hint {
-    background: #ffcc00;
-    border-radius: 3px;
-    font-size: 13px;
-    font-weight: bold;
-    left: 50%;
-    margin-left: -45px;
-    padding: 2px 6px;
-    text-align: center;
-    width: 80px;
-    white-space: nowrap;
+  background: #ffcc00;
+  border-radius: 3px;
+  font-size: 13px;
+  font-weight: bold;
+  left: 50%;
+  margin-left: -45px;
+  padding: 2px 6px;
+  text-align: center;
+  width: 80px;
+  white-space: nowrap;
 }
+
