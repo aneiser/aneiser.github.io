@@ -14,6 +14,11 @@
 .work {
   border: 1px solid lightgray;
   margin: 50px 0px;
+  transition: all 0.3s ease 0s;
+}
+
+.work:hover {
+  box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 .work header {
@@ -76,10 +81,7 @@
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   height: 78px;
-/*  height: 52px;
   overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;*/
   color: #353535;
 }
 
@@ -94,4 +96,18 @@
   color: #353535;
   border-bottom: 0px solid #353535;
   text-decoration: none;
+}
+
+.work_fade {
+  position: relative;
+}
+.work_fade:after {
+  content: "";
+  text-align: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 40%;
+  height: 1.6em;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 50%);
 }

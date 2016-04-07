@@ -1,0 +1,113 @@
+/*************** aside styles ***************/
+.aside {
+  border: 1px solid lightgray;
+  margin-top: 20px;
+  padding: 0 20px 20px;
+}
+
+/* aside common header */
+.aside header {
+/*  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+  margin: 0 -20px;
+}
+.img-responsive {
+  width: 100%;
+}
+
+
+/* aside common content */
+.aside p {
+  width: initial;
+  margin: 20px 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #353535;
+}
+
+.aside ul {
+  margin: 20px 0;
+  font-family: 'Roboto', sans-serif;
+  color: #353535;
+  padding-left: 15px; 
+}
+
+
+/* aside web links common styles */
+.original_web {
+  margin-top: 40px;
+  font-family: 'Roboto', sans-serif;
+}
+.original_web .web_link {
+  font-size: 16px;
+  transition: all 0.3s ease 0s;
+}
+.original_web .web_link:hover {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* aside web links styles */
+#a_asociacion_mkt_web_link {background-color: transparent; border: solid 1px #9B455C; color: #9B455C;}
+#a_asociacion_mkt_web_link:hover {background-color: #AC6476; color: #ffffff;}
+
+#a_bahiazul_web_link {background-color: transparent; border: solid 1px #2083D5; color: #2083D5;}
+#a_bahiazul_web_link:hover {background-color: #3093e5; color: #ffffff;}
+
+#a_el_deseazo_web_link {background-color: transparent; border: solid 1px #10608F; color: #10608F;}
+#a_el_deseazo_web_link:hover {background-color: #41A2DC; color: #ffffff;}
+
+#a_el_mundo_web_link {background-color: transparent; border: solid 1px #4788A8; color: #4788A8;}
+#a_el_mundo_web_link:hover {background-color: #5798b8; color: #ffffff;}
+
+#a_hera_web_link {background-color: transparent; border: solid 1px #79acdf; color: #79acdf;}
+#a_hera_web_link:hover {background-color: #99ccff; color: #ffffff;}
+
+#a_gauss_web_link {background-color: transparent; border: solid 1px #21365B; color: #21365B;}
+#a_gauss_web_link:hover {background-color: #41567B; color: #ffffff;}
+
+#a_politica_exterior_web_link {background-color: transparent; border: solid 1px #206B64; color: #206B64;}
+#a_politica_exterior_web_link:hover {background-color: #307B74; color: #ffffff;}
+
+#a_shot_and_shop_web_link {background-color: transparent; border: solid 1px #353535; color: #353535;}
+#a_shot_and_shop_web_link:hover {background-color: #555555; color: #ffffff;}
+
+/* Out-dated design link */
+.original_web .out_dated_design {
+  font-size: 11px;
+  margin-top: 5px;
+  text-align: center;
+  display: block;
+}
+/*************** end aside styles ***************/
+
+.before-after-slider {
+  position: relative;
+}
+.before-after-slider div {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  border: 1px solid lightgray;
+}
+.before-after-slider .before {
+  border-right: solid 4px black;
+  height: 100%;
+  max-width: 100%;
+}
+.before-after-slider .hint {
+  background: #ffcc00;
+  border-radius: 3px;
+  font-size: 13px;
+  font-weight: bold;
+  left: 50%;
+  margin-left: -45px;
+  padding: 2px 6px;
+  text-align: center;
+  width: 80px;
+  white-space: nowrap;
+}
+

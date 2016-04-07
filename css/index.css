@@ -7,6 +7,39 @@ body {
   background-size: cover;
   background-color: #353535;
 }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  body {
+    background: url(../img/bg/index_sm.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  body {
+    background: url(../img/bg/index_md.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  body {
+    background: url(../img/bg/index.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+
 #landing_header {
   height: 110px;
 }

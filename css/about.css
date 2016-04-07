@@ -18,6 +18,7 @@ blockquote {
     font-style: italic;
     color: gray;
     border-left: 3px solid gray;
+    margin-left: 350px;
 }
 
 #about a {
@@ -30,4 +31,12 @@ blockquote {
   color: #353535;
   border-bottom: 0px solid #353535;
   text-decoration: none;
+}
+
+.about_img {
+  float: left;
+  margin-right: 50px;
+  width: 300px;
+  height: 300px;
+  border: 1px solid gray;
 }
