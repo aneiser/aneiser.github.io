@@ -83,6 +83,9 @@
 }
 /*************** end aside styles ***************/
 
+.before-after-div {
+  margin-bottom: 100px;
+}
 .before-after-slider {
   position: relative;
 }
@@ -110,4 +113,3 @@
   width: 80px;
   white-space: nowrap;
 }
-
