@@ -28,14 +28,7 @@
   border-bottom: 1px dashed #353535;
 }
 
-
-#first_p{
-  margin-top: 100px;
-}
 .contact_img {
-  float: left;
-  margin-right: 50px;
-  width: 200px;
-  height: 200px;
+  margin-bottom: 50px;
   border: 1px solid gray;
 }

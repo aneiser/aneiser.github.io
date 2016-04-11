@@ -166,3 +166,7 @@ p {
 
 /* header styles */
 /*****************/
+
+.last_item {
+  margin-bottom: 50px;
+}
