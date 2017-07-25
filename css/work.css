@@ -1,14 +1,23 @@
-#work h1{
+#work h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   font-size: 3em;
   color: #353535;
 }
 
-#work p{
+#work h2, #work h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  /*font-size: 3em;*/
+  color: #353535;
+}
+
+#work p,
+#work li {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   color: #353535;
+  font-size: 20px;
 }
 
 .work {
