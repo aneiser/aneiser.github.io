@@ -20,6 +20,17 @@
   font-size: 20px;
 }
 
+#work .center_img {
+  width: 70%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+#work .over_img {
+  width: 120%;
+  margin-left: -60px;
+  margin-bottom: 50px;
+}
+
 .work {
   border: 1px solid lightgray;
   margin: 50px 0px;
