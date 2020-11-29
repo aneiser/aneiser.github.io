@@ -22,7 +22,7 @@ blockquote {
 
 #about a {
   color: #353535;
-  border-bottom: 1px solid #353535;
+  border-bottom: 1px solid #35353535;
   text-decoration: none;
 }
 
@@ -30,6 +30,7 @@ blockquote {
   color: #353535;
   border-bottom: 0px solid #353535;
   text-decoration: none;
+  background: #35353535;
 }
 
 .about_img {
