@@ -33,7 +33,7 @@
 
 .work {
   border: 1px solid lightgray;
-  margin: 50px 0px;
+  margin: 50px 0;
   transition: all 0.3s ease 0s;
 }
 
@@ -72,6 +72,7 @@
 #h_gauss {background-image: url(../img/work/h_gauss_sm.png);}
 #h_politica_exterior {background-image: url(../img/work/h_politica_exterior_sm.png);}
 #h_shot_and_shop {background-image: url(../img/work/h_shot_and_shop_sm.png);}
+#h_smartcontact {background-image: url(../img/work/h_smartcontact_sm.png);}
 
 .work .tile {
   position: absolute;
@@ -87,9 +88,9 @@
 
 .work h1 {
   color: #353535;
-  font-family: 'Dancing Script';
-  margin: 0px;
-  padding: 5px 0px;
+  font-family: 'Dancing Script', sans-serif;
+  margin: 0;
+  padding: 5px 0;
   background-color: white;
   text-align: center;
   line-height: 32px;
@@ -114,7 +115,7 @@
 
 .see_more:hover {
   color: #353535;
-  border-bottom: 0px solid #353535;
+  border-bottom: 0 solid #353535;
   text-decoration: none;
 }
 
