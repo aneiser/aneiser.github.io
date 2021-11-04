@@ -1,15 +1,18 @@
-#work h1 {
+#work h1, #work h2, #work h3, #work h4, #work h5, #work h6 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 100;
-  font-size: 3em;
   color: #353535;
 }
 
-#work h2, #work h3 {
-  font-family: 'Roboto', sans-serif;
+#work h1, #work h2 {
   font-weight: 100;
-  /*font-size: 3em;*/
-  color: #353535;
+}
+
+#work h3 {
+  font-weight: 400;
+}
+
+#work h1 {
+  font-size: 3em;
 }
 
 #work p,
@@ -131,4 +134,8 @@
   width: 40%;
   height: 1.6em;
   background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 50%);
+}
+
+.grayscale {
+  filter: grayscale(100%);
 }
