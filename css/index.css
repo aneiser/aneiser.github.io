@@ -1,6 +1,6 @@
 /* Extra small devices (phones, less than 768px) */
 body {
-  background: url(../img/bg/index_sm.jpg) no-repeat center center fixed; 
+  background: url(../img/bg/index_sm.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -11,7 +11,7 @@ body {
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   body {
-    background: url(../img/bg/index_sm.jpg) no-repeat center center fixed; 
+    background: url(../img/bg/index_sm.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -21,7 +21,7 @@ body {
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   body {
-    background: url(../img/bg/index_md.jpg) no-repeat center center fixed; 
+    background: url(../img/bg/index_md.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -31,7 +31,7 @@ body {
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   body {
-    background: url(../img/bg/index.jpg) no-repeat center center fixed; 
+    background: url(../img/bg/index.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -46,7 +46,7 @@ body {
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   body {
-    background: url(../img/bg/index_sm.jpg) no-repeat center center fixed; 
+    background: url(../img/bg/index_sm.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -58,7 +58,7 @@ body {
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   body {
-    background: url(../img/bg/index_md.jpg) no-repeat center center fixed; 
+    background: url(../img/bg/index_md.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -71,7 +71,7 @@ body {
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   body {
-    background: url(../img/bg/index.jpg) no-repeat center center fixed; 
+    background: url(../img/bg/index.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -85,7 +85,7 @@ body {
 #mr_aneiser {
   width: 15%;
   height: auto;
-  margin-top: 20px; 
+  margin-top: 20px;
 }
 
 #landing_menu {
