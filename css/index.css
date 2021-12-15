@@ -93,7 +93,7 @@ body {
   margin-top: 0;
 }
 
-#landing_menu_item {
+.landing_menu_item {
   display: inline-block;
   padding: 0px 15px 0px 10px;
   border-right: 1px solid #353535;
@@ -102,7 +102,7 @@ body {
   line-height: 25px;
 }
 
-#landing_menu_item_last {
+.landing_menu_item_last {
   border: none;
   padding: 0px 0px 0px 10px;
   display: inline-block;
