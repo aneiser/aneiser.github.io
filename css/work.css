@@ -52,7 +52,6 @@
   background-size: cover;
   height: 40rem;
   position: relative;
-
 }
 .work header:before {
   position: absolute;
@@ -70,13 +69,14 @@
 #h_asociacion_mkt {background-image: url(../img/work/h_asociacion_mkt_sm.png);}
 #h_bahiazul {background-image: url(../img/work/h_bahiazul_sm.png);}
 #h_el_deseazo {background-image: url(../img/work/h_el_deseazo_sm.png);}
-#h_el_mundo {background-image: url(../img/work/el_mundo_en_Orbyt_2021_12.png);}
+#h_el_mundo {background-image: url(../img/work/el_mundo_en_Orbyt_2021_12.png); background-position: center;}
 #h_hera {background-image: url(../img/work/h_hera_sm.png);}
 #h_insignum {background-image: url(../img/work/h_InSignum.png);}
 #h_gauss {background-image: url(../img/work/h_gauss_sm.png);}
 #h_politica_exterior {background-image: url(../img/work/h_politica_exterior_sm.png);}
 #h_shot_and_shop {background-image: url(../img/work/h_shot_and_shop_sm.png);}
 #h_smartcontact {background-image: url(../img/work/h_smartcontact_sm.png);}
+#h_ubisoft {background-image: url(../img/work/h_ubisoft.jpg); background-position: center;}
 
 .work .tile {
   position: absolute;
