@@ -18,7 +18,7 @@
   width: 100%;
 }
 .img-article {
-  margin-bottom: 3rem;
+  margin: 3rem 0;
 }
 
 
@@ -32,7 +32,6 @@
 }
 
 .aside ul {
-  margin: 20px 0;
   font-family: 'Roboto', sans-serif;
   color: #353535;
   padding-left: 15px;
