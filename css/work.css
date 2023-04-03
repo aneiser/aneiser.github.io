@@ -1,15 +1,10 @@
 #work h1, #work h2, #work h3, #work h4, #work h5, #work h6 {
   font-family: 'Roboto', sans-serif;
   color: #353535;
+  font-weight: bold;
+  margin: 12rem 0 2rem;
 }
 
-#work h1, #work h2 {
-  font-weight: 100;
-}
-
-#work h3 {
-  font-weight: 400;
-}
 
 #work h1 {
   font-size: 3em;
@@ -17,8 +12,7 @@
 
 #work p,
 #work li {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-family: serif;
   color: #353535;
   font-size: 20px;
 }
@@ -66,6 +60,41 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 );
 }
 
+.chronology {
+  width: 100%;
+  border-right: 1px solid gray;
+}
+
+.chronology th, .chronology td {
+  padding: 1rem;
+  border-left: 1px solid gray;
+}
+
+.center-cell {
+  text-align: center;
+  text-align: center;
+}
+
+.img-caption {
+  padding: 2rem;
+  display: block;
+  text-align: center;
+}
+
+.card {
+  border: 1px solid lightgray;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  background-color: #eeeeee;
+}
+
+.quote {
+  font-style: italic;
+  color: #3093e5 !important;
+  border-left: 4px solid #3093e5;
+  padding: 1.5rem;
+}
+
 #h_asociacion_mkt {background-image: url(../img/work/h_asociacion_mkt_sm.png);}
 #h_bahiazul {background-image: url(../img/work/h_bahiazul_sm.png);}
 #h_el_deseazo {background-image: url(../img/work/h_el_deseazo_sm.png);}
@@ -103,8 +132,7 @@
 .work p {
   width: initial;
   margin: 20px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-family: serif;
   overflow: hidden;
   color: #353535;
   height: 80px;
