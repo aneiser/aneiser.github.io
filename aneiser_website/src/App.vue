@@ -1,6 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
 import Header from "./components/Header.vue";
+import Footer from "./components/Footer.vue";
 </script>
 
 <template>
@@ -11,11 +12,7 @@ import Header from "./components/Header.vue";
         <RouterView />
       </v-container>
     </v-main>
-    <v-footer>
-      <v-container>
-        <span>&copy; My UX Portfolio {{ new Date().getFullYear() }}</span>
-      </v-container>
-    </v-footer>
+    <Footer />
   </v-app>
 </template>
 
