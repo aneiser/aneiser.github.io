@@ -1,3 +1,7 @@
+<script>
+    import { RouterLink } from 'vue-router';
+</script>
+
 <template>
     <v-app-bar :elevation="0">
         <v-container>
@@ -14,13 +18,3 @@
         </v-container>
     </v-app-bar>
 </template>
-
-<script>
-import { RouterLink } from 'vue-router';
-
-export default {
-    components: {
-        RouterLink,
-    },
-};
-</script>

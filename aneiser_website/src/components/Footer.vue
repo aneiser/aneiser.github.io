@@ -1,3 +1,6 @@
+<script>
+</script>
+
 <template>
     <v-footer class="d-flex flex-column text-center">
         <div class="text-caption">
@@ -8,7 +11,3 @@
         </div>
     </v-footer>
 </template>
-
-<script>
-export default {};
-</script>
