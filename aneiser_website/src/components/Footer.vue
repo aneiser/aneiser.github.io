@@ -2,7 +2,7 @@
 </script>
 
 <template>
-    <v-footer class="d-flex flex-column text-center bg-red-darken-4">
+    <v-footer class="d-flex flex-column text-center bg--red-darker">
         <div class="text-caption">
             Crafting human-centered designs with a diversity touch. Currently based in Paris, fueled by food and daydreaming vs dreams.
         </div>

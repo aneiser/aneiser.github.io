@@ -6,6 +6,7 @@
 
 <template>
     <section class="bg-grey-lighten-4" align-self="center">
+    <section class="bg--gray-lightest" align-self="center">
         <v-container>
             <div class="section--comfort">
                 <v-row>
@@ -22,7 +23,7 @@
             </div>
         </v-container>
     </section>
-    <section class="bg-grey-lighten-2">
+    <section class="bg-gray-skyline">
         <v-container>
             <h3 class="text-h4 section__title">Projects use cases</h3>
         </v-container>
@@ -36,7 +37,7 @@
             </div>
         </v-container>
     </section>
-    <section class="bg-grey-darken-4 bg-black">
+    <section class="bg--gray-darkest">
         <v-container>
             <div class="section--compact">
                 <v-row>
@@ -50,13 +51,13 @@
                 </v-row>
                 <v-row class="section__link">
                     <v-col cols="11" class="text-right">
-                        <RouterLink to="/about" class="text-subtitle-1 font-weight-medium bg-grey-darken-4">Discover more about me →</RouterLink>
+                        <RouterLink to="/about" class="text-subtitle-1 font-weight-medium bg--gray-darkest">Discover more about me →</RouterLink>
                     </v-col>
                 </v-row>
             </div>
         </v-container>
     </section>
-    <section class="bg-teal-darken-4">
+    <section class="bg--green-dark">
         <v-container>
             <h3 class="text-h4 section__title">I can help with</h3>
             <div class="section">
@@ -73,13 +74,13 @@
                 </v-row>
                 <v-row class="section__link">
                     <v-col cols="11" class="text-right">
-                        <RouterLink to="/resume" class="text-subtitle-1 font-weight-medium bg-teal-darken-4">See more in my resume →</RouterLink>
+                        <RouterLink to="/resume" class="text-subtitle-1 font-weight-medium bg--green-dark">See more in my resume →</RouterLink>
                     </v-col>
                 </v-row>
             </div>
         </v-container>
     </section>
-    <section class="bg-red-darken-3">
+    <section class="bg--red-dark">
         <v-container>
             <h3 class="text-h4 section__title">Experience</h3>
             <div class="section">
@@ -159,13 +160,13 @@
                 </v-row>
                 <v-row class="section__link">
                     <v-col cols="11" class="text-right">
-                        <RouterLink to="/resume" class="text-subtitle-1 font-weight-medium bg-red-darken-3">See more in my resume →</RouterLink>
+                        <RouterLink to="/resume" class="text-subtitle-1 font-weight-medium bg--red-dark">See more in my resume →</RouterLink>
                     </v-col>
                 </v-row>
             </div>
         </v-container>
     </section>
-    <section class="bg-red-darken-4">
+    <section class="bg--red-darker">
         <v-container>
             <h3 class="text-h4 section__title">Let's get in touch</h3>
             <div class="section">
@@ -183,13 +184,13 @@
     </section>
 </template>
 
-<style scoped>
+<style>
     @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
     @import url(https://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise);
 
     h2 span {
-        color: #ee0000;
-        text-shadow: 1px 1px 1px rgba(0 0 0 / 20%);
+        color: var(--color-red);
+        text-shadow: 1px 1px 1px var(--text-shadow-soft);
     }
 
     h2 span:first-child {
@@ -197,11 +198,11 @@
 
     h2 span:last-child {
         font-family: 'Waiting for the Sunrise', cursive;
-        font-size: 60px;
+        font-size: 44px;
     }
 
     h2.text-h6 {
-        color: #333333;
+        color: var(--color-gray-dark);
         font-family: 'Roboto Mono', monospace !important;
     }
 
@@ -239,5 +240,34 @@
     }
     .section__link a:hover {
         text-decoration: underline;
+    }
+
+    .bg--red-darker {
+        background-color: var(--color-red-darker);
+        color: var(--color-white);
+    }
+
+    .bg--red-dark {
+        background-color: var(--color-red-dark);
+        color: var(--color-white);
+    }
+
+    .bg--green-dark {
+        background-color: var(--color-green-dark);
+        color: var(--color-white);
+    }
+
+    .bg--gray-darkest {
+        background-color: var(--color-gray-darkest);
+        color: var(--color-white);
+    }
+
+    .bg--gray-lightest {
+        background-color: var(--color-gray-lightest);
+        color: var(--color-black);
+    }
+
+    .bg-gray-skyline {
+        background: linear-gradient(var(--color-gray-lighter) 80%, var(--color-blue-light));
     }
 </style>

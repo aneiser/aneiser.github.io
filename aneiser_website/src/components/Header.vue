@@ -3,8 +3,8 @@
 </script>
 
 <template>
-    <!-- <v-app-bar color="#f2f2f2" elevation="1" scroll-behavior="elevate" scroll-threshold="300" scroll-target="300"> -->
-    <v-app-bar color="#f2f2f2" elevation="0" >
+    <!-- <v-app-bar elevation="1" scroll-behavior="elevate" scroll-threshold="300" scroll-target="300"> -->
+    <v-app-bar elevation="0" >
         <v-container>
             <v-row>
                 <v-btn class="text-subtitle-1">ANEISER</v-btn>

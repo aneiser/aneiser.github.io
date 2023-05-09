@@ -26,9 +26,9 @@
     .sticker {
         width: 300px;
         height: 225px;
-        background: #ffffff;
+        background: var(--color-white);
         border-radius: 9px;
-        box-shadow: 0px 2px 10px  rgba(0,0,0, 0.4), inset 0 0 50px rgba(0,0,0, 0.2);
+        box-shadow: 0px 2px 10px var(--box-shadow-hard), inset 0 0 50px var(--box-shadow-soft);
         transform: rotate(-7deg);
         margin: auto;
         overflow: hidden;
@@ -36,14 +36,14 @@
 
     .sticker div:first-child {
         padding: 5px;
-        color: #fff;
+        color: var(--color-white);
         font-family: Helvetica, Arial, sans-serif;
         text-align: center;
         line-height: initial;
-        background-color: #ee0000;
+        background-color: var(--color-red);
     }
     .sticker div:last-child {
-        background-color: #ee0000;
+        background-color: var(--color-red);
         padding: 1rem;
     }
 
@@ -69,7 +69,7 @@
         font-weight: bold;
         letter-spacing: 0.2rem;
         transform: rotate(-3deg);
-        color: #0d0d0d;
+        color: var(--color-gray-darkest);
     }
 
     .name:first-letter {

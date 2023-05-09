@@ -30,12 +30,12 @@ export default {
 <style scoped>
 /* Block */
 .card {
-    background-color: #ffffff;
+    background-color: var(--color-white);
     min-width: 370px;
     min-height: 600px;
     border-radius: 12px;
-    color: #dd0000;
-    text-shadow: 1px 1px 3px #00000033;
+    color: var(--color-red);
+    text-shadow: 1px 1px 3px var(--text-shadow-soft);
 }
 .card__body-title {
     font-size: 2.7rem !important;
@@ -43,12 +43,12 @@ export default {
 .ubisoft {
     background-size: cover;
     background-position-x: -410px;
-    color: white;
-    text-shadow: 1px 1px 3px #00000033,
-                 2px 2px 6px #00000080;
+    color: var(--color-white);
+    text-shadow: 1px 1px 3px var(--text-shadow-soft),
+                 2px 2px 6px var(--text-shadow-hard);
 }
 .ubisoft .card__header {
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid var(--color-white);
 }
 .smartcontact {
     background-position: -8px 300px;
@@ -58,13 +58,13 @@ export default {
 .insignum {
     background-position: center;
     background-size: cover;
-    color: white;
-    text-shadow: 1px 1px 3px #00000033,
-                 2px 2px 6px #00000080;
+    color: var(--color-white);
+    text-shadow: 1px 1px 3px var(--text-shadow-soft),
+                 2px 2px 6px var(--text-shadow-hard);
 }
 
 .insignum .card__header {
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid var(--color-white);
 }
 
 .hera {
@@ -89,7 +89,7 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #dd0000;
+    border-bottom: 1px solid var(--color-red);
 }
 
 .card__footer {
@@ -98,9 +98,9 @@ export default {
 }
 
 .card__footer-button {
-    color: #dd0000;
-    background-color: #fff;
-    border: 1px solid #dd0000;
+    color: var(--color-red);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-red);
     border-radius: 2rem;
     transition: background-color 0.3s ease;
 }
