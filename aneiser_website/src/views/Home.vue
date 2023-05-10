@@ -186,7 +186,7 @@
 
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
-    @import url(https://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise);
+    @import url('https://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise');
 
     h2 span {
         color: var(--color-red);
@@ -243,28 +243,28 @@
     }
 
     .bg--red-darker {
-        background-color: var(--color-red-darker);
-        color: var(--color-white);
+        background-color: var(--color-red-darker) !important;
+        color: var(--color-white) !important;
     }
 
     .bg--red-dark {
-        background-color: var(--color-red-dark);
-        color: var(--color-white);
+        background-color: var(--color-red-dark) !important;
+        color: var(--color-white) !important;
     }
 
     .bg--green-dark {
-        background-color: var(--color-green-dark);
-        color: var(--color-white);
+        background-color: var(--color-green-dark) !important;
+        color: var(--color-white) !important;
     }
 
     .bg--gray-darkest {
-        background-color: var(--color-gray-darkest);
-        color: var(--color-white);
+        background-color: var(--color-gray-darkest) !important;
+        color: var(--color-white) !important;
     }
 
     .bg--gray-lightest {
-        background-color: var(--color-gray-lightest);
-        color: var(--color-black);
+        background-color: var(--color-gray-lightest) !important;
+        color: var(--color-black) !important;
     }
 
     .bg-gray-skyline {

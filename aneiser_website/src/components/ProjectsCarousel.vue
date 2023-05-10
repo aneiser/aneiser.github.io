@@ -9,7 +9,7 @@ export default {
         return {
             projects: [
                 { id: 5,
-                  role: 'User research',
+                  role: 'User Research',
                   date: '2022',
                   title: 'Memorable gaming experiences',
                   status: 'Coming soon',
@@ -18,8 +18,8 @@ export default {
                   link: 'ubisoft'
                 },
                 { id: 4,
-                  role: 'UX design and research',
-                  date: '2016 - 2019',
+                  role: 'UX Design & Research',
+                  date: '2016-19',
                   title: 'The merge of several products into one',
                   status: 'Coming soon',
                   theme: 'smartcontact',
@@ -27,8 +27,8 @@ export default {
                   link: 'smartcontact'
                 },
                 { id: 3,
-                  role: 'UX design and research',
-                  date: '2019 - 2021',
+                  role: 'UX Design & Research',
+                  date: '2019-21',
                   title: 'Prototyping for sound awareness',
                   status: 'Coming soon',
                   theme: 'insignum',
@@ -36,16 +36,16 @@ export default {
                   link: 'insignum'
                 },
                 { id: 2,
-                  role: 'UX design and research',
+                  role: 'UX Design & Research',
                   date: '? - ?',
-                  title: 'Prototyping a accessibility evaluation tool',
+                  title: 'Prototyping an accessibility evaluation tool',
                   status: 'Coming soon',
                   theme: 'hera',
                   img: '/src/assets/img/project_card/hera.png',
                   link: 'hera'
                 },
                 { id: 1,
-                  role: 'User research',
+                  role: 'User Research',
                   date: '? - ?',
                   title: 'Usability & Accessibility evaluations',
                   status: 'Coming soon',
