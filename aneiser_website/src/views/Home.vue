@@ -50,7 +50,7 @@
                     </v-col>
                 </v-row>
                 <v-row class="section__link">
-                    <v-col cols="11" class="text-right">
+                    <v-col class="text-right">
                         <RouterLink to="/about" class="text-subtitle-1 font-weight-medium bg--gray-darkest">Discover more about me →</RouterLink>
                     </v-col>
                 </v-row>
@@ -73,7 +73,7 @@
                     </v-col>
                 </v-row>
                 <v-row class="section__link">
-                    <v-col cols="11" class="text-right">
+                    <v-col class="text-right">
                         <RouterLink to="/resume" class="text-subtitle-1 font-weight-medium bg--green-dark">See more in my resume →</RouterLink>
                     </v-col>
                 </v-row>
@@ -159,7 +159,7 @@
                     </v-col>
                 </v-row>
                 <v-row class="section__link">
-                    <v-col cols="11" class="text-right">
+                    <v-col class="text-right">
                         <RouterLink to="/resume" class="text-subtitle-1 font-weight-medium bg--red-dark">See more in my resume →</RouterLink>
                     </v-col>
                 </v-row>
