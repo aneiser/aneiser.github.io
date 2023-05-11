@@ -175,7 +175,17 @@
                         <h4 class="text-h5 section__subtitle">Wow! All the way down, that shows dedication!</h4>
                         <p class="text-body-1">Thank you for taking the time to review my work.</p>
                         <p class="text-body-1">Explore potential collaborations by connecting with me on LinkedIn.</p>
-                        <p></p>
+                        <p class="d-flex justify-center footer__icons">
+                            <a href="https://github.com/aneiser">
+                                <font-awesome-icon icon="fab fa-github"></font-awesome-icon>
+                            </a>
+                            <a href="https://www.linkedin.com/in/adrianneilaserrano/">
+                                <font-awesome-icon icon="fab fa-linkedin"></font-awesome-icon>
+                            </a>
+                            <!-- <a href="">
+                                <font-awesome-icon icon="fab fa-medium"></font-awesome-icon>
+                            </a> -->
+                        </p>
                         <p class="text-body-1"> If you'd like to talk more, share feedback or ask anything, feel free to reach me out at <a>hello@aneiser.com</a>, I'd love to hear your thoughts!</p>
                     </v-col>
                 </v-row>
@@ -235,11 +245,19 @@
     .section__link {
         margin-top: 44px !important;
     }
-    .section__link a {
+    .section__link a:hover {
         text-decoration: none;
     }
-    .section__link a:hover {
-        text-decoration: underline;
+
+
+
+
+
+
+    .footer__icons a {
+        font-size: 2rem;
+        color: var(--color-white);
+        margin: 2rem 2rem 3rem 2rem;
     }
 
     .bg--red-darker {
