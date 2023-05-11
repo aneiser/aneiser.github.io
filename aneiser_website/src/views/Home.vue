@@ -69,7 +69,7 @@
                             <li class="text-body-1 mb-2"><span class="font-weight-bold">UX design</span>: User-centered solutions that solve your users' problems and enhance their experiences with your products or services.</li>
                             <li class="text-body-1 mb-2"><span class="font-weight-bold">Frontend development</span>: Bring your designs to life and meet modern web standards and accessibility guidelines.</li>
                         </ul>
-                        <p class="text-body-1">As a CODA, I also bring a special sensibility to universal design that's usable by all people.</p>
+                        <p class="text-body-1">As a <abbr title="Child Of Deaf Adults">CODA</abbr>, I also bring a special sensibility to accessible and universal design that's usable by all people.</p>
                     </v-col>
                 </v-row>
                 <v-row class="section__link">
