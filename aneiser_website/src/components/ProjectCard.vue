@@ -70,7 +70,7 @@ export default {
 .hera {
     background-size: cover;
     background-position: center;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .hera .card__header{
