@@ -42,7 +42,7 @@
             <div class="section--compact">
                 <v-row>
                     <v-col cols="8" offset="2">
-                        <h3 class="text-h4 section__subtitle">Curious, open-minded, easy-going and eclectic, that’s me!</h3>
+                        <h3 class="text-h4 section__subtitle gradient-warm">Curious, open-minded, easy-going and eclectic, that’s me!</h3>
                         <p class="text-body-1 mb-4 text-justify">Currently based in Paris 🌦 but I have lived in Madrid 🌞 and Stockholm 🌙</p>
                         <p class="text-body-1 mb-4 text-justify">My passion for traveling 🧳 around the world 🌍 and exploring different cultures has allowed me to develop a diverse set of skills, including 4 languages, and an ability to adapt to different perspectives.</p>
                         <p class="text-body-1 mb-4 text-justify">As a [UX designer | professional], I bring this same sense of curiosity and adaptability to my work, seeking out new ideas and approaches to create designs that solve problems and enhance user experiences.</p>
@@ -280,4 +280,11 @@
     .bg-gray-skyline {
         background: linear-gradient(var(--color-gray-lighter) 80%, var(--color-blue-light));
     }
+
+    .gradient-warm {
+        background: var(--gradient-warm-colors);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
 </style>

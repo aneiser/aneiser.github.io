@@ -42,5 +42,8 @@ import Footer from "./components/Footer.vue";
 
     --box-shadow-soft: #00000033;
     --box-shadow-hard: #00000066;
+
+    --gradient-warm-colors: linear-gradient(45deg, #FF9900 20%, #FF0000, #FF00B8 80%)
+
 }
 </style>
