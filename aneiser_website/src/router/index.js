@@ -12,9 +12,14 @@ const router = createRouter({
     { path: "/",       name: "home",   component: Home },
     // ...Use "route level code-splitting" to optimize the loading and rendering.
     // This can significantly reduce the initial load time and improve the overall performance.
-    { path: "/about",  name: "about",  component: () => import("../views/About.vue") },
-    { path: "/resume", name: "resume", component: () => import("../views/Resume.vue")},
-    { path: "/blog",   name: "blog",   component: () => import("../views/Blog.vue")  },
+    { path: "/about", name: "about", component: () => import("../views/About.vue") },
+    { path: "/resume", name: "resume", component: () => import("../views/Resume.vue") },
+    { path: "/blog", name: "blog", component: () => import("../views/Blog.vue") },
+    { path: "/projects/ubisoft", name: "ubisoft", component: () => import("../views/Ubisoft.vue") },
+    { path: "/projects/smartcontact", name: "smartcontact", component: () => import("../views/Smartcontact.vue") },
+    { path: "/projects/insignum", name: "insignum", component: () => import("../views/Insignum.vue") },
+    { path: "/projects/hera", name: "hera", component: () => import("../views/Hera.vue") },
+    { path: "/projects/el-mundo", name: "el-mundo", component: () => import("../views/Elmundo.vue") },
   ],
 });
 
