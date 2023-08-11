@@ -1,11 +1,9 @@
 <script setup>
-    import Section from "../components/Section.vue";
     import HelloSticker from "../components/HelloSticker.vue";
     import ProjectsCarousel from "../components/ProjectsCarousel.vue";
 </script>
 
 <template>
-    <section class="bg-grey-lighten-4" align-self="center">
     <section class="bg--gray-lightest" align-self="center">
         <v-container>
             <div class="section--comfort">
@@ -14,11 +12,25 @@
                         <HelloSticker />
                     </v-col>
                     <v-col cols="6">
-                        <h2 class="text-h4">I design for a diverse world</h2>
-                        <h2 class="text-h4">—</h2>
-                        <h2 class="text-h4">Bridging <span>technology</span> and <span>real</span> people through human-centered design</h2>
-                        <h2 class="text-h6">(sometimes I also code)</h2>
+                        <!-- Contenido para pantallas pequeñas (small) -->
+                        <div class="hidden-md-and-up" aria-hidden="false">
+                            <!-- <h2 class="text-h5">I design for a diverse world</h2>
+                            <h2 class="text-h5">—</h2> -->
+                            <!-- <h2 class="text-h5">Bridging <span>technology</span> and <span>real</span> people through human-centered design</h2> -->
+                            <h2 class="text-h5">Bridging <span>technology</span> and <span>people</span> through human-centered design</h2>
+                            <h2 class="text-h6">(sometimes I also code)</h2>
+                        </div>
+                        <!-- Contenido para pantallas medium y superiores -->
+                        <div class="hidden-sm-and-down" aria-hidden="true">
+                            <!-- <h2 class="text-h4">I design for a diverse world</h2>
+                                <h2 class="text-h4">—</h2> -->
+                                <!-- <h2 class="text-h4">Bridging <span>technology</span> and <span>diverse</span> people through human-centered design</h2>
+                                <br> -->
+                                <h2 class="text-h4">Bridging <span>technology</span> and <span>people</span> through human-centered design</h2>
+                            <h2 class="text-h6">(sometimes I also code)</h2>
+                        </div>
                     </v-col>
+
                 </v-row>
             </div>
         </v-container>
@@ -41,9 +53,12 @@
         <v-container>
             <div class="section--compact">
                 <v-row>
-                    <v-col cols="8" offset="2">
-                        <h3 class="text-h4 section__subtitle gradient-warm">Curious, open-minded, easy-going and eclectic, that’s me!</h3>
-                        <p class="text-body-1 mb-4 text-justify">Currently based in Paris 🌦 but I have lived in Madrid 🌞 and Stockholm 🌙</p>
+                    <v-col
+                        cols="10" offset="1"
+                        sm="8" offset-sm="2"
+                        md="6" offset-md="3">
+                        <h3 class="text-h4 text-center section__subtitle gradient-warm">Curious, easy-going and eclectic, that's me!</h3>
+                        <p class="text-body-1 mb-4 text-justify">Currently based in Paris (🇫🇷) 🌦 but I have lived in Madrid  (🇪🇸) 🌞 and Stockholm (🇸🇪) 🌙</p>
                         <p class="text-body-1 mb-4 text-justify">My passion for traveling 🧳 around the world 🌍 and exploring different cultures has allowed me to develop a diverse set of skills, including 4 languages, and an ability to adapt to different perspectives.</p>
                         <p class="text-body-1 mb-4 text-justify">As a [UX designer | professional], I bring this same sense of curiosity and adaptability to my work, seeking out new ideas and approaches to create designs that solve problems and enhance user experiences.</p>
                         <p class="text-body-1 mb-4 text-justify">I am always eager to learn more and excited to collaborate with people from different backgrounds and cultures, as I am looking for new opportunities to grow and expand my horizons.</p>
@@ -62,7 +77,10 @@
             <h3 class="text-h4 section__title">I can help with</h3>
             <div class="section">
                 <v-row>
-                    <v-col cols="8" offset="2">
+                    <v-col
+                        cols="10" offset="1"
+                        sm="8" offset-sm="2"
+                        md="6" offset-md="3">
                         <h4 class="text-h5 section__subtitle">I bring value to companies who need help with:</h4>
                         <ul class="pl-8 mb-4">
                             <li class="text-body-1 mb-2"><span class="font-weight-bold">User research</span>:  Better understand your users' needs, behaviors, and motivations.</li>
@@ -105,7 +123,10 @@
                     </v-col>
                 </v-row>
                 <v-row>
-                    <v-col cols="6" offset="3">
+                    <v-col
+                        cols="10" offset="1"
+                        sm="8" offset-sm="2"
+                        md="6" offset-md="3">
                         <v-row>
                             <v-col>
                                 <div class="my-8">
@@ -148,7 +169,6 @@
             </div>
         </v-container>
     </section>
-    <PreFooter></PreFooter>
 </template>
 
 <style>
@@ -255,6 +275,16 @@
         color: var(--color-black) !important;
     }
 
+    .bg--gray-lighter {
+        background-color: var(--color-gray-lighter) !important;
+        color: var(--color-black) !important;
+    }
+
+    .bg--white {
+        background-color: var(--color-white) !important;
+        color: var(--color-black) !important;
+    }
+
     .bg-gray-skyline {
         background: linear-gradient(var(--color-gray-lighter) 80%, var(--color-blue-light));
     }
@@ -263,6 +293,16 @@
         background: var(--gradient-warm-colors);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+    }
+    /* Media query -25% */
+    @media (max-width: 960px) {
+        h2.text-h6 {
+            font-size: 1rem !important;
+        }
+
+        h2 span:last-child {
+            font-size: 2.1rem !important;
+        }
     }
 
 </style>

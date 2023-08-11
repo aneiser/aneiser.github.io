@@ -23,6 +23,7 @@ import Footer from "./components/Footer.vue";
 
     --color-gray-darkest: #0D0D0D;
     --color-gray-dark: #333333;
+    --color-gray: #999999;
     --color-gray-lighter: #E0E0E0;
     --color-gray-lightest: #F2F2F2;
 

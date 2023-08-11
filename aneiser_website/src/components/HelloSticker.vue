@@ -76,4 +76,38 @@
         font-size: 4.5rem;
     }
 
+    /* Media query -25% */
+    @media (max-width: 960px) {
+        .sticker {
+            width: 225px;
+            height: 168.75px;
+        }
+
+        .sticker div:first-child {
+            padding: 3.75px;
+        }
+
+        .sticker div:last-child {
+            padding: 0.75rem;
+        }
+
+        h1 {
+            font-size: 2.25rem;
+            letter-spacing: 0.45rem;
+        }
+
+        .blank {
+            height: 90px;
+            padding: 0.375rem;
+        }
+
+        .name {
+            font-size: 3rem;
+            letter-spacing: 0.15rem;
+        }
+
+        .name:first-letter {
+            font-size: 3.375rem;
+        }
+    }
 </style>

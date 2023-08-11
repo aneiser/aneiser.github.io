@@ -14,8 +14,8 @@ export default {
                   title: 'Memorable gaming experiences',
                   status: 'Coming soon',
                   theme: 'ubisoft',
-                  img: '/src/assets/img/project_card/mario_rabbids_sparks_of_hope_screenshot_4__flip_vertical.webp',
-                  link: 'ubisoft'
+                  img: '/assets/img/project_card/mario_rabbids_sparks_of_hope_screenshot_4__flip_vertical.webp',
+                  link: 'projects/ubisoft'
                 },
                 { id: 4,
                   role: 'UX Design & Research',
@@ -23,8 +23,8 @@ export default {
                   title: 'The merge of several products into one',
                   status: 'Coming soon',
                   theme: 'smartcontact',
-                  img: '/src/assets/img/project_card/smartcontact.png',
-                  link: 'smartcontact'
+                  img: '/assets/img/project_card/smartcontact.png',
+                  link: 'projects/smartcontact'
                 },
                 { id: 3,
                   role: 'UX Design & Research',
@@ -32,8 +32,8 @@ export default {
                   title: 'Prototyping for sound awareness',
                   status: 'Coming soon',
                   theme: 'insignum',
-                  img: '/src/assets/img/project_card/insignum.jpg',
-                  link: 'insignum'
+                  img: '/assets/img/project_card/insignum.jpg',
+                  link: 'projects/insignum'
                 },
                 { id: 2,
                   role: 'UX Design & Research',
@@ -41,8 +41,8 @@ export default {
                   title: 'Prototyping an accessibility evaluation tool',
                   status: 'Coming soon',
                   theme: 'hera',
-                  img: '/src/assets/img/project_card/hera.png',
-                  link: 'hera'
+                  img: '/assets/img/project_card/hera.png',
+                  link: 'projects/hera'
                 },
                 { id: 1,
                   role: 'User Research',
@@ -50,8 +50,8 @@ export default {
                   title: 'Usability & Accessibility evaluations',
                   status: 'Coming soon',
                   theme: 'el-mundo',
-                  img: '/src/assets/img/project_card/el_mundo.png',
-                  link: 'el-mundo'
+                  img: '/assets/img/project_card/el_mundo.png',
+                  link: 'projects/el-mundo'
                 },
             ]
         }

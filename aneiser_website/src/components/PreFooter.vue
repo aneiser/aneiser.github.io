@@ -7,7 +7,7 @@
                 <h3 class="text-h4 section__title">Let's get in touch</h3>
                 <div class="section">
                     <v-row>
-                        <v-col cols="6" offset="3" class="text-center">
+                        <v-col class="text-center">
                             <h4 class="text-h5 section__subtitle">Wow! All the way down, that shows dedication!</h4>
                             <p class="text-body-1">Thank you for taking the time to review my work.</p>
                             <p class="text-body-1">Explore potential collaborations by <a href="https://www.linkedin.com/in/adrianneilaserrano/" target="_blank" class="bg--red-darker">connecting with me on LinkedIn</a>.</p>
