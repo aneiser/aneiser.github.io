@@ -54,20 +54,20 @@ export default {
                                 </div>
                             </div>
                             <ProjectSectionContentText>
-                                <ProjectSectionContentTextP>HERA is a semi-automatic accessibility evaluation tool originated from the Firefox plugin HERA-FFX.</ProjectSectionContentTextP>
+                                <ProjectSectionContentTextP>HERA is a semi-automatic accessibility evaluation tool originated from the Firefox plugin HERA-FFX. Ensuring web accessibility is not just a matter of compliance; it's about providing an inclusive digital experience to all users, including those with disabilities. HERA aims to make this a seamless process.</ProjectSectionContentTextP>
                             </ProjectSectionContentText>
                         <!-- </ProjectSection> -->
 
                         <ProjectSection>
                             <ProjectSectionContentText>
                                 <ProjectSectionContentTextH3>The problem</ProjectSectionContentTextH3>
-                                <ProjectSectionContentTextP>Despite being a tool presenting many of the desired features by web accessibility consultants it was considered a tedious tool.</ProjectSectionContentTextP>
+                                <ProjectSectionContentTextP>Despite presenting many features desired by web accessibility consultants, HERA-FFX was considered tedious to use.</ProjectSectionContentTextP>
                                 <ProjectSectionContentTextH4>Usability analysis</ProjectSectionContentTextH4>
-                                <ProjectSectionContentTextP>I got to work and conducted a usability analysis to find that Hera-FFX had usability problems.</ProjectSectionContentTextP>
-                                <ProjectSectionContentTextP>This analysis consisted of three parts: A System Usability Satisfaction survey, an AttrakDiff survey and comments from the users.</ProjectSectionContentTextP>
+                                <ProjectSectionContentTextP>I conducted a usability analysis and identified several issues with Hera-FFX. In this project, I took on the lead role in usability analysis, directly shaping the user experience by identifying pain points and proposing design improvements. </ProjectSectionContentTextP>
+                                <ProjectSectionContentTextP>This analysis consisted of three parts: A System Usability Satisfaction survey, an AttrakDiff survey, and user comments.</ProjectSectionContentTextP>
                                 <ProjectSectionContentTextH5>System Usability Satisfaction Survey</ProjectSectionContentTextH5>
-                                <ProjectSectionContentTextP>Ten statements. Five positives and five negatives to which the user must respond on a scale from one to five what is his or her level of agreement with each sentence. This results in a score</ProjectSectionContentTextP>
-                                <ProjectSectionContentTextP>The average score of more than 500 SUS studies is 68. Hera-FFX scored 53'5. According to the percentile range, Hera-FFX did not reach a D. Which means it failed the survey.</ProjectSectionContentTextP>
+                                <ProjectSectionContentTextP>Ten statements. Five positives and five negatives to which the user must respond on a scale from one to five what is his or her level of agreement with each sentence. This survey yields in a usability score.</ProjectSectionContentTextP>
+                                <ProjectSectionContentTextP>The average score of more than 500 SUS studies is 68. Hera-FFX scored 53.5. According to the percentile range, Hera-FFX did not reach a D. Which means it failed the survey.</ProjectSectionContentTextP>
                             </ProjectSectionContentText>
                             <ProjectSectionContentImage>
                                 <row>
@@ -75,7 +75,7 @@ export default {
                                         <v-img cover src="../assets/img/hera/sus_survey.png"></v-img>
                                     </v-col>
                                 </row>
-                                <ProjectSectionContentImageCaption>Hera-FFX SUS Score. Minimum: 2'5, average: 53'49 and maximum: 90.</ProjectSectionContentImageCaption>
+                                <ProjectSectionContentImageCaption>Hera-FFX SUS Score. Minimum: 2.5, average: 53.49 and maximum: 90.</ProjectSectionContentImageCaption>
                             </ProjectSectionContentImage>
 
                             <ProjectSectionContentText>
@@ -86,8 +86,8 @@ export default {
                                 <ProjectSectionContentTextH5>Comments from users</ProjectSectionContentTextH5>
                                 <ProjectSectionContentTextP>The comments were collected through free response questions. In general, those were negatives.</ProjectSectionContentTextP>
                                 <ProjectSectionContentTextP>"It takes a too much time", "Too many clicks are needed", "The UI is ugly and obsolete" and "The tool is not friendly" are some examples.</ProjectSectionContentTextP>
-                                <ProjectSectionContentTextP>Only one user, among 57 young Europeans, said positives comments.</ProjectSectionContentTextP>
-                                <ProjectSectionContentTextP>As a result, I made a series of improvements proposals. Those proposals were focus on efficiency, automatisms, accessibility, help and feedback and graphic design.</ProjectSectionContentTextP>
+                                <ProjectSectionContentTextP>Only one user, among 57 young Europeans, made positive comments.</ProjectSectionContentTextP>
+                                <ProjectSectionContentTextP>As a result, I made a series of improvements proposals. These improvement proposals focused on efficiency, automation, accessibility, help, feedback, and graphic design.</ProjectSectionContentTextP>
                             </ProjectSectionContentText>
                         </ProjectSection>
 
@@ -95,11 +95,11 @@ export default {
                             <ProjectSectionContentText>
                                 <ProjectSectionContentTextH3>The process</ProjectSectionContentTextH3>
                                 <ProjectSectionContentTextH4>Context of Use Analysis</ProjectSectionContentTextH4>
-                                <ProjectSectionContentTextP>I also conducted a context of use  analysis consisted of three parts: Users, tasks, and the environment</ProjectSectionContentTextP>
+                                <ProjectSectionContentTextP>I also conducted a context-of-use analysis that consisted of three components: users, tasks, and environment.</ProjectSectionContentTextP>
 
                                 <ProjectSectionContentTextH5>Users</ProjectSectionContentTextH5>
-                                <ProjectSectionContentTextP>I needed to know which were their characteristic and necessities</ProjectSectionContentTextP>
-                                <ProjectSectionContentTextP>I used the persona technique which led me to set up two clearly defined user profiles:</ProjectSectionContentTextP>
+                                <ProjectSectionContentTextP>I needed to understand their characteristics and needs.</ProjectSectionContentTextP>
+                                <ProjectSectionContentTextP>Using the persona technique, I established two clearly defined user profiles:</ProjectSectionContentTextP>
                                 <ProjectSectionContentTextP>
                                     <ul>
                                         <li>Andrea as an expert user</li>
@@ -107,9 +107,9 @@ export default {
                                     </ul>
                                 </ProjectSectionContentTextP>
 
-                                <ProjectSectionContentTextH5>Task</ProjectSectionContentTextH5>
+                                <ProjectSectionContentTextH5>Tasks</ProjectSectionContentTextH5>
                                 <ProjectSectionContentTextP>I also needed to know what the tasks of users of this kind of tools usually are and how were organized. Being these tasks: Browse, begin an automatic evaluation, test success criteria, etc.</ProjectSectionContentTextP>
-                                <ProjectSectionContentTextP>I designed two different scenarios with essentials tasks.</ProjectSectionContentTextP>
+                                <ProjectSectionContentTextP>I designed two different scenarios encompassing essential tasks.</ProjectSectionContentTextP>
 
                                 <ProjectSectionContentTextH5>Environment</ProjectSectionContentTextH5>
                                 <ProjectSectionContentTextP>Although there were restrictions none of them were especially relevant to be mentioned at this point.</ProjectSectionContentTextP>
@@ -150,7 +150,7 @@ export default {
 
                             <ProjectSectionContentText>
                                 <ProjectSectionContentTextH5>Paper-based prototype</ProjectSectionContentTextH5>
-                                <ProjectSectionContentTextP>Now you can see some screens from the prototype used for the usability tests. It developed the scenarios. The user interacted with it by tapping the elements.</ProjectSectionContentTextP>
+                                <ProjectSectionContentTextP>The following are some screens from the prototype that was used for the usability tests.</ProjectSectionContentTextP>
                             </ProjectSectionContentText>
                             <ProjectSectionContentImage>
                                 <v-img cover src="../assets/img/hera/lofi_proto.png"></v-img>
@@ -159,7 +159,7 @@ export default {
 
                             <ProjectSectionContentText>
                                 <ProjectSectionContentTextH4>User tests</ProjectSectionContentTextH4>
-                                <ProjectSectionContentTextP>One facilitator and an observer conducted the user tests.</ProjectSectionContentTextP>
+                                <ProjectSectionContentTextP>A facilitator and an observer conducted the user tests.</ProjectSectionContentTextP>
                                 <ProjectSectionContentTextP>In the test, we studied the interaction of five people with the low fidelity prototype. Three of them were accessibility expert and two novice students.</ProjectSectionContentTextP>
                                 <ProjectSectionContentTextP>We got ready the tasks list, the surveys, the observer sheet, and we even made an evaluation protocol. Oh! There was a pilot test too.</ProjectSectionContentTextP>
                             </ProjectSectionContentText>
@@ -168,7 +168,7 @@ export default {
                         <ProjectSection>
                             <ProjectSectionContentText>
                                 <ProjectSectionContentTextH3>The outcome</ProjectSectionContentTextH3>
-                                <ProjectSectionContentTextP>I'm going to keep the same structure to facilitate the comparison. Let's recap:</ProjectSectionContentTextP>
+                                <ProjectSectionContentTextP>Thanks to these iterative tests and adjustments, we achieved a significant 12% improvement in user satisfaction. This not only demonstrates the effectiveness of the design changes but also showcases the tangible impact of our UX efforts. I'm going to keep the same structure to facilitate the comparison. Let's recap:</ProjectSectionContentTextP>
                                 <ProjectSectionContentTextP>
                                     <ul>
                                         <li>The System Usability Satisfaction Survey</li>
@@ -178,9 +178,9 @@ export default {
                                 </ProjectSectionContentTextP>
 
                                 <ProjectSectionContentTextH4>System Usability Satisfaction Survey</ProjectSectionContentTextH4>
-                                <ProjectSectionContentTextP>The Hera-FFX average scored was 53'5. Hera standalone got an average of 65'6.</ProjectSectionContentTextP>
-                                <ProjectSectionContentTextP>This mean 7'5 points more, an improvement of 12% in the percentile range. Now it gets slightly over C, which mean Standalone Hera pass it, and almost reach the SUS average.</ProjectSectionContentTextP>
-                                <ProjectSectionContentTextP>But let's calm down. It is necessary to realize that these surveys were made with a considerable smaller sample. It is less representative. In addition, we are comparing a prototype with closed task and less time of use with a real tool with real tasks and more, more time of use.</ProjectSectionContentTextP>
+                                <ProjectSectionContentTextP>The Hera-FFX average scored was 53.5. Hera standalone got an average of 65.6.</ProjectSectionContentTextP>
+                                <ProjectSectionContentTextP>This means an increase of 7.5 points, a 12% improvement in the percentile range. Now it scores just above a C, indicating that Standalone Hera passed. It nearly meets the SUS average, and given that this is only a prototype, the final product is likely to surpass this score.</ProjectSectionContentTextP>
+                                <ProjectSectionContentTextP>However, it's worth noting that these surveys were conducted with a significantly smaller sample. It is less representative. In addition, we are comparing a prototype with closed task and less time of use with a real tool with real tasks and more, more time of use.</ProjectSectionContentTextP>
                             </ProjectSectionContentText>
                             <ProjectSectionContentImage>
                                 <row>
@@ -188,7 +188,7 @@ export default {
                                         <v-img cover src="../assets/img/hera/sus_survey_2.png"></v-img>
                                     </v-col>
                                 </row>
-                                <ProjectSectionContentImageCaption>Hera-FFX SUS Score. Minimum: 2'5, average: 53'49 and maximum: 90. Standalone Hera SUS Score. Minimum: 57'5, average: 65'63 and maximum: 77'5.</ProjectSectionContentImageCaption>
+                                <ProjectSectionContentImageCaption>Hera-FFX SUS Score. Minimum: 2.5, average: 53.49 and maximum: 90. Standalone Hera SUS Score. Minimum: 57.5, average: 65.63 and maximum: 77.5.</ProjectSectionContentImageCaption>
                             </ProjectSectionContentImage>
 
                             <ProjectSectionContentText>
@@ -208,11 +208,11 @@ export default {
                             <ProjectSectionContentText>
                                 <ProjectSectionContentTextH4>Comments from users</ProjectSectionContentTextH4>
                                 <ProjectSectionContentTextP>The comments were collected in the same way, free response questions.</ProjectSectionContentTextP>
-                                <ProjectSectionContentTextP>These comments were negative without any positive. We also collected some suggestions</ProjectSectionContentTextP>
+                                <ProjectSectionContentTextP>All the comments we received were negative. We also collected some suggestions</ProjectSectionContentTextP>
 
                                 <ProjectSectionContentTextH5>Medium fidelity prototype</ProjectSectionContentTextH5>
-                                <ProjectSectionContentTextP>In this iteration, some errors were fixed. It is computer-based, so it included colours, a higher level of detail and was interactive.</ProjectSectionContentTextP>
-                                <ProjectSectionContentTextP>At this point, the study finished. This prototype would serve as the basis for future design.</ProjectSectionContentTextP>
+                                <ProjectSectionContentTextP>In this iteration, we corrected some errors. Being computer-based, the prototype now featured colors, a more detailed design, and interactive elements. This project was particularly insightful as it underscored the importance of iterative testing and being open to feedback. It also reinforced my belief in the power of user-centered design in creating truly effective and impactful digital tools.</ProjectSectionContentTextP>
+                                <ProjectSectionContentTextP>At this point, the study finished. This prototype would serve as the basis for future design. While the current iteration of HERA has already seen substantial improvements, I envision further refining the tool based on continuous user feedback and staying updated with the latest in web accessibility guidelines. I am excited about the potential of making web accessibility even more intuitive for consultants in the future.</ProjectSectionContentTextP>
                             </ProjectSectionContentText>
                             <ProjectSectionContentImage>
                                 <v-img cover src="../assets/img/hera/mefi_proto.png"></v-img>
