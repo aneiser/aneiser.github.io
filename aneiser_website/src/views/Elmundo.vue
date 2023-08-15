@@ -60,29 +60,30 @@ export default {
                         <ProjectSection>
                             <ProjectSectionContentText>
                                 <ProjectSectionContentTextH4>Objective</ProjectSectionContentTextH4>
-                                <ProjectSectionContentTextP>The client need was to analyze the degree of usability and accessibility of the national newspaper El Mundo through the Orbyt platform.</ProjectSectionContentTextP>
-                                <ProjectSectionContentTextP>For this, both usability and accessibility studies, were carried out and are described next.</ProjectSectionContentTextP>
+                                <ProjectSectionContentTextP>The primary objective was to assess and optimize the usability and accessibility of El Mundo's digital presence on the Orbyt platform.</ProjectSectionContentTextP>
+                                <ProjectSectionContentTextP>For this, both usability and accessibility studies were carried out and are described next.</ProjectSectionContentTextP>
 
                                 <ProjectSectionContentTextH5>Usability study</ProjectSectionContentTextH5>
-                                <ProjectSectionContentTextP>The evaluation was performed on the Orbyt platform, through a browser in a personal computer. The evaluation covered the access to the platform, the content of the newspaper, the complementary multimedia content and a variety of elements resulting from the interaction with any of the previous parts.</ProjectSectionContentTextP>
-                                <ProjectSectionContentTextP>The usability evaluation was compound out of two parts: an evaluation with users and a usability heuristics evaluation resulting on an analysis and a report of the results that were delivered to the client.</ProjectSectionContentTextP>
+                                <ProjectSectionContentTextP>I conducted an in-depth usability assessment of the Orbyt platform, through a browser in a personal computer, covering multiple interaction touchpoints — from platform access and newspaper content to supplementary multimedia features. This assessment was divided into two main evaluations: user-centric testing and heuristic analysis. Both evaluations culminated in a detailed report, which I then presented to the client.</ProjectSectionContentTextP>
 
                                 <ProjectSectionContentTextH6>Evaluation with user</ProjectSectionContentTextH6>
-                                <ProjectSectionContentTextP>First, I analyzed the context of use, including information about users, tasks, and the environment.</ProjectSectionContentTextP>
+                                <ProjectSectionContentTextP>First, I commenced by examining the user environment, detailing their tasks, preferences, and potential challenges.</ProjectSectionContentTextP>
                                 <ProjectSectionContentTextP>Second, I defined a list of eight tasks that recruited users had to carry out. These tasks range from familiarizing with the interface, to more complex functions such as search, finding articles, managing notes and bookmarks, working with different display modes, and making use of social network options.</ProjectSectionContentTextP>
                                 <ProjectSectionContentTextP>To flow smoothly through these eight tasks, I defined a protocol for the evaluation: welcome information, description of the tasks that the user had to perform, data collection during the execution of the tasks, questionnaire on aspects of usability and, finally, a brief interview.</ProjectSectionContentTextP>
-                                <ProjectSectionContentTextP>Third, I carried out four pilot tests with users to test and to refine the evaluation process. From the list of tasks to be performed to possible errors in the documents used in the evaluations as well as in the procedures employed.</ProjectSectionContentTextP>
+                                <ProjectSectionContentTextP>Third, I conducted four pilot tests with users to test and to refine the evaluation process. From the list of tasks to be performed to possible errors in the documents used in the evaluations as well as in the procedures employed.</ProjectSectionContentTextP>
                                 <ProjectSectionContentTextP>Fourth, 45 users were recruited to fit the profile needed.</ProjectSectionContentTextP>
-                                <ProjectSectionContentTextP>Finally, we performed the usability tests with all 45 users, obtaining quantitative data as well as relevant qualitative information. Each user spends, on average, an hour to perform the tests and answer the questionnaires.</ProjectSectionContentTextP>
+                                <ProjectSectionContentTextP>Finally, we performed the usability tests with all 45 users, obtaining quantitative data as well as relevant qualitative information. Each user spent, on average, an hour to perform the tests and answer the questionnaires.</ProjectSectionContentTextP>
 
                                 <ProjectSectionContentTextH6>Heuristic evaluation</ProjectSectionContentTextH6>
-                                <ProjectSectionContentTextP>On the other hand, to complement this user-based evaluation I followed the 10 heuristics of Jakob Nielsen on a heuristic evaluation.</ProjectSectionContentTextP>
+                                <ProjectSectionContentTextP>Complementing the user-centric approach, I implemented Jakob Nielsen's 10 usability heuristics for a structured and comprehensive evaluation.</ProjectSectionContentTextP>
 
                                 <ProjectSectionContentTextH5>Accessibility study</ProjectSectionContentTextH5>
-                                <ProjectSectionContentTextP>Similarly, the evaluation of the accessibility of the online newspaper El Mundo was done through the Orbyt platform.</ProjectSectionContentTextP>
+                                <ProjectSectionContentTextP>Parallel to the usability evaluation, I rigorously assessed El Mundo's accessibility on the Orbyt platform, ensuring adherence to international standards.</ProjectSectionContentTextP>
                                 <ProjectSectionContentTextP>The accessibility requirements set out in the World Wide Web Consortium Recommendation WCAG 2.0 (World Content Accessibility Guidelines) were applied. This document defines four principles, 12 guidelines and 61 criteria for success. Each criterion has a level of conformity associated, which can be A (the most important), AA or AAA (the least important).</ProjectSectionContentTextP>
                                 <ProjectSectionContentTextP>In this study, the scope of the study covered from A up to the AA level. This level was chosen as the minimum required by law in official governmental pages.</ProjectSectionContentTextP>
                                 <ProjectSectionContentTextP>Like in the usability study, an analysis and a report of the results were also delivered to the client.</ProjectSectionContentTextP>
+                                <ProjectSectionContentTextH4>Conclusion</ProjectSectionContentTextH4>
+                                <ProjectSectionContentTextP>The results of these evaluations not only provided El Mundo with actionable insights but also positioned the publication for a more inclusive and user-friendly digital experience. My role reaffirmed the importance of aligning business goals with user needs, ultimately driving user satisfaction and engagement.</ProjectSectionContentTextP>
                             </ProjectSectionContentText>
                         </ProjectSection>
                     </v-col>
