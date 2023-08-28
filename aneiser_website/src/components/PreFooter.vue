@@ -10,12 +10,12 @@
                         <v-col class="text-center">
                             <h4 class="text-h5 section__subtitle">Wow! All the way down, that shows dedication!</h4>
                             <p class="text-body-1">Thank you for taking the time to review my work.</p>
-                            <p class="text-body-1">Explore potential collaborations by <a href="https://www.linkedin.com/in/adrianneilaserrano/" target="_blank" class="bg--red-darker">connecting with me on LinkedIn</a>.</p>
+                        <p class="text-body-1">Explore potential collaborations by <a href="https://www.linkedin.com/in/aneiser-ux/" target="_blank" class="bg--red-darker">connecting with me on LinkedIn</a>.</p>
                             <p class="d-flex justify-center footer__icons">
                                 <a href="https://github.com/aneiser">
                                     <font-awesome-icon icon="fab fa-github"></font-awesome-icon>
                                 </a>
-                                <a href="https://www.linkedin.com/in/adrianneilaserrano/" target="_blank">
+                            <a href="https://www.linkedin.com/in/aneiser-ux/" target="_blank">
                                     <font-awesome-icon icon="fab fa-linkedin"></font-awesome-icon>
                                 </a>
                                 <!-- <a href="">

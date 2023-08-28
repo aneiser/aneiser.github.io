@@ -13,7 +13,7 @@
                   <v-btn class="header__btn" :ripple="false" to="/resume">Resume</v-btn>
                   <v-btn class="header__btn" :ripple="false" to="/blog">Blog</v-btn>
                 </v-toolbar-items>
-                <v-btn icon href="https://www.linkedin.com/in/adrianneilaserrano/" target="_blank">
+                <v-btn icon href="https://www.linkedin.com/in/aneiser-ux/" target="_blank">
                     <font-awesome-icon icon="fab fa-linkedin"></font-awesome-icon>
                 </v-btn>
                 <v-btn icon href="mailto:a.neiser13@gmail.com" target="_blank">
