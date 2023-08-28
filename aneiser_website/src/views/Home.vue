@@ -181,6 +181,7 @@
     }
 
     h2 span:first-child {
+        font-family: 'Roboto Mono';
     }
 
     h2 span:last-child {
