@@ -41,9 +41,11 @@
         text-align: center;
         line-height: initial;
         background-color: var(--color-red);
+        background-image: var(--gradient-red-colors);
     }
     .sticker div:last-child {
         background-color: var(--color-red);
+        background-image: var(--gradient-red-colors);
         padding: 1rem;
     }
 

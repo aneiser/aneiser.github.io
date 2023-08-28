@@ -27,8 +27,7 @@ import Footer from "./components/Footer.vue";
     --color-gray-lighter: #E0E0E0;
     --color-gray-lightest: #F2F2F2;
 
-    --color-red: #DE0000;
-    --color-red: #F21905;
+    --color-red: #E60012;
     --color-red-dark: #8C1F28;
     --color-red-darker: #591C21;
     --color-red-light: #F26F63;
@@ -46,7 +45,8 @@ import Footer from "./components/Footer.vue";
     --box-shadow-soft: #00000033;
     --box-shadow-hard: #00000066;
 
-    --gradient-warm-colors: linear-gradient(45deg, #FF9900 20%, #FF0000, #FF00B8 80%)
+    --gradient-red-colors: linear-gradient(170deg, #E60012, #B00306);
+    --gradient-warm-colors: linear-gradient(135deg, #FF9900 20%, #FF0000, #FF00B8 80%)
 
 }
 </style>
