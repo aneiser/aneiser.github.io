@@ -6,12 +6,15 @@
     <!-- <v-app-bar elevation="1" scroll-behavior="elevate" scroll-threshold="300" scroll-target="300"> -->
     <v-app-bar elevation="0">
         <v-container>
-            <v-toolbar title="ANEISER" color="white">
+            <v-toolbar color="white">
+                <v-toolbar-title>
+                    <router-link to="/" class="header__title-link">ANEISER</router-link>
+                </v-toolbar-title>
                 <v-toolbar-items>
                   <v-btn class="header__btn" :ripple="false" to="/">Home</v-btn>
-                  <v-btn class="header__btn" :ripple="false" to="/about">About</v-btn>
+                  <!-- <v-btn class="header__btn" :ripple="false" to="/about">About</v-btn> -->
                   <v-btn class="header__btn" :ripple="false" to="/resume">Resume</v-btn>
-                  <v-btn class="header__btn" :ripple="false" to="/blog">Blog</v-btn>
+                  <!-- <v-btn class="header__btn" :ripple="false" to="/blog">Blog</v-btn> -->
                 </v-toolbar-items>
                 <v-btn icon href="https://www.linkedin.com/in/aneiser-ux/" target="_blank">
                     <font-awesome-icon icon="fab fa-linkedin"></font-awesome-icon>
@@ -25,6 +28,11 @@
 </template>
 
 <style>
+    .header__title-link {
+        text-decoration: none;
+        color: inherit;
+    }
+
     .header__btn {
         text-transform: none !important;
     }
