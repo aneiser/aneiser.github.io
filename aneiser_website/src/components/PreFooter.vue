@@ -23,7 +23,7 @@
                             <font-awesome-icon icon="fab fa-medium"></font-awesome-icon>
                         </a> -->
                         </p>
-                        <p class="text-body-1">If you'd like to talk more, share feedback or ask anything, feel free to reach me out at <a href="mailto:a.neiser13@gmail.com" class="bg--red-darker" target="_blank">hello@aneiser.com</a></p>
+                        <p class="text-body-1">If you'd like to talk more, share feedback or ask anything, feel free to reach me out at <a href="mailto:a.neiser13@gmail.com" class="bg--red-darker" target="_blank">a.neiser13@gmail.com</a></p>
                         <p class="text-body-1">I'd love to hear your thoughts!</p>
                     </v-col>
                 </v-row>
