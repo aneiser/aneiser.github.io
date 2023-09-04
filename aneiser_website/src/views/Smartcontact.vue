@@ -146,10 +146,10 @@ export default {
                                 <ProjectSectionContentTextQuote>"[I need] Improvements in the visualization of the display, monitoring..."</ProjectSectionContentTextQuote>
                                 <ProjectSectionContentTextQuote>"I believe that the administration should be improved in terms of usability and errors."</ProjectSectionContentTextQuote>
                                 <ProjectSectionContentTextQuote>"The portal is quite old and I have no time to manage the services. It deserves an update."</ProjectSectionContentTextQuote>
+                                <ProjectSectionContentTextQuote>"[I need] Easier virtual switchboard programming."</ProjectSectionContentTextQuote>
+                                <ProjectSectionContentTextQuote>"The poor virtual switchboard, it looks old."</ProjectSectionContentTextQuote>
+                                <ProjectSectionContentTextQuote>"From software maker to software maker, this... is pretty dated."</ProjectSectionContentTextQuote>
                             </ProjectSectionContentText>
-                            <ProjectSectionContentTextQuote>"[I need] Easier virtual switchboard programming."</ProjectSectionContentTextQuote>
-                            <ProjectSectionContentTextQuote>"The poor virtual switchboard, it looks old."</ProjectSectionContentTextQuote>
-                            <ProjectSectionContentTextQuote>"From software maker to software maker, this... is pretty dated."</ProjectSectionContentTextQuote>
                             <ProjectSectionContentText>
                                 <ProjectSectionContentTextH4>Introducing the problem of redundancy and the solution of SSO and The Merge</ProjectSectionContentTextH4>
                                 <ProjectSectionContentTextP>To achieve our goal of increase sales and usage while minimizing resources we had to create streamlined tools and efficient workflows that minimize setup and maintenance time so they don't distract them from their business operations.</ProjectSectionContentTextP>

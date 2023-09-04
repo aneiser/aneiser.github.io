@@ -19,14 +19,15 @@
     border: none;
     text-align: center;
     font-family: CallunaRegular, Georgia, serif;
-    font-size: 1.25rem;
+    /* font-size: 1.25rem; */
     /* margin-bottom: 2.25rem;
     margin-top: 1.125rem;
     padding-left: 0;
     line-height: 3.375rem; */
 }
 
-blockquote.quote:before, blockquote.quote:after {
+/* blockquote.quote:before, */
+blockquote.quote:after {
     content: "";
     display: block;
     width: 10%;
