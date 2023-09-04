@@ -7,6 +7,3 @@
         </em>
     </p>
 </template>
-
-<style>
-</style>

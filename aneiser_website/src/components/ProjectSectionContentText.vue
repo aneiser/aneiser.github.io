@@ -10,6 +10,3 @@
         </v-col>
     </v-row>
 </template>
-
-<style>
-</style>

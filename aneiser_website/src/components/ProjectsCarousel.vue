@@ -62,5 +62,3 @@ export default {
 <template>
     <ProjectCard v-for="project in projects" :key="project.id" :project=project />
 </template>
-
-<style scoped></style>

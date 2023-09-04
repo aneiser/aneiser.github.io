@@ -5,6 +5,3 @@
         <slot></slot>
     </h5>
 </template>
-
-<style>
-</style>
