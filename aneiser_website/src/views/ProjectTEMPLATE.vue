@@ -58,15 +58,3 @@ export default {
         </v-container-fluid>
     </article>
 </template>
-
-<style>
-/* Estilos para las secciones pares */
-section:nth-child(even) {
-    background-color: var(--color-gray-lightest);
-}
-
-/* Estilos para las secciones impares */
-section:nth-child(odd) {
-  background-color: var(--color-white);
-}
-</style>

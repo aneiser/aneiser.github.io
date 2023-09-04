@@ -1,0 +1,56 @@
+:root {
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+
+    --color-gray-darkest: #0D0D0D;
+    --color-gray-dark: #333333;
+    --color-gray: #999999;
+    --color-gray-lighter: #E0E0E0;
+    --color-gray-lightest: #F2F2F2;
+
+    --color-red: #E60012;
+    --color-red-dark: #8C1F28;
+    --color-red-darker: #591C21;
+    --color-red-light: #F26F63;
+
+    --color-green-dark: #044040;
+
+    --color-blue-light: #ADC5D9;
+
+    --color-yellow: #FFB30D;
+    --color-yellow: #F2BE22;
+
+    --text-shadow-soft: #00000033;
+    --text-shadow-hard: #00000080;
+
+    --box-shadow-soft: #00000033;
+    --box-shadow-hard: #00000066;
+
+    --gradient-red-colors: linear-gradient(170deg, #E60012, #B00306);
+    --gradient-warm-colors: linear-gradient(135deg, #FF9900 20%, #FF0000, #FF00B8 80%)
+}
+
+/* HTML tags */
+a {
+    color: var(--color-red);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ol,
+ul {
+    padding-left: 20px;
+}
+
+/* Project sections */
+/* Even sections */
+section:nth-child(even) {
+    background-color: var(--color-gray-lightest);
+}
+
+/* Odd sections */
+section:nth-child(odd) {
+    background-color: var(--color-white);
+}

@@ -225,27 +225,3 @@ export default {
         </v-container-fluid>
     </article>
 </template>
-
-<style>
-/* Estilos para las secciones pares */
-section:nth-child(even) {
-    background-color: var(--color-gray-lightest);
-}
-
-/* Estilos para las secciones impares */
-section:nth-child(odd) {
-    background-color: var(--color-white);
-}
-
-a {
-    color: var(--color-red);
-}
-
-a:hover {
-    text-decoration: none;
-}
-
-ol, ul {
-    padding-left: 20px;
-}
-</style>
