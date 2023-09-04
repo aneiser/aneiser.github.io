@@ -10,8 +10,8 @@
     </v-row>
 </template>
 
-<style>
-/* Estilos para la tabla cronológica */
+<style scoped>
+/* Chronology table */
 .chronology {
     width: 100%;
     border-right: 1px solid var(--color-gray);
@@ -19,7 +19,8 @@
     border-spacing: 0;
 }
 
-.chronology th, .chronology td {
+.chronology ::v-deep th,
+.chronology ::v-deep td {
     padding: 0.5rem 1rem;
     border-left: 1px solid var(--color-gray);
 }

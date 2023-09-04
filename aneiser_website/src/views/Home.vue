@@ -179,7 +179,7 @@
     </section>
 </template>
 
-<style>
+<style scoped>
     @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
     @import url('https://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise');
 
@@ -206,96 +206,10 @@
         overflow: auto;
     }
 
-    .section {
-        padding: 104px 0;
-    }
-
-    .section--comfort {
-        padding: 136px 0;
-    }
-
-    .section--compact {
-        padding: 72px 0;
-    }
-
-    .section__title {
-        margin-top: -38px;
-    }
-
-    .section__subtitle {
-        margin-bottom: 1.5rem;
-    }
-
-    .section__heading {}
-
-    .section__link {
-        margin-top: 2.7rem !important;
-    }
-    .section__link a:hover {
-        text-decoration: none;
-    }
-
-    .section__logos {
-        margin-bottom: 4rem !important;
-    }
-
-    .section__logos svg,
-    .section__logos img {
-        margin: 0 2rem;
-        height: 3.5rem;
-        filter: contrast(0) brightness(2);
-        fill: var(--color-white);
-    }
-
     .smartcontact-logo,
     .upm-logo {
         width: 12rem;
         height: auto !important;
-    }
-
-    .footer__icons a {
-        font-size: 2rem;
-        color: var(--color-white);
-        margin: 2rem 2rem 3rem 2rem;
-    }
-
-    .bg--red-darker {
-        background-color: var(--color-red-darker) !important;
-        color: var(--color-white) !important;
-    }
-
-    .bg--red-dark {
-        background-color: var(--color-red-dark) !important;
-        color: var(--color-white) !important;
-    }
-
-    .bg--green-dark {
-        background-color: var(--color-green-dark) !important;
-        color: var(--color-white) !important;
-    }
-
-    .bg--gray-darkest {
-        background-color: var(--color-gray-darkest) !important;
-        color: var(--color-white) !important;
-    }
-
-    .bg--gray-lightest {
-        background-color: var(--color-gray-lightest) !important;
-        color: var(--color-black) !important;
-    }
-
-    .bg--gray-lighter {
-        background-color: var(--color-gray-lighter) !important;
-        color: var(--color-black) !important;
-    }
-
-    .bg--white {
-        background-color: var(--color-white) !important;
-        color: var(--color-black) !important;
-    }
-
-    .bg-gray-skyline {
-        background: linear-gradient(var(--color-gray-lighter) 80%, var(--color-blue-light));
     }
 
     .gradient-warm {

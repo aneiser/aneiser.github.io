@@ -10,7 +10,7 @@
     </v-row>
 </template>
 
-<style>
+<style scoped>
 .quote {
     color: #B51A17;
     color: var(--color-red);

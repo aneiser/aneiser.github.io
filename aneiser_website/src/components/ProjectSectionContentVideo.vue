@@ -1,12 +1,27 @@
-<script></script>
+<script>
+export default {
+    props: {
+        videoSrc: {
+            type: String,
+            required: true
+        }
+    }
+}
+</script>
 
 <template>
     <div class="video-container">
-        <slot></slot>
+        <iframe
+            :src="videoSrc"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            frameborder="0"
+            width="100%"
+            height="100%">
+        </iframe>
     </div>
 </template>
 
-<style>
+<style scoped>
     .video-container {
         position: relative;
         padding-bottom: 56.25%; /* Aspecto 16:9 */

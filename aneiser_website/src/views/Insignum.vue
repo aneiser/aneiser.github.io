@@ -38,13 +38,6 @@ export default {
             <header>
                 <v-row no-gutters>
                     <v-col md="8" offset-md="2">
-                        <!-- <ProjectSectionContentVideo>
-                            <iframe
-                                src="https://www.youtube.com/embed/ykNFnLnYPAY?cc_load_policy=1&fs=0&modestbranding=1&showinfo=0&rel=0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                frameborder="0">
-                            </iframe>
-                        </ProjectSectionContentVideo> -->
                         <v-img cover src="/assets/img/insignum/InSignum_logo.png"></v-img>
                     </v-col>
                 </v-row>
@@ -99,13 +92,7 @@ export default {
                                 <ProjectSectionContentTextP>We also added some control features using a smartwatch to fulfil some needs and test ideas from our brainstorming sessions.</ProjectSectionContentTextP>
                             </ProjectSectionContentText>
 
-                            <ProjectSectionContentVideo>
-                                <iframe
-                                    src="https://www.youtube.com/embed/Am3YoPo_fdM?cc_load_policy=1&fs=0&modestbranding=1&showinfo=0&rel=0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    frameborder="0">
-                                </iframe>
-                            </ProjectSectionContentVideo>
+                            <ProjectSectionContentVideo videoSrc="https://www.youtube.com/embed/Am3YoPo_fdM?cc_load_policy=1&fs=0&modestbranding=1&showinfo=0&rel=0"></ProjectSectionContentVideo>
 
                             <ProjectSectionContentText>
                                 <ProjectSectionContentTextH5>Wearable</ProjectSectionContentTextH5>
@@ -114,13 +101,7 @@ export default {
                                 <ProjectSectionContentTextP>At the beginning, it shows problematic situations for deaf people that are later repeated, this time, showing how they would look like using the wearable. You can also see me creating the wearable prototype.</ProjectSectionContentTextP>
                             </ProjectSectionContentText>
 
-                            <ProjectSectionContentVideo>
-                                <iframe
-                                    src="https://www.youtube.com/embed/ykNFnLnYPAY?cc_load_policy=1&fs=0&modestbranding=1&showinfo=0&rel=0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    frameborder="0">
-                                </iframe>
-                            </ProjectSectionContentVideo>
+                            <ProjectSectionContentVideo videoSrc="https://www.youtube.com/embed/ykNFnLnYPAY?cc_load_policy=1&fs=0&modestbranding=1&showinfo=0&rel=0"></ProjectSectionContentVideo>
 
                             <ProjectSectionContentText>
                                 <ProjectSectionContentTextP>Although both concepts were well received the "all-in-one" nature of a wearable was preferred as it would serve for both, indoors and outdoors contexts.</ProjectSectionContentTextP>

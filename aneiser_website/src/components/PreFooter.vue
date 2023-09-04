@@ -31,3 +31,11 @@
         </v-container>
     </section>
 </template>
+
+<style scoped>
+.footer__icons a {
+    font-size: 2rem;
+    color: var(--color-white);
+    margin: 2rem 2rem 3rem 2rem;
+}
+</style>

@@ -30,7 +30,7 @@
     --gradient-warm-colors: linear-gradient(135deg, #FF9900 20%, #FF0000, #FF00B8 80%)
 }
 
-/* HTML tags */
+/* HTML tags ******************************************************************/
 a {
     color: var(--color-red);
 }
@@ -43,6 +43,92 @@ ol,
 ul {
     padding-left: 20px;
 }
+
+/* Global *********************************************************************/
+/* Background colors */
+.bg--red-darker {
+    background-color: var(--color-red-darker) !important;
+    color: var(--color-white) !important;
+}
+
+.bg--red-dark {
+    background-color: var(--color-red-dark) !important;
+    color: var(--color-white) !important;
+}
+
+.bg--green-dark {
+    background-color: var(--color-green-dark) !important;
+    color: var(--color-white) !important;
+}
+
+.bg--gray-darkest {
+    background-color: var(--color-gray-darkest) !important;
+    color: var(--color-white) !important;
+}
+
+.bg--gray-lightest {
+    background-color: var(--color-gray-lightest) !important;
+    color: var(--color-black) !important;
+}
+
+.bg--gray-lighter {
+    background-color: var(--color-gray-lighter) !important;
+    color: var(--color-black) !important;
+}
+
+.bg--white {
+    background-color: var(--color-white) !important;
+    color: var(--color-black) !important;
+}
+
+.bg-gray-skyline {
+    background: linear-gradient(var(--color-gray-lighter) 80%, var(--color-blue-light));
+}
+
+/* Sections */
+.section {
+    padding: 104px 0;
+}
+
+.section--comfort {
+    padding: 136px 0;
+}
+
+.section--compact {
+    padding: 72px 0;
+}
+
+.section__title {
+    margin-top: -38px;
+}
+
+.section__subtitle {
+    margin-bottom: 1.5rem;
+}
+
+.section__heading {}
+
+.section__link {
+    margin-top: 2.7rem !important;
+}
+
+.section__link a:hover {
+    text-decoration: none;
+}
+
+.section__logos {
+    margin-bottom: 4rem !important;
+}
+
+.section__logos svg,
+.section__logos img {
+    margin: 0 2rem;
+    height: 3.5rem;
+    filter: contrast(0) brightness(2);
+    fill: var(--color-white);
+}
+
+/* Projects *******************************************************************/
 
 /* Project sections */
 /* Even sections */
