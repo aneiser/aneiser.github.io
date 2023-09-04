@@ -58,17 +58,17 @@
                         sm="8" offset-sm="2"
                         md="6" offset-md="3">
                         <h3 class="text-h4 text-center section__subtitle gradient-warm">Curious, easy-going and eclectic, that's me!</h3>
-                        <p class="text-body-1 mb-4 text-justify">Currently based in Paris (🇫🇷) 🌦 but I have lived in Madrid  (🇪🇸) 🌞 and Stockholm (🇸🇪) 🌙</p>
-                        <p class="text-body-1 mb-4 text-justify">My passion for traveling 🧳 around the world 🌍 and exploring different cultures has allowed me to develop a diverse set of skills, including 4 languages, and an ability to adapt to different perspectives.</p>
-                        <p class="text-body-1 mb-4 text-justify">As a [UX designer | professional], I bring this same sense of curiosity and adaptability to my work, seeking out new ideas and approaches to create designs that solve problems and enhance user experiences.</p>
-                        <p class="text-body-1 mb-4 text-justify">I am always eager to learn more and excited to collaborate with people from different backgrounds and cultures, as I am looking for new opportunities to grow and expand my horizons.</p>
+                        <p class="text-body-1 mb-4 text-justify">Currently based in Paris 🗼, I've had the privilege of calling both Madrid 🌞 and Stockholm ❄️ my home in the past.</p>
+                        <p class="text-body-1 mb-4 text-justify">My love for travel ✈️ and cultural immersion 🌍 has equipped me with a unique set of skills. Not only am I fluent in four languages, but my experiences have honed my ability to understand and adapt to diverse perspectives.</p>
+                        <p class="text-body-1 mb-4 text-justify">As a professional, I bring this same sense of curiosity and adaptability to my work, seeking out new ideas and approaches to craft designs that not only solve problems but also elevate user experiences.</p>
+                        <p class="text-body-1 mb-4 text-justify">I am always eager to learn more and excited to collaborate with people from varied backgrounds and cultures, as I am looking for new opportunities to grow and expand my horizons. 🚀</p>
                     </v-col>
                 </v-row>
-                <v-row class="section__link">
+                <!-- <v-row class="section__link">
                     <v-col class="text-right">
                         <RouterLink to="/about" class="text-subtitle-1 font-weight-medium bg--gray-darkest">Discover more about me →</RouterLink>
                     </v-col>
-                </v-row>
+                </v-row> -->
             </div>
         </v-container>
     </section>
@@ -82,10 +82,11 @@
                         sm="8" offset-sm="2"
                         md="6" offset-md="3">
                         <h4 class="text-h5 section__subtitle">I bring value to companies who need help with:</h4>
-                        <ul class="pl-8 mb-4">
-                            <li class="text-body-1 mb-2"><span class="font-weight-bold">User research</span>:  Better understand your users' needs, behaviors, and motivations.</li>
-                            <li class="text-body-1 mb-2"><span class="font-weight-bold">UX design</span>: User-centered solutions that solve your users' problems and enhance their experiences with your products or services.</li>
-                            <li class="text-body-1 mb-2"><span class="font-weight-bold">Frontend development</span>: Bring your designs to life and meet modern web standards and accessibility guidelines.</li>
+                        <ul class="pl-8 mb-8">
+                            <li class="text-body-1 mb-4"><span class="font-weight-bold">UX design</span>: User-centered solutions that solve your users' problems and enhance their experiences with your products or services.</li>
+                            <li class="text-body-1 mb-4"><span class="font-weight-bold">User research</span>:  Better understand your users' needs, behaviors, and motivations.</li>
+                            <li class="text-body-1 mb-4"><span class="font-weight-bold">Product Design</span>: Crafting holistic, end-to-end product experiences that seamlessly align with user needs and business objectives</li>
+                            <li class="text-body-1 mb-4"><span class="font-weight-bold">Frontend development</span>: Bring your designs to life and meet modern web standards and accessibility guidelines.</li>
                         </ul>
                         <p class="text-body-1">As a <abbr title="Child Of Deaf Adults">CODA</abbr>, I also bring a special sensibility to accessible and universal design that's usable by all people.</p>
                     </v-col>
@@ -130,30 +131,37 @@
                         <v-row>
                             <v-col>
                                 <div class="my-8">
-                                    <p class="font-weight-bold">Ubisoft</p>
+                                    <p class="font-weight-bold">UX engineer</p>
                                     <p class="d-flex justify-space-between">
-                                        <span>User Researcher</span>
+                                        <span>Evoloom</span>
+                                        <span>2023</span>
+                                    </p>
+                                </div>
+                                <div class="my-8">
+                                    <p class="font-weight-bold">User Researcher</p>
+                                    <p class="d-flex justify-space-between">
+                                        <span>Ubisoft</span>
                                         <span>2022</span>
                                     </p>
                                 </div>
                                 <div class="my-8">
-                                    <p class="font-weight-bold">Paris 8</p>
+                                    <p class="font-weight-bold">User Researcher & Designer</p>
                                     <p class="d-flex justify-space-between">
-                                        <span>User Researcher & Designer</span>
+                                        <span>Paris 8</span>
                                         <span>2021</span>
                                     </p>
                                 </div>
                                 <div class="my-8">
-                                    <p class="font-weight-bold">DV Business Solutions</p>
+                                    <p class="font-weight-bold">UX engineer</p>
                                     <p class="d-flex justify-space-between">
-                                        <span>UX Designer - Frontend engineer </span>
+                                        <span>DV Business Solutions</span>
                                         <span>2016 - 2019</span>
                                     </p>
                                 </div>
                                 <div class="my-8">
-                                    <p class="font-weight-bold">Polytechnic University of Madrid</p>
+                                    <p class="font-weight-bold">UX engineer</p>
                                     <p class="d-flex justify-space-between">
-                                        <span>UX Designer - Frontend engineer</span>
+                                        <span>Polytechnic University of Madrid</span>
                                         <span>2014 - 2016</span>
                                     </p>
                                 </div>
