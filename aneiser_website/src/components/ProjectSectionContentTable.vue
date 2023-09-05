@@ -19,8 +19,8 @@
     border-spacing: 0;
 }
 
-.chronology ::v-deep th,
-.chronology ::v-deep td {
+.chronology :deep(th),
+.chronology :deep(td) {
     padding: 0.5rem 1rem;
     border-left: 1px solid var(--color-gray);
 }
