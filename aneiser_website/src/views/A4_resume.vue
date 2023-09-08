@@ -22,13 +22,15 @@ const resumes = ref([
       { type: "LinkedIn", href: "https://www.linkedin.com/in/aneiser-ux", display: "linkedin.com/in/aneiser-ux" }
     ],
     summary: [
-      "Experienced UX Designer with over 4 years in the field and an M.Sc. in Human-Computer Interaction Design. Proficient in prototyping and user research to craft intuitive experiences.",
-      "Leveraging a front-end background, I bridge design with technical feasibility, fostering seamless collaboration with multidisciplinary teams. Continuously seeking avenues for growth and advancement."
+      "Experienced UX Designer with over 4 years of experience in crafting intuitive digital experiences for web and mobile platforms and an M.Sc. in Human-Computer Interaction Design. Proficient in prototyping and user research.",
+      "Leveraging a front-end background, I bridge design with technical feasibility, fostering seamless collaboration with multidisciplinary teams. Continuously seeking avenues for growth and advancement.",
+      // "Skilled at translating user research into high-quality UX/UI solutions, from wireframes to high-fidelity prototypes. Adept at collaborating with multidisciplinary teams to deliver user-centric and business-aligned designs."
     ],
     competencies: [
-      "Crafting and managing design artefacts.",
-      "Conduct multi-phased, mixed-methods research and usability tests.",
+      "Crafting and managing design artefacts.", // "such as wireframes, storyboards, flow diagrams, and prototypes.", "for both web and mobile applications.", "Utilizing Figma, Adobe Xd, etc.",
+      "Conduct multi-phased, mixed-methods research and usability tests.", // "to optimize elements for improved user experience.",
       "Agile task tracking and collaboration with cross-functional teams."
+      // "Leading design process and ensuring alignment with business objectives.",
     ],
     experiences: [
       {
@@ -56,7 +58,7 @@ const resumes = ref([
         industry: "academia",
         startDate: "2021",
         endDate: "",
-        tasks: ["Led the design process from research and conceptualization to prototyping and testing of a pioneering wearable prototype."]
+        tasks: ["Led the design process from research to prototyping and testing of a pioneering wearable prototype."]
       },
       {
         title: "UX Engineer",
@@ -65,10 +67,10 @@ const resumes = ref([
         startDate: "2016",
         endDate: "2019",
         tasks: [
-          "Crafted design artefacts and features, reducing complexity and enhancing user experience; boosted Net Promoter Score by 11% for a base of 10,000+ users.",
+          "Crafted design artefacts and features, enhancing user experience and boosting Net Promoter Score by 11% for over 10,000 users.",
           "Balanced business, technical, and UX perspectives to inform decision making and product direction.",
-          "Unified six products into a seamless cloud communications solution, fostering collaboration across teams and departments.",
-          "Played a pivotal role in requirements creation, pioneered a style guide, and enriched a component library."
+          "Unified multiple products into a seamless cloud solution, fostering collaboration with multidisciplinary teams.",
+          "Played a key role in product requirements creation and design advocacy (creating a style guide, a component library, etc.)."
         ]
       },
       {
@@ -130,8 +132,15 @@ const resumes = ref([
       { type: "LinkedIn", href: "https://www.linkedin.com/in/aneiser-ux", display: "linkedin.com/in/aneiser-ux" }
     ],
     summary: [
-      "Experienced UX Designer boasting 4+ years in the field and an M.Sc. in Human-Computer Interaction Design. Proficient in prototyping and user research to craft intuitive experiences.",
-      "Leveraging a front-end background, I bridge design with technical feasibility, fostering seamless collaboration with multidisciplinary teams. Continuously seeking avenues for growth and advancement."
+      "Diseñador UX con más de 4 años de experiencia creando experiencias digitales intuitivas para plataformas web y móviles y un M.Sc. en Diseño de Interacción Humano-Computadora. Experto en prototipos e investigación de usuarios.",
+      "Apoyandome en un pasado de desarrollo front-end, conecto el diseño con la viabilidad técnica, fomentando una colaboración fluida con equipos multidisciplinarios. Buscando continuamente oportunidades para crecimiento y avance.",
+      // "Experto en traducir la investigación de usuarios en soluciones UX/UI de alta calidad, desde wireframes hasta prototipos de alta fidelidad. Hábil en colaborar con equipos multidisciplinarios para entregar diseños centrados en el usuario y alineados con los objetivos empresariales."
+    ],
+    competencies: [
+      "Creación y gestión de artefactos de diseño.", // "como wireframes, storyboards, diagramas de flujo y prototipos.", "para aplicaciones web y mobiles.", "utilizando Figma, Adobe Xd, etc.",
+      "Realizar investigaciones de múltiples fases y métodos mixtos y pruebas de usabilidad.", // "para optimizar elementos y mejorar la experiencia de usuario.",
+      "Seguimiento de tareas ágiles y colaboración con equipos interfuncionales.",
+      // "Liderar el proceso de diseño y asegurar el alineamiento con los objetivos de negico.",
     ],
     competencies: [
       "Crafting and managing design artefacts.",
@@ -164,7 +173,7 @@ const resumes = ref([
         industry: "academia",
         startDate: "2021",
         endDate: "",
-        tasks: ["Led the design process from research and conceptualization to prototyping and testing of a pioneering wearable prototype."]
+        tasks: ["Liderar el proceso de diseño desde la investigación hasta el prototipado y la prueba de un prototipo de wearable pionero."]
       },
       {
         title: "UX Engineer",
@@ -173,10 +182,10 @@ const resumes = ref([
         startDate: "2016",
         endDate: "2019",
         tasks: [
-          "Crafted design artefacts and features, reducing complexity and enhancing user experience; boosted Net Promoter Score by 11% for a base of 10,000+ users.",
-          "Balanced business, technical, and UX perspectives to inform decision making and product direction.",
-          "Unified six products into a seamless cloud communications solution, fostering collaboration across teams and departments.",
-          "Played a pivotal role in requirements creation, pioneered a style guide, and enriched a component library."
+          "Crear artefactos de diseño y funcionalidades, mejorando la experiencia del usuario y aumentando el Net Promoter Score en un 11 % para más de 10000 usuarios.",
+          "Equilibrar las perspectivas empresariales, técnicas y de UX para informar la toma de decisiones y la dirección del producto.",
+          "Unificar múltiples productos en una solución cloud sin fisuras, fomentando la colaboración con equipos multidisciplinarios.",
+          "Desempeñar un papel clave en la creación de requisitos del producto y la defensa del diseño (creando una guía de estilos, una biblioteca de componentes, etc.)."
         ]
       },
       {
@@ -188,7 +197,7 @@ const resumes = ref([
         tasks: [
           "Advocated user-centricity, driving UX excellence and promoting usability standards.",
           "Led and coordinated the user research and usability testing.",
-          "Led the UI development for a quality assurance platform, trusted by over 3,000 educators."
+          "Led the UI development for a quality assurance platform, trusted por más de 3000 educators."
         ]
       }
     ],
@@ -238,13 +247,15 @@ const resumes = ref([
       { type: "LinkedIn", href: "https://www.linkedin.com/in/aneiser-ux", display: "linkedin.com/in/aneiser-ux" }
     ],
     summary: [
-      "Designer UX expérimenté avec plus de 4 ans dans le domaine et un Bac+5 en Interaction Homme-Machine & Design. Compétent en prototypage et en recherche utilisateur pour créer des expériences intuitives.",
-      "Fort d'une expérience en front-end, je fais le lien entre le design et la faisabilité technique, favorisant une collaboration fluide avec des équipes multidisciplinaires. En quête constante d'opportunités pour progresser et évoluer."
+      "Designer UX expérimenté avec plus de 4 ans d'expérience dans la création d'expériences numériques intuitives pour plateformes web et mobiles et un M.Sc.en Design d'Interaction Homme-Machine. Compétent en prototypage et recherche utilisateur.",
+      "Fort d'une expérience en front-end, je fais le lien entre le design et la faisabilité technique, favorisant une collaboration fluide avec des équipes multidisciplinaires. En quête constante d'opportunités pour progresser et évoluer.",
+      // "Doué pour traduire la recherche utilisateur en solutions UX/UI de haute qualité, des wireframes aux prototypes haute fidélité. Apte à collaborer avec des équipes multidisciplinaires pour livrer des conceptions centrées sur l'utilisateur et alignées sur les objectifs commerciaux.",
     ],
     competencies: [
-      "Création et gestion d'artefacts de conception.",
-      "Réaliser des recherches multi-phases et multi-méthodes ainsi que des tests d'utilisabilité.",
-      "Suivi des tâches Agile et collaboration avec des équipes inter-fonctionnelles."
+      "Création et gestion d'artefacts de conception.", // "tels que wireframes, storyboards, diagrammes de flux et prototypes.", "pour les applications web et mobiles.", "En utilisant Figma, Adobe Xd, etc.",
+      "Conduire des recherches multi-phases avec des méthodes mixtes et des tests d'utilisabilité.", // "pour optimiser les éléments pour une meilleure expérience utilisateur.",
+      "Suivi des tâches Agile et collaboration avec des équipes interfonctionnelles."
+      // "Diriger le processus de conception et garantir l'alignement avec les objectifs commerciaux.",
     ],
     experiences: [
       {
@@ -272,7 +283,7 @@ const resumes = ref([
         industry: "milieu universitaire",
         startDate: "2021",
         endDate: "",
-        tasks: ["Diriger la conception d'un wearable pour personnes sourdes, de la recherche au prototypage et tests, dans le cadre d'un projet personnel et academic."]
+        tasks: ["Diriger le processus de conception de la recherche au prototypage et au test d'un prototype wearable pionnier."]
       },
       {
         title: "Ingénieur UX",
@@ -281,10 +292,10 @@ const resumes = ref([
         startDate: "2016",
         endDate: "2019",
         tasks: [
-          "Concevoir des artefacts de design et des fonctionnalités, réduisant la complexité et améliorant l'UX; augmenté le Net Promoter Score de 11% pour plus de 10,000 utilisateurs.",
+          "Concevoir des artefacts de design et des fonctionnalités, améliorant l'UX et augmentant le Net Promoter Score de 11% pour plus de 10000 utilisateurs.",
           "Équilibrer les perspectives commerciales, techniques et UX pour éclairer la prise de décision et l'orientation du produit.",
-          "Unifier six produits en une solution de communication cloud intégrée, favorisant la collaboration entre équipes et départements.",
-          "Jouer un rôle crucial dans la création des exigences, initié un guide de style, et enrichi une bibliothèque de composants."
+          "Unifier plusieurs produits en une solution cloud fluide, favorisant la collaboration avec des équipes multidisciplinaires.",
+          "Jouer un rôle clé dans la création des exigences du produit et la défense de la conception (création d'un style guide, d'une bibliothèque de composants, etc.)."
         ]
       },
       {
@@ -296,7 +307,7 @@ const resumes = ref([
         tasks: [
           "Prôner la centralité de l'utilisateur, favorisant l'excellence UX et promouvant les normes d'utilisabilité.",
           "Diriger et coordonner la recherche utilisateur et les tests d'utilisabilité.",
-          "Diriger le développement UI pour une plateforme d'assurance qualité, approuvée par plus de 3,000 éducateurs."
+          "Diriger le développement UI pour une plateforme d'assurance qualité, approuvée par plus de 3000 éducateurs."
         ]
       }
     ],
