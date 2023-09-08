@@ -7,9 +7,10 @@ import ResumeLanguage from '../components/resume/ResumeLanguage.vue';
 import ResumeCoreCompetencies from '../components/resume/ResumeCoreCompetencies.vue';
 import ResumeSummary from '../components/resume/ResumeSummary.vue';
 
-const currentLanguage = ref('fr');
+const currentLanguage = ref('en');
 
 const resumes = ref([
+  // en
   {
     lang: "en",
     name: ["Adrian", "Neila", "Serrano"],
@@ -21,7 +22,7 @@ const resumes = ref([
       { type: "LinkedIn", href: "https://www.linkedin.com/in/aneiser-ux", display: "linkedin.com/in/aneiser-ux" }
     ],
     summary: [
-      "Experienced UX Designer boasting 4+ years in the field and an M.Sc. in Human-Computer Interaction Design. Proficient in prototyping and user research to craft intuitive experiences.",
+      "Experienced UX Designer with over 4 years in the field and an M.Sc. in Human-Computer Interaction Design. Proficient in prototyping and user research to craft intuitive experiences.",
       "Leveraging a front-end background, I bridge design with technical feasibility, fostering seamless collaboration with multidisciplinary teams. Continuously seeking avenues for growth and advancement."
     ],
     competencies: [
@@ -117,6 +118,7 @@ const resumes = ref([
       }
     ]
   },
+  // es
   {
     lang: "es",
     name: ["Adrian", "Neila", "Serrano"],
@@ -224,6 +226,7 @@ const resumes = ref([
       }
     ]
   },
+  // fr
   {
     lang: "fr",
     name: ["Adrian", "NEILA", "SERRANO"],
@@ -308,8 +311,8 @@ const resumes = ref([
       tools: ["Figma", "Adobe Xd", "Balsamiq", "Jira", "Notion", "Trello", "Wrike", "Office"],
     },
     languages: [
-      { language: "Français", proficiency: "C1" },
-      { language: "Anglais", proficiency: "B2" },
+      { language: "Anglais", proficiency: "C1" },
+      { language: "Français", proficiency: "B2" },
       { language: "Espagnol", proficiency: "maternelle" },
       { language: "Langue des signes", proficiency: "maternelle" }
     ],
@@ -555,7 +558,7 @@ article :deep(li) {
 }
 
 .main {
-    width: 55%;
+    width: 56%;
 }
 
 .section {
