@@ -8,8 +8,7 @@ defineProps(['education'])
 <template>
   <div>
     <h3>{{ education.degree }}</h3>
-    <h4>{{ education.institute }}</h4>
-    <p v-if="education.graduated">Graduated ({{ education.graduated }})</p>
+    <h4>{{ education.institute }} <span v-if="education.graduated"> · {{ education.graduated }}</span></h4>
   </div>
 </template>
 
