@@ -221,22 +221,22 @@ article :deep(h4) {
 }
 
 article :deep(ul) {
-  padding-left: 0;
+  /* padding-left: 0; */
 }
 
 article :deep(li) {
   margin-bottom: 4pt;
-  list-style-type: none;
+  /* list-style-type: none; */
 }
 
-article :deep(li::before) {
+/* article :deep(li::before) {
     content: '-';
     margin-left: -10px;
     /* content: '\2013';
-    margin-left: -12px; */
+    margin-left: -12px; *
     margin-right: 6px;
     display: inline-block;
-}
+} */
 
 .header {
 }
