@@ -247,7 +247,7 @@ const resumes = ref([
       { type: "LinkedIn", href: "https://www.linkedin.com/in/aneiser-ux", display: "linkedin.com/in/aneiser-ux" }
     ],
     summary: [
-      "Designer UX expérimenté avec plus de 4 ans d'expérience dans la création d'expériences numériques intuitives pour plateformes web et mobiles et un M.Sc.en Design d'Interaction Homme-Machine. Compétent en prototypage et recherche utilisateur.",
+      "Designer UX expérimenté avec plus de 4 ans d'expérience dans la création d'expériences numériques intuitives pour plateformes web et mobiles et un BAC+5 en Design d'Interaction Homme-Machine. Compétent en prototypage et recherche utilisateur.",
       "Fort d'une expérience en front-end, je fais le lien entre le design et la faisabilité technique, favorisant une collaboration fluide avec des équipes multidisciplinaires. En quête constante d'opportunités pour progresser et évoluer.",
       // "Doué pour traduire la recherche utilisateur en solutions UX/UI de haute qualité, des wireframes aux prototypes haute fidélité. Apte à collaborer avec des équipes multidisciplinaires pour livrer des conceptions centrées sur l'utilisateur et alignées sur les objectifs commerciaux.",
     ],
