@@ -7,11 +7,11 @@
     <section class="bg--gray-lightest" align-self="center">
         <v-container>
             <div class="section--comfort">
-                <v-row>
-                    <v-col cols="6" align-self="center">
+                <v-row class="hero">
+                    <v-col cols="12" sm="6">
                         <HelloSticker />
                     </v-col>
-                    <v-col cols="6">
+                    <v-col cols="12" sm="6">
                         <!-- Contenido para pantallas pequeñas (small) -->
                         <div class="hidden-md-and-up" aria-hidden="false">
                             <!-- <h2 class="text-h5">I design for a diverse world</h2>
@@ -30,7 +30,6 @@
                             <h2 class="text-h6">(sometimes I also code)</h2>
                         </div>
                     </v-col>
-
                 </v-row>
             </div>
         </v-container>
@@ -225,6 +224,10 @@
         h2 span:last-child {
             font-size: 2.1rem !important;
         }
+    }
+
+    .hero > div {
+        margin: 16px auto;
     }
 
 </style>
