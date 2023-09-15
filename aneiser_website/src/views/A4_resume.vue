@@ -7,7 +7,7 @@ import ResumeLanguage from '../components/resume/ResumeLanguage.vue';
 import ResumeCoreCompetencies from '../components/resume/ResumeCoreCompetencies.vue';
 import ResumeSummary from '../components/resume/ResumeSummary.vue';
 
-const currentLanguage = ref('en');
+const currentLanguage = ref('fr');
 
 const resumes = ref([
   // en
@@ -247,7 +247,7 @@ const resumes = ref([
       { type: "LinkedIn", href: "https://www.linkedin.com/in/aneiser-ux", display: "linkedin.com/in/aneiser-ux" }
     ],
     summary: [
-      "Designer UX expérimenté avec plus de 4 ans d'expérience dans la création d'expériences numériques intuitives pour plateformes web et mobiles et un BAC+5 en Design d'Interaction Homme-Machine. Compétent en prototypage et recherche utilisateur.",
+      "Designer UX avec 4 ans d'expérience dans la création d'expériences numériques intuitives pour plateformes web et mobiles et un BAC+5 en Design d'Interaction Homme-Machine. Compétent en prototypage et recherche utilisateur.",
       "Fort d'une expérience en front-end, je fais le lien entre le design et la faisabilité technique, favorisant une collaboration fluide avec des équipes multidisciplinaires. En quête constante d'opportunités pour progresser et évoluer.",
       // "Doué pour traduire la recherche utilisateur en solutions UX/UI de haute qualité, des wireframes aux prototypes haute fidélité. Apte à collaborer avec des équipes multidisciplinaires pour livrer des conceptions centrées sur l'utilisateur et alignées sur les objectifs commerciaux.",
     ],
@@ -273,7 +273,7 @@ const resumes = ref([
         startDate: "2022",
         endDate: "",
         tasks: [
-          "Réaliser des recherches utilisateurs, des ateliers de playtesting et collecté des données qualitatives, quantitatives et biométriques.",
+          "Réaliser des recherches utilisateurs, des playtesting et collecté des données qualitatives, quantitatives et biométriques.",
           "Synthétiser les résultats de recherche en insights actionnables pour différents intervenants dans un environnement agile."
         ]
       },
@@ -294,7 +294,7 @@ const resumes = ref([
         tasks: [
           "Concevoir des artefacts de design et des fonctionnalités, améliorant l'UX et augmentant le Net Promoter Score de 11% pour plus de 10000 utilisateurs.",
           "Équilibrer les perspectives commerciales, techniques et UX pour éclairer la prise de décision et l'orientation du produit.",
-          "Unifier plusieurs produits en une solution cloud fluide, favorisant la collaboration avec des équipes multidisciplinaires.",
+          "Unifier plusieurs produits en une solution cloud fluide, favorisant la collaboration avec plusieurs équipes.", // des équipes multidisciplinaires | des équipes cross-functional
           "Jouer un rôle clé dans la création des exigences du produit et la défense de la conception (création d'un style guide, d'une bibliothèque de composants, etc.)."
         ]
       },
@@ -325,11 +325,11 @@ const resumes = ref([
       { language: "Anglais", proficiency: "C1" },
       { language: "Français", proficiency: "B2" },
       { language: "Espagnol", proficiency: "maternelle" },
-      { language: "Langue des signes", proficiency: "maternelle" }
+      { language: "Langue des signes espagnole", proficiency: "maternelle" }
     ],
     educations: [
       {
-        degree: "Blockchain / Web 3 developer ",
+        degree: "Blockchain / Web 3 développer ",
         institute: "Alyra · 2023",
         graduated: ""
       },
