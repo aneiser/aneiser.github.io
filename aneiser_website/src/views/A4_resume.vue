@@ -16,7 +16,7 @@ const resumes = ref([
     name: ["Adrian", "Neila", "Serrano"],
     title: "UX Designer",
     contacts: [
-      { type: "Portfolio", href: "https://aneiser.github.io/", display: "aneiser.github.io" },
+      { type: "Portfolio", href: "https://aneiser.github.io/?en", display: "aneiser.github.io" },
       { type: "Phone", href: "tel:+34649874542", display: "+34 649 87 45 42" },
       { type: "Email", href: "mailto:a.neiser13@gmail.com", display: "a.neiser13@gmail.com" },
       { type: "LinkedIn", href: "https://www.linkedin.com/in/aneiser-ux", display: "linkedin.com/in/aneiser-ux" }
@@ -80,7 +80,7 @@ const resumes = ref([
         startDate: "2014",
         endDate: "2016",
         tasks: [
-          "Advocated user-centricity, driving UX excellence and promoting usability standards.",
+          "Advocated user-centricity, promoting usability standards and driving UX excellence.",
           "Led and coordinated the user research and usability testing.",
           "Led the UI development for a quality assurance platform, trusted by over 3,000 educators."
         ]
@@ -91,7 +91,7 @@ const resumes = ref([
         "User Research", "Interviews", "Focus Groups", "Surveys", "Usability Testing", "Heuristic Evaluation", "Personas", "User Journeys", "Task Analysis", "Scenarios", "Mental Models", "Card Sorting", "Market Research", "Competitive Analysis"
       ],
       design: [
-        "Interaction Design", "UI Design", "Product Design", "Information Architecture", "Accessible Design (WCAG 2.0)", "Rapid Prototyping", "Wireframing", "Storyboards", "Low- and High-fidelity Prototyping"
+        "Interaction Design", "UI Design", "Product Design", "Information Architecture", "Accessible Design (WCAG 2.0)", "Rapid Prototyping", "Wireframes", "Storyboards", "Low- and High-fidelity Prototyping"
       ],
       development: ["HTML", "CSS", "Javascript", "Vue", "React", "Bootstrap", "Git", "NPM"],
       tools: ["Figma", "Adobe Xd", "Balsamiq", "Jira", "Notion", "Trello", "Wrike", "Office"]
@@ -105,8 +105,8 @@ const resumes = ref([
     educations: [
       {
         degree: "Blockchain / Web 3 developer",
-        institute: "Alyra · 2023",
-        graduated: ""
+        institute: "Alyra",
+        graduated: "2023"
       },
       {
         degree: "M.Sc. Human-Computer Interaction & Design",
@@ -124,17 +124,17 @@ const resumes = ref([
   {
     lang: "es",
     name: ["Adrian", "Neila", "Serrano"],
-    title: "UX Designer",
+    title: "Diseñador UX",
     contacts: [
-      { type: "Portfolio", href: "https://aneiser.github.io/", display: "aneiser.github.io" },
+      { type: "Portfolio", href: "https://aneiser.github.io/?es", display: "aneiser.github.io" },
       { type: "Phone", href: "tel:+34649874542", display: "+34 649 87 45 42" },
       { type: "Email", href: "mailto:a.neiser13@gmail.com", display: "a.neiser13@gmail.com" },
       { type: "LinkedIn", href: "https://www.linkedin.com/in/aneiser-ux", display: "linkedin.com/in/aneiser-ux" }
     ],
     summary: [
-      "Diseñador UX con más de 4 años de experiencia creando experiencias digitales intuitivas para plataformas web y móviles y un M.Sc. en Diseño de Interacción Humano-Computadora. Experto en prototipos e investigación de usuarios.",
-      "Apoyandome en un pasado de desarrollo front-end, conecto el diseño con la viabilidad técnica, fomentando una colaboración fluida con equipos multidisciplinarios. Buscando continuamente oportunidades para crecimiento y avance.",
-      // "Experto en traducir la investigación de usuarios en soluciones UX/UI de alta calidad, desde wireframes hasta prototipos de alta fidelidad. Hábil en colaborar con equipos multidisciplinarios para entregar diseños centrados en el usuario y alineados con los objetivos empresariales."
+      "Diseñador UX con 4 años de experiencia creando experiencias digitales intuitivas para web y móvil y un máster en Diseño de Interacción Persona-Ordenador. Experto en prototipado e investigación de usuarios.",
+      "Gracias a mi pasado de desarrollo front-end, conecto el diseño con la viabilidad técnica, fomentando una colaboración fluida con equipos multidisciplinares. Soy curioso y busco continuamente oportunidades para crecer y avanzar.",
+      // "Experto en traducir la investigación de usuarios en soluciones UX/UI de alta calidad, desde wireframes hasta prototipos de alta fidelidad. Hábil en colaborar con equipos multidisciplinares para entregar diseños centrados en el usuario y alineados con los objetivos empresariales."
     ],
     competencies: [
       "Creación y gestión de artefactos de diseño.", // "como wireframes, storyboards, diagramas de flujo y prototipos.", "para aplicaciones web y mobiles.", "utilizando Figma, Adobe Xd, etc.",
@@ -143,94 +143,95 @@ const resumes = ref([
       // "Liderar el proceso de diseño y asegurar el alineamiento con los objetivos de negico.",
     ],
     competencies: [
-      "Crafting and managing design artefacts.",
-      "Conduct multi-phased, mixed-methods research and usability tests.",
-      "Agile task tracking and collaboration with cross-functional teams."
+      "Creación y gestión de artefactos de diseño.",
+      "Realizar  test de usabilidad e investigación en múltiples fases y con métodos mixtos.",
+      "Seguimiento ágil de tareas y colaboración con equipos multifuncionales."
     ],
     experiences: [
       {
-        title: "UX Engineer",
+        title: "Ingeniero UX",
         company: "Evoloom",
         industry: "e-learning",
         startDate: "2023",
         endDate: "",
-        tasks: ["Crafted compelling online courses for an e-learning platform leveraging existing educational resources."]
+        tasks: ["Elaborar una interfaz intuitiva para varios cursos online para una plataforma de e-learning."]
       },
       {
-        title: "User Researcher",
+        title: "Investigador de usuarios",
         company: "Ubisoft",
-        industry: "Video games",
+        industry: "Video juegos",
         startDate: "2022",
         endDate: "",
         tasks: [
-          "Conducted user research, playtesting workshops and gathered qualitative, quantitative and biometric data.",
-          "Synthesized research findings into actionable insights for different stakeholders in an agile environment."
+          "Realizar investigación de usuarios, organizar playtesting y recopilar datos cualitativos, cuantitativos y biométricos.",
+          "Sintetizar resultados de investigación en información práctica para diferentes stakeholders en un entorno ágil."
         ]
       },
       {
-        title: "UX Researcher / Designer",
-        company: "University Paris 8",
-        industry: "academia",
+        title: "Investigador / Diseñador UX",
+        company: "Universidad París 8",
+        industry: "Mundo académico",
         startDate: "2021",
         endDate: "",
         tasks: ["Liderar el proceso de diseño desde la investigación hasta el prototipado y la prueba de un prototipo de wearable pionero."]
       },
       {
-        title: "UX Engineer",
+        title: "Ingeniero UX",
         company: "DV Business Solutions",
-        industry: "Telecommunications",
+        industry: "Telecomunicación",
         startDate: "2016",
         endDate: "2019",
         tasks: [
           "Crear artefactos de diseño y funcionalidades, mejorando la experiencia del usuario y aumentando el Net Promoter Score en un 11 % para más de 10000 usuarios.",
-          "Equilibrar las perspectivas empresariales, técnicas y de UX para informar la toma de decisiones y la dirección del producto.",
-          "Unificar múltiples productos en una solución cloud sin fisuras, fomentando la colaboración con equipos multidisciplinarios.",
-          "Desempeñar un papel clave en la creación de requisitos del producto y la defensa del diseño (creando una guía de estilos, una biblioteca de componentes, etc.)."
+          "Equilibrar objetivos de UX, técnicos y empresariales para informar la toma de decisiones y la dirección del producto.",
+          "Unificar varios productos en una solución cloud sin fisuras, fomentando la colaboración con equipos multidisciplinares.",
+          "Desempeñar un papel clave en la creación de requisitos del producto y la promoción del diseño (creando una guía de estilos, una biblioteca de componentes, etc.)."
         ]
       },
       {
-        title: "UX Engineer",
-        company: "Polytechnic University of Madrid",
-        industry: "education",
+        title: "Ingeniero UX",
+        company: "Universidad Politécnica de Madrid",
+        industry: "educación",
         startDate: "2014",
         endDate: "2016",
         tasks: [
-          "Advocated user-centricity, driving UX excellence and promoting usability standards.",
-          "Led and coordinated the user research and usability testing.",
-          "Led the UI development for a quality assurance platform, trusted por más de 3000 educators."
+          "Abogar por un diseño centrado en el usuario, promoviendo estándares de usabilidad y impulsando la excelencia UX.",
+          "Liderar y coordinar la investigación de usuarios y los test de usabilidad.",
+          "Liderar el desarrollo de la UI para una plataforma de aseguramiento de calidad, usada por más de 3000 educadores."
         ]
       }
     ],
     skills: {
       research: [
-        "User Research", "Interviews", "Focus Groups", "Surveys", "Usability Testing", "Heuristic Evaluation", "Personas", "User Journeys", "Task Analysis", "Scenarios", "Mental Models", "Card Sorting", "Market Research", "Competitive Analysis"
+        "Investigación de Usuarios", "Entrevistas", "Focus groups", "Encuestas", "Test de Usabilidad", "Evaluación Heurística", "Personas", "User journeys", "Análisis de Tareas", "Escenarios", "Modelos Mentales", "Card sorting", "Investigación de Mercado", "Análisis Competitivo"
       ],
       design: [
-        "Interaction Design", "UI Design", "Product Design", "Information Architecture", "Accessible Design (WCAG 2.0)", "Rapid Prototyping", "Wireframing", "Storyboards", "Low- and High-fidelity Prototyping"
+        "Diseño de Interacción", "Diseño de Interfaz de Usuario", "Diseño de Producto", "Arquitectura de Información", "Diseño Accesible (WCAG 2.0)", "Prototipado Rápido", "Wireframes", "Storyboards", "Prototipado de baja y alta fidelidad"
       ],
       development: ["HTML", "CSS", "Javascript", "Vue", "React", "Bootstrap", "Git", "NPM"],
       tools: ["Figma", "Adobe Xd", "Balsamiq", "Jira", "Notion", "Trello", "Wrike", "Office"]
+
     },
     languages: [
-      { language: "English", proficiency: "C1" },
-      { language: "French", proficiency: "B2" },
-      { language: "Spanish", proficiency: "native" },
-      { language: "Spanish Sign Language", proficiency: "native" }
+      { language: "Inglés", proficiency: "C1" },
+      { language: "Francés", proficiency: "B2" },
+      { language: "Español", proficiency: "nativo" },
+      { language: "Lengua de Signos Española", proficiency: "nativo" }
     ],
     educations: [
       {
-        degree: "Blockchain / Web 3 developer",
-        institute: "Alyra · 2023",
-        graduated: ""
+        degree: "Desarrollador Blockchain / Web 3.0",
+        institute: "Alyra",
+        graduated: "2023"
       },
       {
-        degree: "M.Sc. Human-Computer Interaction & Design",
+        degree: "Máster en Human-Computer Interaction & Design",
         institute: "KTH Royal Institute of Technology & Université Paris Saclay",
         graduated: "2021"
       },
       {
-        degree: "B.Sc. Computer Science",
-        institute: "Polytechnic University of Madrid",
+        degree: "Ingeniería Informática",
+        institute: "Universidad Politécnica de Madrid",
         graduated: "2014"
       }
     ]
@@ -241,7 +242,7 @@ const resumes = ref([
     name: ["Adrian", "NEILA", "SERRANO"],
     title: "Designer UX",
     contacts: [
-      { type: "Portfolio", href: "https://aneiser.github.io/", display: "aneiser.github.io" },
+      { type: "Portfolio", href: "https://aneiser.github.io/?fr", display: "aneiser.github.io" },
       { type: "Phone", href: "tel:+330650674677", display: "+33 06.50.67.46.77" },
       { type: "Email", href: "mailto:a.neiser13@gmail.com", display: "a.neiser13@gmail.com" },
       { type: "LinkedIn", href: "https://www.linkedin.com/in/aneiser-ux", display: "linkedin.com/in/aneiser-ux" }
@@ -305,7 +306,7 @@ const resumes = ref([
         startDate: "2014",
         endDate: "2016",
         tasks: [
-          "Prôner la centralité de l'utilisateur, favorisant l'excellence UX et promouvant les normes d'utilisabilité.",
+          "Prôner la centralité de l'utilisateur, promouvant les normes d'utilisabilité et favorisant l'excellence UX.",
           "Diriger et coordonner la recherche utilisateur et les tests d'utilisabilité.",
           "Diriger le développement UI pour une plateforme d'assurance qualité, approuvée par plus de 3000 éducateurs."
         ]
@@ -330,8 +331,8 @@ const resumes = ref([
     educations: [
       {
         degree: "Blockchain / Web 3 développer ",
-        institute: "Alyra · 2023",
-        graduated: ""
+        institute: "Alyra",
+        graduated: "2023"
       },
       {
         degree: "BAC+5 en Interaction Homme-Ordinateur",
