@@ -16,17 +16,17 @@
                         <div class="hidden-md-and-up" aria-hidden="false">
                             <!-- <h2 class="text-h5">I design for a diverse world</h2>
                             <h2 class="text-h5">—</h2> -->
-                            <!-- <h2 class="text-h5">Bridging <span>technology</span> and <span>real</span> people through human-centered design</h2> -->
-                            <h2 class="text-h5">Bridging <span>technology</span> and <span>people</span> through human-centered design</h2>
+                            <!-- <h2 class="text-h5">UX Designer bridging <span>real</span> and <span>technology</span> people through human-centered design</h2> -->
+                            <h2 class="text-h5">UX Designer bridging <span>people</span> and <span>technology</span> through human-centered design</h2>
                             <h2 class="text-h6">(sometimes I also code)</h2>
                         </div>
                         <!-- Contenido para pantallas medium y superiores -->
                         <div class="hidden-sm-and-down" aria-hidden="true">
                             <!-- <h2 class="text-h4">I design for a diverse world</h2>
                                 <h2 class="text-h4">—</h2> -->
-                                <!-- <h2 class="text-h4">Bridging <span>technology</span> and <span>diverse</span> people through human-centered design</h2>
+                                <!-- <h2 class="text-h4">UX Designer bridging <span>diverse</span> and <span>technology</span> people through human-centered design</h2>
                                 <br> -->
-                                <h2 class="text-h4">Bridging <span>technology</span> and <span>people</span> through human-centered design</h2>
+                                <h2 class="text-h4">UX Designer bridging <span>people</span> and <span>technology</span> through human-centered design</h2>
                             <h2 class="text-h6">(sometimes I also code)</h2>
                         </div>
                     </v-col>
@@ -193,12 +193,12 @@
     }
 
     h2 span:first-child {
-        font-family: 'Roboto Mono';
+        font-family: 'Waiting for the Sunrise', cursive;
+        font-size: 2.7rem;
     }
 
     h2 span:last-child {
-        font-family: 'Waiting for the Sunrise', cursive;
-        font-size: 2.7rem;
+        font-family: 'Roboto Mono';
     }
 
     h2.text-h6 {

@@ -6,12 +6,12 @@ export default {
 
 <template>
     <v-hover v-slot="{ isHovering, props }">
-        <RouterLink :to="`/${project.link}`" class="px-8" style="text-decoration: none;">
+        <div class="mx-8" style="text-decoration: none; cursor: not-allowed;">
             <article class="card d-flex flex-column transition-swing"
-                    v-bind="props"
-                    :class="`elevation-${isHovering ? 8 : 1} ${project.theme}`"
-                    :style="{ 'background-image': `url(${project.img})` }"
-                    >
+            v-bind="props"
+                :class="`elevation-${isHovering ? 8 : 1} ${project.theme}`"
+                :style="{ 'background-image': `url(${project.img})` }"
+                >
                 <div class="card__header pa-4">
                     <span class="card__header-role">{{ project.role }}</span>
                     <span class="card__header-date">{{ project.date }}</span>
@@ -23,7 +23,7 @@ export default {
                     <div class="card__footer-button py-1 px-3">{{ project.status }}</div>
                 </div>
             </article>
-        </RouterLink>
+        </div>
     </v-hover>
 </template>
 
@@ -107,6 +107,7 @@ export default {
     border: 1px solid var(--color-red);
     border-radius: 2rem;
     transition: background-color 0.3s ease;
+    text-shadow: none;
 }
 
 </style>
