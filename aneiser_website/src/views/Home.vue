@@ -23,10 +23,10 @@
                         <!-- Contenido para pantallas medium y superiores -->
                         <div class="hidden-sm-and-down" aria-hidden="true">
                             <!-- <h2 class="text-h4">I design for a diverse world</h2>
-                                <h2 class="text-h4">—</h2> -->
-                                <!-- <h2 class="text-h4">UX Designer bridging <span>diverse</span> and <span>technology</span> people through human-centered design</h2>
-                                <br> -->
-                                <h2 class="text-h4">UX Designer bridging <span>people</span> and <span>technology</span> through human-centered design</h2>
+                            <h2 class="text-h4">—</h2> -->
+                            <!-- <h2 class="text-h4">UX Designer bridging <span>diverse</span> and <span>technology</span> people through human-centered design</h2>
+                            <br> -->
+                            <h2 class="text-h4">UX Designer bridging <span>people</span> and <span>technology</span> through human-centered design</h2>
                             <h2 class="text-h6">(sometimes I also code)</h2>
                         </div>
                     </v-col>
@@ -221,7 +221,7 @@
             font-size: 1rem !important;
         }
 
-        h2 span:last-child {
+        h2 span:first-child {
             font-size: 2.1rem !important;
         }
     }
