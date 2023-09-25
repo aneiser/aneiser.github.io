@@ -114,17 +114,17 @@
 
                     <!-- Second block -->
                     <v-col cols="12" sm="6" md="3" class="d-flex align-center justify-center">
-                        <v-img class="logos" src="../../img/logos/paris8-logo.png" alt="Université Paris 8 Vincennes-Saint-Denis logo"></v-img>
+                        <v-img class="logos" src="/assets/img/logos/paris8-logo.png" alt="Université Paris 8 Vincennes-Saint-Denis logo"></v-img>
                     </v-col>
 
                     <!-- Third block -->
                     <v-col cols="12" sm="6" md="3" class="d-flex align-center justify-center">
-                        <v-img class="logos" src="../../img/logos/smartcontact-logo.png" alt="SmartContact a Digital Virgo tool logo"></v-img>
+                        <v-img class="logos" src="/assets/img/logos/smartcontact-logo.png" alt="SmartContact a Digital Virgo tool logo"></v-img>
                     </v-col>
 
                     <!-- Fourth block -->
                     <v-col cols="12" sm="6" md="3" class="d-flex align-center justify-center">
-                        <v-img class="logos" src="../../img/logos/upm-bar-logo.png" alt="Universidad Politécnica de Madrid logo"></v-img>
+                        <v-img class="logos" src="/assets/img/logos/upm-bar-logo.png" alt="Universidad Politécnica de Madrid logo"></v-img>
                     </v-col>
                 </v-row>
                 <v-row>
