@@ -7,7 +7,7 @@ import ResumeLanguage from '../components/resume/ResumeLanguage.vue';
 import ResumeCoreCompetencies from '../components/resume/ResumeCoreCompetencies.vue';
 import ResumeSummary from '../components/resume/ResumeSummary.vue';
 
-const currentLanguage = ref('fr');
+const currentLanguage = ref('en');
 
 const resumes = ref([
   // en
@@ -17,13 +17,13 @@ const resumes = ref([
     title: "UX Designer",
     contacts: [
       { type: "Portfolio", href: "https://aneiser.github.io/?en", display: "aneiser.github.io" },
+      // { type: "Phone", href: "tel:+330650674677", display: "+33 06.50.67.46.77" },
       { type: "Phone", href: "tel:+34649874542", display: "+34 649 87 45 42" },
       { type: "Email", href: "mailto:a.neiser13@gmail.com", display: "a.neiser13@gmail.com" },
       { type: "LinkedIn", href: "https://www.linkedin.com/in/aneiser-ux", display: "linkedin.com/in/aneiser-ux" }
     ],
     summary: [
-      "Experienced UX Designer with over 4 years of experience in crafting intuitive digital experiences for web and mobile platforms and an M.Sc. in Human-Computer Interaction Design. Proficient in prototyping and user research.",
-      "Leveraging a front-end background, I bridge design with technical feasibility, fostering seamless collaboration with multidisciplinary teams. Continuously seeking avenues for growth and advancement.",
+      "UX Designer with over 5 years of experience translating user research into intuitive digital experiences that align with business goals. — Holding an M.Sc. in Human-Computer Interaction Design, I'm skilled in all aspects of the UX design process, including research, design and testing. — Leveraging a frontend background, I bridge design with technical feasibility in Agile environments, ensuring effective collaboration across multidisciplinary teams.",
       // "Skilled at translating user research into high-quality UX/UI solutions, from wireframes to high-fidelity prototypes. Adept at collaborating with multidisciplinary teams to deliver user-centric and business-aligned designs."
     ],
     competencies: [
@@ -44,12 +44,12 @@ const resumes = ref([
       {
         title: "User Researcher",
         company: "Ubisoft",
-        industry: "Video games",
+        industry: "video games",
         startDate: "2022",
         endDate: "",
         tasks: [
           "Conducted user research, playtesting workshops and gathered qualitative, quantitative and biometric data.",
-          "Synthesized research findings into actionable insights for different stakeholders in an agile environment."
+          "Synthesized research findings to provide actionable insights for diverse stakeholders in an Agile environment."
         ]
       },
       {
@@ -61,16 +61,16 @@ const resumes = ref([
         tasks: ["Led the design process from research to prototyping and testing of a pioneering wearable prototype."]
       },
       {
-        title: "UX Engineer",
+        title: "UX Designer",
         company: "DV Business Solutions",
-        industry: "Telecommunications",
+        industry: "telecommunications",
         startDate: "2016",
         endDate: "2019",
         tasks: [
-          "Crafted design artefacts and features, enhancing user experience and boosting Net Promoter Score by 11% for over 10,000 users.",
-          "Balanced business, technical, and UX perspectives to inform decision making and product direction.",
-          "Unified multiple products into a seamless cloud solution, fostering collaboration with multidisciplinary teams.",
-          "Played a key role in product requirements creation and design advocacy (creating a style guide, a component library, etc.)."
+          "Crafted design artefacts that enhanced user experience and boosted Net Promoter Score by 11% for over 10,000 users.", // and features
+          "Considered and balanced user, business, and technical aspects to inform decision making and product direction.",
+          "Unified multiple products into a seamless cloud solution, fostering collaboration with developers teams.",
+          "Played a key role in creating requirements and advocating for design by establishing a style guide and a UI pattern library.",
         ]
       },
       {
@@ -80,7 +80,7 @@ const resumes = ref([
         startDate: "2014",
         endDate: "2016",
         tasks: [
-          "Advocated user-centricity, promoting usability standards and driving UX excellence.",
+          "Advocated for a user-centered approach and promoted design and usability best practices and standards.",
           "Led and coordinated the user research and usability testing.",
           "Led the UI development for a quality assurance platform, trusted by over 3,000 educators."
         ]
@@ -88,13 +88,13 @@ const resumes = ref([
     ],
     skills: {
       research: [
-        "User Research", "Interviews", "Focus Groups", "Surveys", "Usability Testing", "Heuristic Evaluation", "Personas", "User Journeys", "Task Analysis", "Scenarios", "Mental Models", "Card Sorting", "Market Research", "Competitive Analysis"
+        "User Research", "Interviews", "Focus Groups", "Surveys", "Usability Testing", "Heuristic Evaluation", "Personas", "User Journeys", "Task Analysis", "Scenarios", "Mental Models", "Card Sorting", "Design thinking", // "Market Research", "Competitive Analysis"
       ],
       design: [
-        "Interaction Design", "UI Design", "Product Design", "Information Architecture", "Accessible Design (WCAG 2.0)", "Rapid Prototyping", "Wireframes", "Storyboards", "Low- and High-fidelity Prototyping"
+        "Interaction Design", "Interactive Prototyping", "Wireframes", "Storyboards", "User flows", "Journeys maps", "UI Design", "Product Design", "Information Architecture", "Accessible Design (WCAG 2.0)",
       ],
       development: ["HTML", "CSS", "Javascript", "Vue", "React", "Bootstrap", "Git", "NPM"],
-      tools: ["Figma", "Adobe Xd", "Balsamiq", "Jira", "Notion", "Trello", "Wrike", "Office"]
+      tools: ["Figma", "Adobe Xd & Creative Suite", "Miro", "Balsamiq","Jira", "Notion", "Trello", "Wrike"]
     },
     languages: [
       { language: "English", proficiency: "C1" },
@@ -132,8 +132,7 @@ const resumes = ref([
       { type: "LinkedIn", href: "https://www.linkedin.com/in/aneiser-ux", display: "linkedin.com/in/aneiser-ux" }
     ],
     summary: [
-      "Diseñador UX con 4 años de experiencia creando experiencias digitales intuitivas para web y móvil y un máster en Diseño de Interacción Persona-Ordenador. Experto en prototipado e investigación de usuarios.",
-      "Gracias a mi pasado de desarrollo front-end, conecto el diseño con la viabilidad técnica, fomentando una colaboración fluida con equipos multidisciplinares. Soy curioso y busco continuamente oportunidades para crecer y avanzar.",
+      "Diseñador UX con 5 años de experiencia traduciendo investigación de usuarios en experiencias digitales intuitivas que se alinean con objetivos de negocio. — Con un Máster en Diseño de Interacción Persona-Ordenador, tengo habilidades en todos los aspectos del proceso de diseño UX, incluyendo investigación, diseño y pruebas. — Aprovechando un pasado en frontend, conecto el diseño con la viabilidad técnica en ambientes Agiles, asegurando una colaboración efectiva entre equipos multidisciplinares.",
       // "Experto en traducir la investigación de usuarios en soluciones UX/UI de alta calidad, desde wireframes hasta prototipos de alta fidelidad. Hábil en colaborar con equipos multidisciplinares para entregar diseños centrados en el usuario y alineados con los objetivos empresariales."
     ],
     competencies: [
@@ -248,8 +247,7 @@ const resumes = ref([
       { type: "LinkedIn", href: "https://www.linkedin.com/in/aneiser-ux", display: "linkedin.com/in/aneiser-ux" }
     ],
     summary: [
-      "Designer UX avec 4 ans d'expérience dans la création d'expériences numériques intuitives pour plateformes web et mobiles et un BAC+5 en Design d'Interaction Homme-Machine. Compétent en prototypage et recherche utilisateur.",
-      "Fort d'une expérience en front-end, je fais le lien entre le design et la faisabilité technique, favorisant une collaboration fluide avec des équipes multidisciplinaires. En quête constante d'opportunités pour progresser et évoluer.",
+      "Designer UX avec 5 ans d'expérience traduisant la recherche utilisateur en expériences numériques intuitives alignées avec les objectifs commerciaux. — Titulaire d'un BAC+5 en Conception d'Interaction Homme-Ordinateur, je suis compétent dans tous les aspects du processus de conception UX, y compris la recherche, la conception et les tests. — Profitant d'une expérience en frontend, je fais le lien entre la conception et la faisabilité technique dans des environnements Agile, garantissant une collaboration efficace avec des équipes multidisciplinaires."
       // "Doué pour traduire la recherche utilisateur en solutions UX/UI de haute qualité, des wireframes aux prototypes haute fidélité. Apte à collaborer avec des équipes multidisciplinaires pour livrer des conceptions centrées sur l'utilisateur et alignées sur les objectifs commerciaux.",
     ],
     competencies: [
