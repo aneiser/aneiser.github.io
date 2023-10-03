@@ -135,7 +135,7 @@
                         <v-row>
                             <v-col>
                                 <div class="my-8">
-                                    <p class="font-weight-bold">UX engineer</p>
+                                    <p class="font-weight-bold">UX-UI Designer</p>
                                     <p class="d-flex justify-space-between">
                                         <span>Evoloom</span>
                                         <span>2023</span>
@@ -156,14 +156,14 @@
                                     </p>
                                 </div>
                                 <div class="my-8">
-                                    <p class="font-weight-bold">UX engineer</p>
+                                    <p class="font-weight-bold">UX Designer</p>
                                     <p class="d-flex justify-space-between">
                                         <span>DV Business Solutions</span>
                                         <span>2016 - 2019</span>
                                     </p>
                                 </div>
                                 <div class="my-8">
-                                    <p class="font-weight-bold">UX engineer</p>
+                                    <p class="font-weight-bold">UX Designer</p>
                                     <p class="d-flex justify-space-between">
                                         <span>Polytechnic University of Madrid</span>
                                         <span>2014 - 2016</span>
