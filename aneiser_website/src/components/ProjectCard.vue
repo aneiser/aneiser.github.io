@@ -6,12 +6,29 @@ export default {
 
 <template>
     <v-hover v-slot="{ isHovering, props }">
-        <div class="mx-8" style="text-decoration: none; cursor: not-allowed;">
-            <article class="card d-flex flex-column transition-swing"
-            v-bind="props"
+        <!-- Render link version if project.link equals 'projects/ubisoft' -->
+        <RouterLink v-if="project.link === 'projects/ubisoft'" :to="`/${project.link}`" class="px-8" style="text-decoration: none;">
+            <article class="card d-flex flex-column transition-swing" v-bind="props"
                 :class="`elevation-${isHovering ? 8 : 1} ${project.theme}`"
-                :style="{ 'background-image': `url(${project.img})` }"
-                >
+                :style="{ 'background-image': `url(${project.img})` }">
+                <div class="card__header pa-4">
+                    <span class="card__header-role">{{ project.role }}</span>
+                    <span class="card__header-date">{{ project.date }}</span>
+                </div>
+                <div class="card__body flex-grow-1 pa-4">
+                    <h1 class="text-h3 card__body-title">{{ project.title }}</h1>
+                </div>
+                <div v-if="project.status" class="card__footer pa-4">
+                    <div class="card__footer-button py-1 px-3">{{ project.status }}</div>
+                </div>
+            </article>
+        </RouterLink>
+
+        <!-- Render no-link version for all other cases -->
+        <div v-else class="mx-8" style="text-decoration: none; cursor: not-allowed;">
+            <article class="card d-flex flex-column transition-swing" v-bind="props"
+                :class="`elevation-${isHovering ? 8 : 1} ${project.theme}`"
+                :style="{ 'background-image': `url(${project.img})` }">
                 <div class="card__header pa-4">
                     <span class="card__header-role">{{ project.role }}</span>
                     <span class="card__header-date">{{ project.date }}</span>

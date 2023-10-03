@@ -11,7 +11,7 @@ export default {
                 { id: 5,
                   role: 'User Research',
                   title: 'Memorable gaming experiences',
-                  status: 'Coming soon',
+                  status: '',
                   theme: 'ubisoft',
                   img: '/assets/img/project_card/mario_rabbids_sparks_of_hope_screenshot_4__flip_vertical.webp',
                   link: 'projects/ubisoft'
