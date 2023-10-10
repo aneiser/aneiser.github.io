@@ -388,29 +388,29 @@ updateCurrentResume();
       <div class="body">
         <!-- CORE COMPETENCIES, SKILLS, LANGUAGES, and EDUCATION SECTION -->
         <aside class="side">
-          <section>
+          <section v-if="currentResume.competencies">
             <h2 class="section">CORE COMPETENCIES</h2>
             <ResumeCoreCompetencies :competencies="currentResume.competencies" />
           </section>
 
-          <section>
+          <section v-if="currentResume.skills">
             <h2 class="section">SKILLS</h2>
             <ResumeSkill v-for="(skillsList, category) in currentResume.skills" :key="category" :category="category" :skills="skillsList"/>
           </section>
 
-          <section>
+          <section v-if="currentResume.languages">
             <h2 class="section">LANGUAGES</h2>
             <ResumeLanguage :languages="currentResume.languages" />
           </section>
 
-          <section>
+          <section v-if="currentResume.educations">
             <h2 class="section">EDUCATION</h2>
             <ResumeEducation v-for="education in currentResume.educations" :key="education.id" :education="education" />
           </section>
         </aside>
 
         <!-- EXPERIENCE SECTION -->
-        <section class="main">
+        <section v-if="currentResume.experiences" class="main">
           <h2 class="section">EXPERIENCE</h2>
           <ResumeExperience v-for="(experience, index) in currentResume.experiences" :key="experience.id" :experience="experience" :class="{ highlight: index === 3 }" />
         </section>
