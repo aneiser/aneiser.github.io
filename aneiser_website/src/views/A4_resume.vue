@@ -219,7 +219,7 @@ const resumes = ref([
         graduated: "2023"
       },
       {
-        degree: "Máster en Human-Computer Interaction & Design",
+        degree: "Máster en Diseño de Interacción Persona-Ordenador",
         institute: "KTH Royal Institute of Technology & Université Paris Saclay",
         graduated: "2021"
       },
