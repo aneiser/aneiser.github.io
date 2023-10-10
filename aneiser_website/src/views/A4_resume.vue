@@ -138,13 +138,8 @@ const resumes = ref([
     competencies: [
       "Creación y gestión de artefactos de diseño.", // "como wireframes, storyboards, diagramas de flujo y prototipos.", "para aplicaciones web y mobiles.", "utilizando Figma, Adobe Xd, etc.",
       "Realizar investigaciones de múltiples fases y métodos mixtos y pruebas de usabilidad.", // "para optimizar elementos y mejorar la experiencia de usuario.",
-      "Seguimiento de tareas ágiles y colaboración con equipos interfuncionales.",
+      "Seguimiento ágil de tareas y colaboración con equipos multifuncionales." // interfuncionales
       // "Liderar el proceso de diseño y asegurar el alineamiento con los objetivos de negico.",
-    ],
-    competencies: [
-      "Creación y gestión de artefactos de diseño.",
-      "Realizar  test de usabilidad e investigación en múltiples fases y con métodos mixtos.",
-      "Seguimiento ágil de tareas y colaboración con equipos multifuncionales."
     ],
     experiences: [
       {
