@@ -94,7 +94,7 @@ const resumes = ref([
         "Interaction Design", "Interactive Prototyping", "Wireframes", "Storyboards", "User flows", "Journeys maps", "UI Design", "Product Design", "Information Architecture", "Accessible Design (WCAG 2.0)",
       ],
       development: ["HTML", "CSS", "Javascript", "Vue", "React", "Bootstrap", "Git", "NPM"],
-      tools: ["Figma", "Adobe Xd & Creative Suite", "Miro", "Balsamiq","Jira", "Notion", "Trello", "Wrike"]
+      tools: ["Figma", "Adobe XD & Creative Cloud", "Miro", "Balsamiq","Jira", "Notion", "Trello", "Wrike"]
     },
     languages: [
       { language: "English", proficiency: "C1" },
