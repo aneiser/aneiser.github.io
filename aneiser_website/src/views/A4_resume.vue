@@ -1,5 +1,5 @@
 <script setup>
-import { ref } from 'vue'
+import { ref, computed } from 'vue';
 import ResumeExperience from '../components/resume/ResumeExperience.vue';
 import ResumeEducation from '../components/resume/ResumeEducation.vue';
 import ResumeSkill from '../components/resume/ResumeSkill.vue';
@@ -343,6 +343,59 @@ const resumes = ref([
 
 const currentResume = ref({});
 
+const sectionTitles = computed(() => {
+  switch (currentLanguage.value) {
+    case 'en':
+      return {
+        competencies: "CORE COMPETENCIES",
+        skills: "SKILLS",
+          research: "Research",
+          design: "Design",
+          development: "Development",
+          tools: "Tools",
+        languages: "LANGUAGES",
+        educations: "EDUCATION",
+        experiences: "EXPERIENCE",
+      };
+    case 'es':
+      return {
+        competencies: "COMPETENCIAS",
+        skills: "COMPETENCIAS",
+          research: "Investigación",
+          design: "Diseño",
+          development: "Desarrollo",
+          tools: "Herramientas",
+        languages: "Idiomas",
+        educations: "FORMACIÓN",
+        experiences: "EXPERIENCIA",
+      };
+    case 'fr':
+      return {
+        competencies: "COMPÉTENCES",
+        skills: "COMPÉTENCES",
+          research: "Recherche",
+          design: "Conception",
+          development: "Development",
+          tools: "Outils",
+        languages: "LANGUES",
+        educations: "FORMATION",
+        experiences: "EXPÉRIENCE",
+      };
+    default:
+      return {
+        competencies: "CORE COMPETENCIES",
+        skills: "SKILLS",
+        research: "Research",
+        design: "Design",
+        development: "Development",
+        tools: "Tools",
+        languages: "LANGUAGES",
+        educations: "EDUCATION",
+        experiences: "EXPERIENCE",
+      };
+  }
+});
+
 const updateCurrentResume = () => {
   currentResume.value = resumes.value.find(r => r.lang === currentLanguage.value);
 };
@@ -384,29 +437,29 @@ updateCurrentResume();
         <!-- CORE COMPETENCIES, SKILLS, LANGUAGES, and EDUCATION SECTION -->
         <aside class="side">
           <section v-if="currentResume.competencies">
-            <h2 class="section">CORE COMPETENCIES</h2>
+            <h2 class="section">{{ sectionTitles.competencies }}</h2>
             <ResumeCoreCompetencies :competencies="currentResume.competencies" />
           </section>
 
           <section v-if="currentResume.skills">
-            <h2 class="section">SKILLS</h2>
-            <ResumeSkill v-for="(skillsList, category) in currentResume.skills" :key="category" :category="category" :skills="skillsList"/>
+            <h2 class="section">{{ sectionTitles.skills }}</h2>
+            <ResumeSkill v-for="(skillsList, category) in currentResume.skills" :key="category" :category="sectionTitles[category]" :skills="skillsList"/>
           </section>
 
           <section v-if="currentResume.languages">
-            <h2 class="section">LANGUAGES</h2>
+            <h2 class="section">{{ sectionTitles.languages }}</h2>
             <ResumeLanguage :languages="currentResume.languages" />
           </section>
 
           <section v-if="currentResume.educations">
-            <h2 class="section">EDUCATION</h2>
+            <h2 class="section">{{ sectionTitles.educations }}</h2>
             <ResumeEducation v-for="education in currentResume.educations" :key="education.id" :education="education" />
           </section>
         </aside>
 
         <!-- EXPERIENCE SECTION -->
         <section v-if="currentResume.experiences" class="main">
-          <h2 class="section">EXPERIENCE</h2>
+          <h2 class="section">{{ sectionTitles.experiences }}</h2>
           <ResumeExperience v-for="(experience, index) in currentResume.experiences" :key="experience.id" :experience="experience" :class="{ highlight: index === 3 }" />
         </section>
       </div>
