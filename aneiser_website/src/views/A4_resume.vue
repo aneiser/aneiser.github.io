@@ -97,8 +97,8 @@ const resumes = ref([
       tools: ["Figma", "Adobe XD & Creative Cloud", "Miro", "Balsamiq","Jira", "Notion", "Trello", "Wrike"]
     },
     languages: [
-      { language: "English", proficiency: "C1" },
-      { language: "French", proficiency: "B2" },
+      { language: "English", proficiency: "fluent - C1" },
+      { language: "French", proficiency: "intermediate - B2" },
       { language: "Spanish", proficiency: "native" },
       { language: "Spanish Sign Language", proficiency: "native" }
     ],
@@ -511,6 +511,7 @@ article :deep(ul) {
   /* padding-left: 0; */
 }
 
+article :deep(h4),
 article :deep(li) {
   margin-bottom: 4pt;
   /* list-style-type: none; */
