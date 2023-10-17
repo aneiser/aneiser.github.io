@@ -1,5 +1,6 @@
 <script>
 import ProjectSection from "../components/ProjectSection.vue";
+import ProjectSectionTitle from "../components/ProjectSectionTitle.vue";
 import ProjectSectionContentImage from "../components/ProjectSectionContentImage.vue";
 import ProjectSectionContentImageCaption from "../components/ProjectSectionContentImageCaption.vue";
 import ProjectSectionContentTable from "../components/ProjectSectionContentTable.vue";
@@ -16,6 +17,7 @@ import ProjectSectionContentVideo from "../components/ProjectSectionContentVideo
 export default {
     components: {
         ProjectSection,
+        ProjectSectionTitle,
         ProjectSectionContentImage,
         ProjectSectionContentImageCaption,
         ProjectSectionContentTable,
@@ -46,12 +48,10 @@ export default {
                 <v-row no-gutters>
                     <v-col md="8" offset-md="2">
                         <ProjectSection>
-                            <div class="d-flex align-center justify-center">
-                                <div>
-                                    <h1 class="text-h1 mb-8">Ubisoft</h1>
-                                    <h2 class="text-h2 mb-8">Memorable gaming experiences</h2>
-                                </div>
-                            </div>
+                            <ProjectSectionTitle>
+                                <template #title>Ubisoft</template>
+                                <template #subtitle>Memorable gaming experiences</template>
+                            </ProjectSectionTitle>
                             <ProjectSectionContentText>
                                 <ProjectSectionContentTextP>Ubisoft isn't just another video game company. With its global reach spanning several development studios, it has made a big name for itself in the gaming world with hits like Assassin's Creed, Far Cry, Tom Clancy's and Just Dance.</ProjectSectionContentTextP>
                                 <ProjectSectionContentTextP>As user researchers, the magic happens behind the curtain. The essence of our work isn't always visible but is ever-present in the player experiences.</ProjectSectionContentTextP>

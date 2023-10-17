@@ -1,5 +1,6 @@
 <script>
 import ProjectSection from "../components/ProjectSection.vue";
+import ProjectSectionTitle from "../components/ProjectSectionTitle.vue";
 import ProjectSectionContentImage from "../components/ProjectSectionContentImage.vue";
 import ProjectSectionContentImageCaption from "../components/ProjectSectionContentImageCaption.vue";
 import ProjectSectionContentTable from "../components/ProjectSectionContentTable.vue";
@@ -16,6 +17,7 @@ import ProjectSectionContentVideo from "../components/ProjectSectionContentVideo
 export default {
     components: {
         ProjectSection,
+        ProjectSectionTitle,
         ProjectSectionContentImage,
         ProjectSectionContentImageCaption,
         ProjectSectionContentTable,
@@ -46,12 +48,10 @@ export default {
                 <v-row no-gutters>
                     <v-col md="8" offset-md="2">
                         <ProjectSection>
-                            <div class="d-flex align-center justify-center">
-                                <div>
-                                    <h1 class="text-h1 mb-8">InSignum</h1>
-                                    <h2 class="text-h2 mb-8">Prototyping for sound awareness</h2>
-                                </div>
-                            </div>
+                            <ProjectSectionTitle>
+                                <template #title>InSignum</template>
+                                <template #subtitle>Prototyping for sound awareness</template>
+                            </ProjectSectionTitle>
                             <ProjectSectionContentText>
                                 <ProjectSectionContentTextP>As highlighted in my <a href="../resume.html">resume</a>, I am proficient in sign language. This comes from the fact that both my parents are deaf. Being a Child of Deaf Adults (CODA), I witnessed firsthand the challenges and inconveniences that missing sounds implied to them and how they had to make efforts and to develop alternative strategies to be aware of this environmental information that most of us take for granted.</ProjectSectionContentTextP>
                                 <ProjectSectionContentTextP>This inspired me to initiate <a href="https://www.facebook.com/insignum.tech/">InSignum</a>, a personal project—partially rooted in academia—that leverages alternative senses to compensate for the absence of hearing.</ProjectSectionContentTextP>

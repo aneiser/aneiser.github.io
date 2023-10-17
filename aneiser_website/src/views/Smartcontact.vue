@@ -1,5 +1,6 @@
 <script>
 import ProjectSection from "../components/ProjectSection.vue";
+import ProjectSectionTitle from "../components/ProjectSectionTitle.vue";
 import ProjectSectionContentImage from "../components/ProjectSectionContentImage.vue";
 import ProjectSectionContentImageCaption from "../components/ProjectSectionContentImageCaption.vue";
 import ProjectSectionContentTable from "../components/ProjectSectionContentTable.vue";
@@ -16,6 +17,7 @@ import ProjectSectionContentVideo from "../components/ProjectSectionContentVideo
 export default {
     components: {
         ProjectSection,
+        ProjectSectionTitle,
         ProjectSectionContentImage,
         ProjectSectionContentImageCaption,
         ProjectSectionContentTable,
@@ -46,12 +48,10 @@ export default {
                 <v-row no-gutters>
                     <v-col md="8" offset-md="2">
                         <ProjectSection>
-                            <div class="d-flex align-center justify-center">
-                                <div>
-                                    <h1 class="text-h1 mb-8">SmartContact</h1>
-                                    <h2 class="text-h2 mb-8">The merge of several products into one</h2>
-                                </div>
-                            </div>
+                            <ProjectSectionTitle>
+                                <template #title>SmartContact</template>
+                                <template #subtitle>The merge of several products into one</template>
+                            </ProjectSectionTitle>
                             <ProjectSectionContentText>
                                 <ProjectSectionContentTextP>DV Business Solutions, a division of The Digital Virgo group, provides Software as a Service (SAAS) products to businesses for customers communication.</ProjectSectionContentTextP>
                                 <ProjectSectionContentTextP>Over the years they had accumulated a catalog of disparate products that made the experience slow and cumbersome to use. To catch up with competitors, the goals were to increase sales and use while minimizing resources.</ProjectSectionContentTextP>

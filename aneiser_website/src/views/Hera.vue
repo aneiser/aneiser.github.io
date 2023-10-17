@@ -1,5 +1,6 @@
 <script>
 import ProjectSection from "../components/ProjectSection.vue";
+import ProjectSectionTitle from "../components/ProjectSectionTitle.vue";
 import ProjectSectionContentImage from "../components/ProjectSectionContentImage.vue";
 import ProjectSectionContentImageCaption from "../components/ProjectSectionContentImageCaption.vue";
 import ProjectSectionContentTable from "../components/ProjectSectionContentTable.vue";
@@ -16,6 +17,7 @@ import ProjectSectionContentVideo from "../components/ProjectSectionContentVideo
 export default {
     components: {
         ProjectSection,
+        ProjectSectionTitle,
         ProjectSectionContentImage,
         ProjectSectionContentImageCaption,
         ProjectSectionContentTable,
@@ -51,12 +53,10 @@ export default {
                             <ProjectSectionContentImageCaption>Illustration by Avirup Basu</ProjectSectionContentImageCaption>
                         </div>
                         <ProjectSection>
-                            <div class="d-flex align-center justify-center">
-                                <div>
-                                    <h1 class="text-h1 mb-8">Hera</h1>
-                                    <h2 class="text-h2 mb-8">Prototyping an accessibility evaluation tool</h2>
-                                </div>
-                            </div>
+                            <ProjectSectionTitle>
+                                <template #title>Hera</template>
+                                <template #subtitle>Prototyping an accessibility evaluation tool</template>
+                            </ProjectSectionTitle>
                             <ProjectSectionContentText>
                                 <ProjectSectionContentTextP>HERA is a semi-automatic accessibility evaluation tool originated from the Firefox plugin HERA-FFX. Ensuring web accessibility is not just a matter of compliance; it's about providing an inclusive digital experience to all users, including those with disabilities. HERA aims to make this a seamless process.</ProjectSectionContentTextP>
                             </ProjectSectionContentText>

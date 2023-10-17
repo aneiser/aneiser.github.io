@@ -1,5 +1,6 @@
 <script>
 import ProjectSection from "../components/ProjectSection.vue";
+import ProjectSectionTitle from "../components/ProjectSectionTitle.vue";
 import ProjectSectionContentImage from "../components/ProjectSectionContentImage.vue";
 import ProjectSectionContentImageCaption from "../components/ProjectSectionContentImageCaption.vue";
 import ProjectSectionContentTable from "../components/ProjectSectionContentTable.vue";
@@ -16,6 +17,7 @@ import ProjectSectionContentVideo from "../components/ProjectSectionContentVideo
 export default {
     components: {
         ProjectSection,
+        ProjectSectionTitle,
         ProjectSectionContentImage,
         ProjectSectionContentImageCaption,
         ProjectSectionContentTable,
@@ -46,12 +48,10 @@ export default {
                 <v-row no-gutters>
                     <v-col md="8" offset-md="2">
                         <ProjectSection>
-                            <div class="d-flex align-center justify-center">
-                                <div>
-                                    <h1 class="text-h1 mb-8">El Mundo</h1>
-                                    <h2 class="text-h2 mb-8">Usability & Accessibility evaluations</h2>
-                                </div>
-                            </div>
+                            <ProjectSectionTitle>
+                                <template #title>El Mundo</template>
+                                <template #subtitle>Usability & Accessibility evaluations</template>
+                            </ProjectSectionTitle>
                             <ProjectSectionContentText>
                                 <ProjectSectionContentTextP>Orbyt is the first Spanish digital newspapers platform where one can access all the information within a variety of leading publications in Spain.</ProjectSectionContentTextP>
                             </ProjectSectionContentText>

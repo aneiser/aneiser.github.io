@@ -48,7 +48,8 @@ export default {
 /* Block */
 .card {
     background-color: var(--color-white);
-    min-width: 300px;
+    min-width: 330px;
+    width: 330px;
     min-height: 485px;
     border-radius: 12px;
     color: var(--color-red);
