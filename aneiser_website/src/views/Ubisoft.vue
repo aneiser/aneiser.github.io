@@ -38,8 +38,7 @@ export default {
             <header>
                 <v-row no-gutters>
                     <v-col md="8" offset-md="2">
-                        <!-- <v-img cover src="/assets/img/project_card/mario_rabbids_sparks_of_hope_screenshot_1.webp"></v-img> -->
-                        <v-img cover src="/assets/img/ubisoft/h_ubisoft.jpg"></v-img>
+                        <v-img cover src="/assets/img/ubisoft/new-ubisoft-logo.jpg"></v-img>
                     </v-col>
                 </v-row>
             </header>
@@ -82,13 +81,11 @@ export default {
                         </ProjectSection>
 
                         <ProjectSection>
-                            <ProjectSectionContentText>
-                                <ProjectSectionContentTextH3>Mario + Rabbids 2: Sparks of Hope</ProjectSectionContentTextH3>
-                            </ProjectSectionContentText>
                             <ProjectSectionContentImage>
                                 <v-img cover src="../assets/img/ubisoft/MarioRabbids2_header.avif"></v-img>
                             </ProjectSectionContentImage>
                             <ProjectSectionContentText>
+                                <ProjectSectionContentTextH3>Mario+Rabbids Sparks of Hope</ProjectSectionContentTextH3>
                                 <ProjectSectionContentTextP>In this tactical delight, players craft their teams and embark on a quest to rescue the "sparks" - entities giving unique powers that helps the player in battle.</ProjectSectionContentTextP>
                                 <ProjectSectionContentTextP>My participation here centered on usability tests. We examined the revamped battle system, mechanics, weaponry, user interface, and the onboarding and tutorial explanations to ensure they were clearly understood by the players. We conducted several feature- and mission-based playtests, followed by semi-structured interviews.</ProjectSectionContentTextP>
                                 <ProjectSectionContentTextP>An illustrative example from our study was the exploration of players' understanding and use of real-time elements woven into turn-based gameplay. For instance, players could grab a ticking Bob-omb (an exploding enemy character), move around for a few seconds, and strategically toss it —all within their own turn— before it detonated.</ProjectSectionContentTextP>
@@ -108,13 +105,11 @@ export default {
                         </ProjectSection>
 
                         <ProjectSection>
-                            <ProjectSectionContentText>
-                                <ProjectSectionContentTextH3>Just Dance 2023</ProjectSectionContentTextH3>
-                            </ProjectSectionContentText>
                             <ProjectSectionContentImage>
                                 <v-img cover src="../assets/img/ubisoft/JustDance2023_header.avif"></v-img>
                             </ProjectSectionContentImage>
                             <ProjectSectionContentText>
+                                <ProjectSectionContentTextH3>Just Dance 2023</ProjectSectionContentTextH3>
                                 <ProjectSectionContentTextP>Just Dance 2023 is a rhythm-based game where players mimic on-screen choreography to selected songs using either console controllers or a smartphone app.</ProjectSectionContentTextP>
                                 <ProjectSectionContentTextP>My participation was shaped around usability tests, delving into mechanics, user interface, and their intuitive appeal. We conducted playtests followed by semi-structured interviews to assess whether our designs met our intended objectives.</ProjectSectionContentTextP>
                                 <ProjectSectionContentTextH4>User interface</ProjectSectionContentTextH4>
@@ -148,14 +143,11 @@ export default {
                         </ProjectSection>
 
                         <ProjectSection>
-                            <ProjectSectionContentText>
-                                <ProjectSectionContentTextH3>WiLD</ProjectSectionContentTextH3>
-                            </ProjectSectionContentText>
                             <ProjectSectionContentImage>
                                 <v-img cover src="../assets/img/ubisoft/wild_header.jpg"></v-img>
-                                <!-- <v-img cover src="../assets/img/ubisoft/wild_snow_logo.jpg"></v-img> -->
                             </ProjectSectionContentImage>
                             <ProjectSectionContentText>
+                                <ProjectSectionContentTextH3>WiLD</ProjectSectionContentTextH3>
                                 <ProjectSectionContentTextP>WiLD is an immersive survival game set in the prehistoric Neolithic era. Players can take control of either a human or, through shamanic powers, embody various animals. Once an animal is controlled, the gameplay transitions to that creature's perspective, leveraging its unique skills and attributes.</ProjectSectionContentTextP>
                                 <ProjectSectionContentTextP>During my time, the focus was on an appreciation test. I collaborated with fellow user researchers to assess the overall appeal of the game, diving deep into the aesthetics of its environment, characters, animals, and gameplay mechanics.</ProjectSectionContentTextP>
                             </ProjectSectionContentText>

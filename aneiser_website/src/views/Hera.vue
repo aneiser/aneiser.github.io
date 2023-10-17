@@ -38,15 +38,19 @@ export default {
             <header>
                 <v-row no-gutters>
                     <v-col md="8" offset-md="2">
-                        <!-- <v-img cover src="/assets/img/hera/aside_logo.png"></v-img> -->
-                        <!-- <v-img cover src="/assets/img/hera/mefi_proto.png"></v-img> -->
+                        <div>
+                            <v-img cover src="/assets/img/hera/ux-accessibility-design-best-practice.png.webp"></v-img>
+                        </div>
                     </v-col>
                 </v-row>
             </header>
             <main>
                 <v-row no-gutters>
                     <v-col md="8" offset-md="2">
-                        <!-- <ProjectSection> -->
+                        <div class="d-flex align-center justify-center" style="background-color: var(--color-gray-lightest);">
+                            <ProjectSectionContentImageCaption>Illustration by Avirup Basu</ProjectSectionContentImageCaption>
+                        </div>
+                        <ProjectSection>
                             <div class="d-flex align-center justify-center">
                                 <div>
                                     <h1 class="text-h1 mb-8">Hera</h1>
@@ -56,7 +60,7 @@ export default {
                             <ProjectSectionContentText>
                                 <ProjectSectionContentTextP>HERA is a semi-automatic accessibility evaluation tool originated from the Firefox plugin HERA-FFX. Ensuring web accessibility is not just a matter of compliance; it's about providing an inclusive digital experience to all users, including those with disabilities. HERA aims to make this a seamless process.</ProjectSectionContentTextP>
                             </ProjectSectionContentText>
-                        <!-- </ProjectSection> -->
+                        </ProjectSection>
 
                         <ProjectSection>
                             <ProjectSectionContentText>

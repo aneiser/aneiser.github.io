@@ -38,20 +38,20 @@ export default {
             <header>
                 <v-row no-gutters>
                     <v-col md="8" offset-md="2">
-                        <v-img cover src="/assets/img/smartcontact/smartcontact__header.png"></v-img>
+                        <v-img cover src="/assets/img/smartcontact/smartcontact__header.png" style="background-color: #f4f6fc"></v-img>
                     </v-col>
                 </v-row>
-                <div class="d-flex align-center justify-center">
-                    <div>
-                        <h1 class="text-h1 mb-8">SmartContact</h1>
-                        <h2 class="text-h2 mb-8">The merge of several products into one</h2>
-                    </div>
-                </div>
             </header>
             <main>
                 <v-row no-gutters>
                     <v-col md="8" offset-md="2">
                         <ProjectSection>
+                            <div class="d-flex align-center justify-center">
+                                <div>
+                                    <h1 class="text-h1 mb-8">SmartContact</h1>
+                                    <h2 class="text-h2 mb-8">The merge of several products into one</h2>
+                                </div>
+                            </div>
                             <ProjectSectionContentText>
                                 <ProjectSectionContentTextP>DV Business Solutions, a division of The Digital Virgo group, provides Software as a Service (SAAS) products to businesses for customers communication.</ProjectSectionContentTextP>
                                 <ProjectSectionContentTextP>Over the years they had accumulated a catalog of disparate products that made the experience slow and cumbersome to use. To catch up with competitors, the goals were to increase sales and use while minimizing resources.</ProjectSectionContentTextP>
