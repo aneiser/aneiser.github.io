@@ -1,6 +1,6 @@
 <script setup>
-    import HelloSticker from "../components/HelloSticker.vue";
-    import ProjectsCarousel from "../components/project/ProjectsCarousel.vue";
+    import HelloSticker from "@/components/HelloSticker.vue";
+    import ProjectsCarousel from "@/components/project/ProjectsCarousel.vue";
 </script>
 
 <template>

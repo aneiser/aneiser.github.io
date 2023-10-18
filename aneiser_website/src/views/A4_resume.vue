@@ -1,11 +1,11 @@
 <script setup>
 import { ref, computed } from 'vue';
-import ResumeExperience from '../components/resume/ResumeExperience.vue';
-import ResumeEducation from '../components/resume/ResumeEducation.vue';
-import ResumeSkill from '../components/resume/ResumeSkill.vue';
-import ResumeLanguage from '../components/resume/ResumeLanguage.vue';
-import ResumeCoreCompetencies from '../components/resume/ResumeCoreCompetencies.vue';
-import ResumeSummary from '../components/resume/ResumeSummary.vue';
+import ResumeExperience from '@/components/resume/ResumeExperience.vue';
+import ResumeEducation from '@/components/resume/ResumeEducation.vue';
+import ResumeSkill from '@/components/resume/ResumeSkill.vue';
+import ResumeLanguage from '@/components/resume/ResumeLanguage.vue';
+import ResumeCoreCompetencies from '@/components/resume/ResumeCoreCompetencies.vue';
+import ResumeSummary from '@/components/resume/ResumeSummary.vue';
 
 const currentLanguage = ref('en');
 
