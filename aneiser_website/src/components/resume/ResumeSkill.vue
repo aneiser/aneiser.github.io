@@ -1,8 +1,5 @@
 <script setup>
-// import { ref } from 'vue'
-// import ResumeExperienceBullet from './resume/ResumeExperienceBullet.vue'
-
-defineProps(['category', 'skills']);
+  defineProps(['category', 'skills']);
 </script>
 
 <template>

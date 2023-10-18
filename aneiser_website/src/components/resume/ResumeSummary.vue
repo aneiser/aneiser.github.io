@@ -1,8 +1,5 @@
 <script setup>
-// import { ref } from 'vue'
-// import ResumeExperienceBullet from './resume/ResumeExperienceBullet.vue'
-
-defineProps(['summary']);
+  defineProps(['summary']);
 </script>
 
 <template>
@@ -16,6 +13,7 @@ defineProps(['summary']);
   margin: 32px 0;
   text-align: justify;
 }
+blockquote,
 blockquote:first-child {
   margin-bottom: 4pt;
 }
