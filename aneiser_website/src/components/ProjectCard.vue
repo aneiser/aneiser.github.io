@@ -13,7 +13,7 @@ export default {
                 :style="{ 'background-image': `url(${project.img})` }">
                 <div class="card__header pa-4">
                     <span class="card__header-role">{{ project.role }}</span>
-                    <span class="card__header-date">{{ project.date }}</span>
+                    <span class="card__header-industry">{{ project.industry }}</span>
                 </div>
                 <div class="card__body flex-grow-1 pa-4">
                     <h1 class="text-h3 card__body-title">{{ project.title }}</h1>
@@ -31,7 +31,7 @@ export default {
                 :style="{ 'background-image': `url(${project.img})` }">
                 <div class="card__header pa-4">
                     <span class="card__header-role">{{ project.role }}</span>
-                    <span class="card__header-date">{{ project.date }}</span>
+                    <span class="card__header-industry">{{ project.industry }}</span>
                 </div>
                 <div class="card__body flex-grow-1 pa-4">
                     <h1 class="text-h3 card__body-title">{{ project.title }}</h1>

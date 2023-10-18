@@ -10,6 +10,7 @@ export default {
             projects: [
                 { id: 5,
                   role: 'User Research',
+                  industry: "Video games",
                   title: 'Memorable gaming experiences',
                   status: '',
                   theme: 'ubisoft',
@@ -17,7 +18,8 @@ export default {
                   link: 'projects/ubisoft'
                 },
                 { id: 4,
-                  role: 'UX Design & Research',
+                  role: 'UX Research & Design',
+                  industry: "Telecom",
                   title: 'The merge of several products into one',
                   status: 'Coming soon',
                   theme: 'smartcontact',
@@ -25,7 +27,8 @@ export default {
                   link: 'projects/smartcontact'
                 },
                 { id: 3,
-                  role: 'UX Design & Research',
+                  role: 'UX Research & Design',
+                  industry: "Academia",
                   title: 'Prototyping for sound awareness',
                   status: 'Coming soon',
                   theme: 'insignum',
@@ -33,7 +36,8 @@ export default {
                   link: 'projects/insignum'
                 },
                 { id: 2,
-                  role: 'UX Design & Research',
+                  role: 'UX Research & Design',
+                  industry: "Accesibility",
                   title: 'Prototyping an accessibility evaluation tool',
                   status: 'Coming soon',
                   theme: 'hera',
@@ -42,6 +46,7 @@ export default {
                 },
                 { id: 1,
                   role: 'User Research',
+                  industry: "Digital media",
                   title: 'Usability & Accessibility evaluations',
                   status: 'Coming soon',
                   theme: 'el-mundo',
