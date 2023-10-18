@@ -17,11 +17,11 @@ const router = createRouter({
     { path: "/a4-resume",             name: "A4Resume",     component: () => import("../views/A4_resume.vue") },
     { path: "/blog",                  name: "blog",         component: () => import("../views/Blog.vue") },
     // projects
-    { path: "/projects/el-mundo",     name: "el-mundo",     component: () => import("../views/projects/Elmundo.vue") },
-    { path: "/projects/hera",         name: "hera",         component: () => import("../views/projects/Hera.vue") },
-    { path: "/projects/insignum",     name: "insignum",     component: () => import("../views/projects/Insignum.vue") },
-    { path: "/projects/smartcontact", name: "smartcontact", component: () => import("../views/projects/Smartcontact.vue") },
-    { path: "/projects/ubisoft",      name: "ubisoft",      component: () => import("../views/projects/Ubisoft.vue") },
+    { path: "/projects/el-mundo",     name: "el-mundo",     component: () => import("../views/projects/ProjectElMundo.vue") },
+    { path: "/projects/hera",         name: "hera",         component: () => import("../views/projects/ProjectHera.vue") },
+    { path: "/projects/insignum",     name: "insignum",     component: () => import("../views/projects/ProjectInSignum.vue") },
+    { path: "/projects/smartcontact", name: "smartcontact", component: () => import("../views/projects/ProjectSmartcontact.vue") },
+    { path: "/projects/ubisoft",      name: "ubisoft",      component: () => import("../views/projects/ProjectUbisoft.vue") },
   ],
 });
 
