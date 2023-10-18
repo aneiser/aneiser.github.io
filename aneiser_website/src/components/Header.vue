@@ -3,8 +3,7 @@
 </script>
 
 <template>
-    <!-- <v-app-bar elevation="1" scroll-behavior="elevate" scroll-threshold="300" scroll-target="300"> -->
-    <v-app-bar elevation="0">
+    <v-app-bar scroll-behavior="elevate">
         <v-container>
             <v-toolbar color="white">
                 <v-toolbar-title>
