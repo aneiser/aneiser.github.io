@@ -1,18 +1,18 @@
 <script>
-import ProjectSection from "../components/ProjectSection.vue";
-import ProjectSectionTitle from "../components/ProjectSectionTitle.vue";
-import ProjectSectionContentImage from "../components/ProjectSectionContentImage.vue";
-import ProjectSectionContentImageCaption from "../components/ProjectSectionContentImageCaption.vue";
-import ProjectSectionContentTable from "../components/ProjectSectionContentTable.vue";
-import ProjectSectionContentText from "../components/ProjectSectionContentText.vue";
-import ProjectSectionContentTextCard from "../components/ProjectSectionContentTextCard.vue";
-import ProjectSectionContentTextH3 from "../components/ProjectSectionContentTextH3.vue";
-import ProjectSectionContentTextH4 from "../components/ProjectSectionContentTextH4.vue";
-import ProjectSectionContentTextH5 from "../components/ProjectSectionContentTextH5.vue";
-import ProjectSectionContentTextH6 from "../components/ProjectSectionContentTextH6.vue";
-import ProjectSectionContentTextP from "../components/ProjectSectionContentTextP.vue";
-import ProjectSectionContentTextQuote from "../components/ProjectSectionContentTextQuote.vue";
-import ProjectSectionContentVideo from "../components/ProjectSectionContentVideo.vue";
+import ProjectSection from "../components/project/ProjectSection.vue";
+import ProjectSectionTitle from "../components/project/ProjectSectionTitle.vue";
+import ProjectSectionContentImage from "../components/project/ProjectSectionContentImage.vue";
+import ProjectSectionContentImageCaption from "../components/project/ProjectSectionContentImageCaption.vue";
+import ProjectSectionContentTable from "../components/project/ProjectSectionContentTable.vue";
+import ProjectSectionContentText from "../components/project/ProjectSectionContentText.vue";
+import ProjectSectionContentTextCard from "../components/project/ProjectSectionContentTextCard.vue";
+import ProjectSectionContentTextH3 from "../components/project/ProjectSectionContentTextH3.vue";
+import ProjectSectionContentTextH4 from "../components/project/ProjectSectionContentTextH4.vue";
+import ProjectSectionContentTextH5 from "../components/project/ProjectSectionContentTextH5.vue";
+import ProjectSectionContentTextH6 from "../components/project/ProjectSectionContentTextH6.vue";
+import ProjectSectionContentTextP from "../components/project/ProjectSectionContentTextP.vue";
+import ProjectSectionContentTextQuote from "../components/project/ProjectSectionContentTextQuote.vue";
+import ProjectSectionContentVideo from "../components/project/ProjectSectionContentVideo.vue";
 
 export default {
     components: {
