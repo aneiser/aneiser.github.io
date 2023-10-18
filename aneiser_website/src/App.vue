@@ -7,11 +7,11 @@ import Footer from "./components/Footer.vue";
 
 <template>
     <v-app>
-        <Header />
+        <Header v-if="$route.name !== 'A4Resume'" />
         <v-main>
             <RouterView />
         </v-main>
-        <PreFooter />
-        <Footer />
+        <PreFooter v-if="$route.name !== 'A4Resume'" />
+        <Footer v-if="$route.name !== 'A4Resume'" />
     </v-app>
 </template>

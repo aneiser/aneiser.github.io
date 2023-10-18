@@ -405,77 +405,83 @@ updateCurrentResume();
 </script>
 
 <template>
-  <div class="a4-page">
-    <article>
-      <header class="header">
-        <div class="hero">
-          <div class="header__image">
-            <v-img cover src="/assets/img/resume/GDL_4210_Post.jpg" alt="Profile Image"></v-img>
-          </div>
+  <div class="a4-page-bg">
+    <div class="a4-page">
+      <article>
+        <header class="header">
+          <div class="hero">
+            <div class="header__image">
+              <v-img cover src="/assets/img/resume/GDL_4210_Post.jpg" alt="Profile Image"></v-img>
+            </div>
 
-          <div class="header__fullname">
-            <div class="header__name">
-              <span class="header__name"><h1>{{ currentResume.name[0] }}</h1></span>
-              <div class="header__surname">
-                <span><h1>{{ currentResume.name[1] }}</h1></span>
-                <span><h1>{{ currentResume.name[2] }}</h1></span>
+            <div class="header__fullname">
+              <div class="header__name">
+                <span class="header__name"><h1>{{ currentResume.name[0] }}</h1></span>
+                <div class="header__surname">
+                  <span><h1>{{ currentResume.name[1] }}</h1></span>
+                  <span><h1>{{ currentResume.name[2] }}</h1></span>
+                </div>
+              </div>
+              <span class="header__title"><h1>{{ currentResume.title }}</h1></span>
+            </div>
+
+            <div class="header__contact">
+              <div v-for="item in currentResume.contacts" :key="item.type">
+                  <a :href="item.href">{{ item.display }}</a>
               </div>
             </div>
-            <span class="header__title"><h1>{{ currentResume.title }}</h1></span>
           </div>
+          <ResumeSummary :summary="currentResume.summary" />
+        </header>
 
-          <div class="header__contact">
-            <div v-for="item in currentResume.contacts" :key="item.type">
-                <a :href="item.href">{{ item.display }}</a>
-            </div>
-          </div>
+        <div class="body">
+          <!-- CORE COMPETENCIES, SKILLS, LANGUAGES, and EDUCATION SECTION -->
+          <aside class="side">
+            <section v-if="currentResume.competencies">
+              <h2 class="section">{{ sectionTitles.competencies }}</h2>
+              <ResumeCoreCompetencies :competencies="currentResume.competencies" />
+            </section>
+
+            <section v-if="currentResume.skills">
+              <h2 class="section">{{ sectionTitles.skills }}</h2>
+              <ResumeSkill v-for="(skillsList, category) in currentResume.skills" :key="category" :category="sectionTitles[category]" :skills="skillsList"/>
+            </section>
+
+            <section v-if="currentResume.languages">
+              <h2 class="section">{{ sectionTitles.languages }}</h2>
+              <ResumeLanguage :languages="currentResume.languages" />
+            </section>
+
+            <section v-if="currentResume.educations">
+              <h2 class="section">{{ sectionTitles.educations }}</h2>
+              <ResumeEducation v-for="education in currentResume.educations" :key="education.id" :education="education" />
+            </section>
+          </aside>
+
+          <!-- EXPERIENCE SECTION -->
+          <section v-if="currentResume.experiences" class="main">
+            <h2 class="section">{{ sectionTitles.experiences }}</h2>
+            <ResumeExperience v-for="(experience, index) in currentResume.experiences" :key="experience.id" :experience="experience" :class="{ highlight: index === 3 }" />
+          </section>
         </div>
-        <ResumeSummary :summary="currentResume.summary" />
-      </header>
-
-      <div class="body">
-        <!-- CORE COMPETENCIES, SKILLS, LANGUAGES, and EDUCATION SECTION -->
-        <aside class="side">
-          <section v-if="currentResume.competencies">
-            <h2 class="section">{{ sectionTitles.competencies }}</h2>
-            <ResumeCoreCompetencies :competencies="currentResume.competencies" />
-          </section>
-
-          <section v-if="currentResume.skills">
-            <h2 class="section">{{ sectionTitles.skills }}</h2>
-            <ResumeSkill v-for="(skillsList, category) in currentResume.skills" :key="category" :category="sectionTitles[category]" :skills="skillsList"/>
-          </section>
-
-          <section v-if="currentResume.languages">
-            <h2 class="section">{{ sectionTitles.languages }}</h2>
-            <ResumeLanguage :languages="currentResume.languages" />
-          </section>
-
-          <section v-if="currentResume.educations">
-            <h2 class="section">{{ sectionTitles.educations }}</h2>
-            <ResumeEducation v-for="education in currentResume.educations" :key="education.id" :education="education" />
-          </section>
-        </aside>
-
-        <!-- EXPERIENCE SECTION -->
-        <section v-if="currentResume.experiences" class="main">
-          <h2 class="section">{{ sectionTitles.experiences }}</h2>
-          <ResumeExperience v-for="(experience, index) in currentResume.experiences" :key="experience.id" :experience="experience" :class="{ highlight: index === 3 }" />
-        </section>
-      </div>
-    </article>
+      </article>
+    </div>
   </div>
 </template>
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+.a4-page-bg {
+  background: radial-gradient(var(--color-gray-lighter) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
 .a4-page {
     width: 210mm;
     height: 297mm;
-    margin: 20px auto;
+    margin: auto;
     padding: 13mm;
-    background-color: #fff;
+    background-color: var(--color-white);
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
     overflow: hidden; /* Oculta el contenido que desborda el contenedor */
@@ -593,7 +599,7 @@ article :deep(li) {
   justify-content: space-between;
   text-align: right;
   font-family: "calluma";
-  color: #888888;
+  color: var(--color-gray);
 }
 .header__contact a {
     color: inherit; /* This will use the color of the parent element */
@@ -630,7 +636,7 @@ article :deep(li) {
   display: block;      /* To ensure the line takes up its own space */
   width: 16pt;
   height: 3px;
-  background-color: #AD1519;
+  background-color: var(--color-red-accent);
   margin-top: -4px;     /* Optional: adds a bit of space between the h2 text and the red line */
 }
 
@@ -654,6 +660,6 @@ article .highlight::before {
   font-family: 'Bebas Neue', sans-serif; /* Usando Bebas Neue como tipo de letra */
   font-size: 10px;
   letter-spacing: 0.5em; /* Espaciado entre letras del 50% */
-  color: #AD1519;
+  color: var(--color-red-accent);
 }
 </style>
