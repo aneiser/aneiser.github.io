@@ -21,7 +21,7 @@ export default {
                   role: 'UX Research & Design',
                   industry: "Telecom",
                   title: 'The merge of several products into one',
-                  status: 'Coming soon',
+                  status: '',
                   theme: 'smartcontact',
                   img: '/assets/img/project_card/smartcontact.png',
                   link: 'projects/smartcontact'

@@ -7,10 +7,10 @@ export default {
 <template>
     <v-hover v-slot="{ isHovering, props }">
         <!-- Render link version if project.link equals 'projects/ubisoft' -->
-        <RouterLink v-if="project.link === 'projects/ubisoft'" :to="`/${project.link}`" class="px-8" style="text-decoration: none;">
+        <RouterLink v-if="['projects/ubisoft', 'projects/smartcontact'].includes(project.link)" :to="`/${project.link}`" class="px-8" style="text-decoration: none;">
             <article class="card d-flex flex-column transition-swing" v-bind="props"
-                :class="`elevation-${isHovering ? 8 : 1} ${project.theme}`"
-                :style="{ 'background-image': `url(${project.img})` }">
+                    :class="`elevation-${isHovering ? 8 : 1} ${project.theme}`"
+                    :style="{ 'background-image': `url(${project.img})` }">
                 <div class="card__header pa-4">
                     <span class="card__header-role">{{ project.role }}</span>
                     <span class="card__header-industry">{{ project.industry }}</span>
