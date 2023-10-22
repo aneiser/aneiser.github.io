@@ -12,12 +12,18 @@ const currentLanguage = ref('en');
 const resumes = ref([
   // en
   {
+    // █████ █   █  ████ █     █████ █████ █   █
+    // █     ██  █ █     █       █   █     █   █
+    // ████  █ █ █ █  ██ █       █   █████ █████
+    // █     █  ██ █   █ █       █       █ █   █
+    // █████ █   █  ███  █████ █████ █████ █   █
     lang: "en",
     name: ["Adrian", "Neila", "Serrano"],
     title: "UX Designer",
     contacts: [
+      // { type: "Country", display: "Paris, France" },
       { type: "Portfolio", href: "https://aneiser.github.io/?en", display: "aneiser.github.io" },
-      // { type: "Phone", href: "tel:+330650674677", display: "+33 06.50.67.46.77" },
+      // { type: "Phone", href: "tel:+33650674677", display: "+33 6 50 67 46 77" },
       { type: "Phone", href: "tel:+34649874542", display: "+34 649 87 45 42" },
       { type: "Email", href: "mailto:a.neiser13@gmail.com", display: "a.neiser13@gmail.com" },
       { type: "LinkedIn", href: "https://www.linkedin.com/in/aneiser-ux", display: "linkedin.com/in/aneiser-ux" }
@@ -109,7 +115,7 @@ const resumes = ref([
         graduated: "2023"
       },
       {
-        degree: "M.Sc. Human-Computer Interaction & Design",
+        degree: "M.Sc. Human-Computer Interaction & Design",// (Hybrid)",
         institute: "KTH Royal Institute of Technology & Université Paris Saclay",
         graduated: "2021"
       },
@@ -122,6 +128,11 @@ const resumes = ref([
   },
   // es
   {
+    // █████ ████   ███  █   █ █████ █████ █   █
+    // █     █   █ █   █ ██  █   █   █     █   █
+    // █████ ████  █████ █ █ █   █   █████ █████
+    //     █ █     █   █ █  ██   █       █ █   █
+    // █████ █     █   █ █   █ █████ █████ █   █
     lang: "es",
     name: ["Adrian", "Neila", "Serrano"],
     title: "Diseñador UX",
@@ -202,7 +213,7 @@ const resumes = ref([
       design: [
         "Diseño de Interacción", "Diseño de Interfaz de Usuario", "Diseño de Producto", "Arquitectura de Información", "Diseño Accesible (WCAG 2.0)", "Prototipado Rápido", "Wireframes", "Storyboards", "Prototipado de baja y alta fidelidad"
       ],
-      development: ["HTML", "CSS", "Javascript", "Vue", "React", "Bootstrap", "Git", "NPM"],
+      development: ["HTML", "CSS", "Javascript", "Vue", "React", "Bootstrap", "Git", "npm"],
       tools: ["Figma", "Adobe Xd", "Balsamiq", "Jira", "Notion", "Trello", "Wrike", "Office"]
 
     },
@@ -232,6 +243,11 @@ const resumes = ref([
   },
   // fr
   {
+    // █████ ████  █████ █   █  ████ █   █
+    // █     █   █ █     ██  █ █     █   █
+    // ████  ████  ████  █ █ █ █     █████
+    // █     █   █ █     █  ██ █     █   █
+    // █     █   █ █████ █   █  ████ █   █
     lang: "fr",
     name: ["Adrian", "NEILA", "SERRANO"],
     title: "Designer UX",
@@ -312,7 +328,7 @@ const resumes = ref([
       design: [
         "Conception d'interaction", "Conception d'UI", "Conception de produit", "Architecture de l'information", "Conception accessible (WCAG 2.0)", "Prototypage rapide", "Wireframes", "Storyboards", "Prototypage basse et haute fidélité"
       ],
-      development: ["HTML", "CSS", "Javascript", "Vue", "React", "Bootstrap", "Git", "NPM"],
+      development: ["HTML", "CSS", "Javascript", "Vue", "React", "Bootstrap", "Git", "npm"],
       tools: ["Figma", "Adobe Xd", "Balsamiq", "Jira", "Notion", "Trello", "Wrike", "Office"],
     },
     languages: [
@@ -349,9 +365,9 @@ const sectionTitles = computed(() => {
       return {
         competencies: "CORE COMPETENCIES",
         skills: "SKILLS",
-          research: "Research",
+          research: "User research",
           design: "Design",
-          development: "Development",
+          development: "Frontend development",
           tools: "Tools",
         languages: "LANGUAGES",
         educations: "EDUCATION",
@@ -361,9 +377,9 @@ const sectionTitles = computed(() => {
       return {
         competencies: "COMPETENCIAS",
         skills: "COMPETENCIAS",
-          research: "Investigación",
+          research: "Investigación de Usuarios",
           design: "Diseño",
-          development: "Desarrollo",
+          development: "Desarrollo Frontend",
           tools: "Herramientas",
         languages: "Idiomas",
         educations: "FORMACIÓN",
@@ -373,9 +389,9 @@ const sectionTitles = computed(() => {
       return {
         competencies: "COMPÉTENCES",
         skills: "COMPÉTENCES",
-          research: "Recherche",
+          research: "Recherche utilisateur",
           design: "Conception",
-          development: "Development",
+          development: "Development Frontend",
           tools: "Outils",
         languages: "LANGUES",
         educations: "FORMATION",
