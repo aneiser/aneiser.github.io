@@ -4,7 +4,7 @@
 
 <template>
   <div class="summary">
-    <blockquote v-for="sentence in summary">{{ sentence }}</blockquote>
+    <blockquote v-for="sentence in summary" v-html="sentence"></blockquote>
   </div>
 </template>
 

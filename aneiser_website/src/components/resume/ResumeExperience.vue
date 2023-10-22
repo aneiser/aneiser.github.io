@@ -14,9 +14,7 @@
       <span v-if="experience.endDate">&ndash;{{ experience.endDate }}</span>
     </h4>
     <ul>
-      <li v-for="task in experience.tasks" :key="task">
-        {{ task }}
-      </li>
+      <li v-for="task in experience.tasks" :key="task" v-html="task"></li>
     </ul>
   </div>
 </template>
