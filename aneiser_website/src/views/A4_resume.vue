@@ -29,23 +29,25 @@ const resumes = ref([
       { type: "LinkedIn", href: "https://www.linkedin.com/in/aneiser-ux", display: "linkedin.com/in/aneiser-ux" }
     ],
     summary: [
-      "UX Designer with over 5 years of experience translating user research into intuitive digital experiences that align with business goals. — Holding an M.Sc. in Human-Computer Interaction Design, I'm skilled in all aspects of the UX design process, including research, design and testing. — Leveraging a frontend background, I bridge design with technical feasibility in Agile environments, ensuring effective collaboration across multidisciplinary teams.",
+      "UX/UI Designer with 4+ years of experience in crafting user-centric experiences. Holding a <strong>M.Sc. in HCI Design</strong>, I'm skilled in both <strong>design</strong> and <strong>research</strong> aspects. My <strong>frontend background</strong> bridges design with technology. Comfortable in <strong>Agile</strong> and thriving in <strong>remote</strong> and <strong>multicultural</strong> global settings, I've successfully collaborated with diverse teams worldwide. With a <strong>curious mindset</strong>, I am always eager to delve into new learning and growing opportunities.",
       // "Skilled at translating user research into high-quality UX/UI solutions, from wireframes to high-fidelity prototypes. Adept at collaborating with multidisciplinary teams to deliver user-centric and business-aligned designs."
     ],
-    competencies: [
-      "Crafting and managing design artefacts.", // "such as wireframes, storyboards, flow diagrams, and prototypes.", "for both web and mobile applications.", "Utilizing Figma, Adobe Xd, etc.",
-      "Conduct multi-phased, mixed-methods research and usability tests.", // "to optimize elements for improved user experience.",
-      "Agile task tracking and collaboration with cross-functional teams."
-      // "Leading design process and ensuring alignment with business objectives.",
-    ],
+    // competencies: [
+    //   "Crafting and managing design artefacts.", // "such as wireframes, storyboards, flow diagrams, and prototypes.", "for both web and mobile applications.", "Utilizing Figma, Adobe Xd, etc.",
+    //   "Conduct multi-phased, mixed-methods research and usability tests.", // "to optimize elements for improved user experience.",
+    //   "Agile task tracking and collaboration with cross-functional teams."
+    //   // "Leading design process and ensuring alignment with business objectives.",
+    // ],
     experiences: [
       {
-        title: "UX Engineer",
+        title: "UX/UI Designer (Remote)",
         company: "Evoloom",
         industry: "e-learning",
         startDate: "2023",
         endDate: "",
-        tasks: ["Crafted compelling online courses for an e-learning platform leveraging existing educational resources."]
+        tasks: [
+          "Developed compelling UI for courses on an e-learning platform, meeting tight deadlines, using existing educational resources.",
+        ]
       },
       {
         title: "User Researcher",
@@ -54,53 +56,62 @@ const resumes = ref([
         startDate: "2022",
         endDate: "",
         tasks: [
-          "Conducted user research, playtesting workshops and gathered qualitative, quantitative and biometric data.",
-          "Synthesized research findings to provide actionable insights for diverse stakeholders in an Agile environment."
+          "Conducted 50+ user research sessions and playtests, gathering qualitative and biometric data to <strong>uncover gameplay issues</strong>.",
+          "Delivered actionable insights to 15+ stakeholders, <strong>tackling player frustrations</strong> and <strong>enhancing gameplay engagement</strong>.",
         ]
       },
       {
-        title: "UX Researcher / Designer",
+        title: "UX Researcher & Designer",
         company: "University Paris 8",
         industry: "academia",
         startDate: "2021",
         endDate: "",
-        tasks: ["Led the design process from research to prototyping and testing of a pioneering wearable prototype."]
+        tasks: [
+          "Led the design of a pioneering wearable prototype from concept to completion, involving 70 participants and 20+ research sessions.",
+          "Crafted 3 initial prototypes, made 2 major updates to one, and executed 5 testing rounds, confirming potential for further work.",
+        ]
       },
       {
-        title: "UX Designer",
+        title: "UX/UI Designer",// & Frontend Developer",
         company: "DV Business Solutions",
         industry: "telecommunications",
         startDate: "2016",
         endDate: "2019",
         tasks: [
-          "Crafted design artefacts that enhanced user experience and boosted Net Promoter Score by 11% for over 10,000 users.", // and features
-          "Considered and balanced user, business, and technical aspects to inform decision making and product direction.",
-          "Unified multiple products into a seamless cloud solution, fostering collaboration with developers teams.",
-          "Played a key role in creating requirements and advocating for design by establishing a style guide and a UI pattern library.",
+          "Direct user-centred design efforts culminated in an <strong>increase of 11% in Net Promoter Score</strong> and <strong>annual savings of</strong> at least <strong>€7,500</strong>.", // by trimming down support service time.",
+          "Led dozens of research activities with staff across several teams and a competitive analysis, <strong>driving design and feature decisions</strong>.",
+          "Crafted and iterated <strong>hundreds of visual design artifacts</strong> to ensure clear communication of design intent and technical viability.",
+          "<strong>Launched two new products</strong> using an MVP approach and <strong>merged 7 products into a unified platform</strong> serving 10,000+ users.",
+
+          // "Crafted design artefacts that enhanced user experience and boosted Net Promoter Score by 11% for over 10,000 users.", // and features
+          // "Demonstrated decision-making skills by balancing user needs, business goals, and technical constraints to steer product direction",
+          // "Unified multiple products into a seamless cloud solution, fostering collaboration with developers teams.",
+          // "Collaborated closely with product managers and developers to align UX/UI goals with product objectives, fostering synergy and achieving key milestones.",
+          // "Established a style guide and a UI pattern library to maintain brand consistency and coherence across diverse products.",
         ]
       },
       {
-        title: "UX Engineer",
+        title: "UX/UI Designer",// & Frontend Developer",
         company: "Polytechnic University of Madrid",
         industry: "education",
         startDate: "2014",
         endDate: "2016",
         tasks: [
-          "Advocated for a user-centered approach and promoted design and usability best practices and standards.",
-          "Led and coordinated the user research and usability testing.",
-          "Led the UI development for a quality assurance platform, trusted by over 3,000 educators."
+          "Conducted 40+ usability tests, <strong>raising the System Usability Scale (SUS) score by 12%</strong> and <strong>positive feedback by 72%</strong>.",
+          "Created the UI for a QA platform used by 3,000+ educators, driven by strong user-centred and usability best practices."
         ]
       }
     ],
     skills: {
       research: [
-        "User Research", "Interviews", "Focus Groups", "Surveys", "Usability Testing", "Heuristic Evaluation", "Personas", "User Journeys", "Task Analysis", "Scenarios", "Mental Models", "Card Sorting", "Design thinking", // "Market Research", "Competitive Analysis"
+        "Interviews", "Focus Groups", "Surveys", "Usability Testing", "Heuristic Evaluation", "Personas", "User Flows", "Card Sorting", "Design Thinking", // "Market Research", "Competitive Analysis"
       ],
       design: [
-        "Interaction Design", "Interactive Prototyping", "Wireframes", "Storyboards", "User flows", "Journeys maps", "UI Design", "Product Design", "Information Architecture", "Accessible Design (WCAG 2.0)",
+        "User-centred Design", "Wireframes", "Interactive Prototypes", "Mockups", "User Interfaces",
+        "Information Architecture", "Accessible Design (WCAG 2)",
       ],
-      development: ["HTML", "CSS", "Javascript", "Vue", "React", "Bootstrap", "Git", "NPM"],
-      tools: ["Figma", "Adobe XD & Creative Cloud", "Miro", "Balsamiq","Jira", "Notion", "Trello", "Wrike"]
+      tools: ["Figma", "Adobe XD", "Miro", "Notion", "Trello"],
+      development: ["HTML", "CSS", "Javascript", "Vue.js", "Git", "npm"]
     },
     languages: [
       { language: "English", proficiency: "fluent - C1" },
@@ -635,11 +646,11 @@ article :deep(li) {
 }
 
 .side {
-  width: 36%;
+  width: 32.5%;
 }
 
 .main {
-    width: 56%;
+    width: 59.5%;
 }
 
 .section {
