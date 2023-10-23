@@ -12,7 +12,7 @@
                 <v-toolbar-items>
                   <v-btn class="header__btn" :ripple="false" to="/">Home</v-btn>
                   <!-- <v-btn class="header__btn" :ripple="false" to="/about">About</v-btn> -->
-                  <v-btn class="header__btn" :ripple="false" to="/resume" target="_blank">Resume</v-btn>
+                  <v-btn class="header__btn" :ripple="false" to="/resume">Resume</v-btn>
                   <!-- <v-btn class="header__btn" :ripple="false" to="/blog">Blog</v-btn> -->
                 </v-toolbar-items>
                 <v-btn icon href="https://www.linkedin.com/in/aneiser-ux/" target="_blank">
