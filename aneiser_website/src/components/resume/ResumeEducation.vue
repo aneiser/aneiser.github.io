@@ -10,4 +10,7 @@
 </template>
 
 <style scoped>
+h3 {
+ text-align: left;
+}
 </style>

@@ -638,6 +638,7 @@ article :deep(li) {
 }
 .body :deep(div) {
   margin: 5px 0 10px;
+  text-align: justify;
 }
 
 .side .section:first-child,

@@ -20,5 +20,6 @@
 
 .language-name {
   flex-grow: 1; /* Language name takes up available space */
+  margin-bottom: 4pt;
 }
 </style>
