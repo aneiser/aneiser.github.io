@@ -39,7 +39,7 @@ export default {
                   role: 'UX Research & Design',
                   industry: "Accesibility",
                   title: 'Prototyping an accessibility evaluation tool',
-                  status: 'Coming soon',
+                  status: '',
                   theme: 'hera',
                   img: '/assets/img/project_card/hera.png',
                   link: 'projects/hera'
@@ -48,7 +48,7 @@ export default {
                   role: 'User Research',
                   industry: "Digital media",
                   title: 'Usability & Accessibility evaluations',
-                  status: 'Coming soon',
+                  status: '',
                   theme: 'el-mundo',
                   img: '/assets/img/project_card/el_mundo.png',
                   link: 'projects/el-mundo'
