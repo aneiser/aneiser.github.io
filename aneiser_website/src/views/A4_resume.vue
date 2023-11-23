@@ -154,7 +154,7 @@ const resumes = ref([
       { type: "LinkedIn", href: "https://www.linkedin.com/in/aneiser-ux", display: "linkedin.com/in/aneiser-ux" }
     ],
     summary: [
-      "Diseñador UX con 5 años de experiencia traduciendo investigación de usuarios en experiencias digitales intuitivas que se alinean con objetivos de negocio. — Con un Máster en Diseño de Interacción Persona-Ordenador, tengo habilidades en todos los aspectos del proceso de diseño UX, incluyendo investigación, diseño y pruebas. — Aprovechando un pasado en frontend, conecto el diseño con la viabilidad técnica en ambientes Agiles, asegurando una colaboración efectiva entre equipos multidisciplinares.",
+      "Diseñador UX con 5 años de experiencia en la creación de experiencias centradas en el usuario. Con un <strong>Máster en Interacción Persona-Ordenador</strong>, tengo habilidades destacadas en <strong>todas las fases del proceso de diseño</strong>. Mi experiencia en <strong>frontend</strong> conecta el diseño con la tecnología y me familiariza con entornos <strong>Ágiles</strong> y <strong>remotos</strong>. Con una <strong>mentalidad curiosa</strong>, siempre estoy ansioso por sumergirme en nuevas oportunidades de aprendizaje y crecimiento.",
       // "Experto en traducir la investigación de usuarios en soluciones UX/UI de alta calidad, desde wireframes hasta prototipos de alta fidelidad. Hábil en colaborar con equipos multidisciplinares para entregar diseños centrados en el usuario y alineados con los objetivos empresariales."
     ],
     competencies: [
@@ -165,61 +165,71 @@ const resumes = ref([
     ],
     experiences: [
       {
-        title: "Ingeniero UX",
+        title: "Diseñador UX/UI (Remoto)",
         company: "Evoloom",
         industry: "e-learning",
         startDate: "2023",
         endDate: "",
-        tasks: ["Elaborar una interfaz intuitiva para varios cursos online para una plataforma de e-learning."]
+        tasks: [
+          "Desarrollar una interfaz de usuario para cursos de una plataforma de e-learning, cumpliendo con plazos ajustados."
+        ]
       },
       {
-        title: "Investigador de usuarios",
+        title: "Investigador de Usuarios",
         company: "Ubisoft",
-        industry: "Video juegos",
+        industry: "videojuegos",
         startDate: "2022",
         endDate: "",
         tasks: [
-          "Realizar investigación de usuarios, organizar playtesting y recopilar datos cualitativos, cuantitativos y biométricos.",
-          "Sintetizar resultados de investigación en información práctica para diferentes stakeholders en un entorno ágil."
+          "Realizar 50+ sesiones de investigación de usuarios, recopilando datos de diversa naturaleza para <strong>descubrir problemas de jugabilidad</strong>.",
+          "Ofrecer información accionables a 15 <em>stakeholders</em>, abordando las frustraciones y <strong>mejorando la participación en el juego</strong>."
         ]
       },
       {
-        title: "Investigador / Diseñador UX",
+        title: "Investigador y Diseñador UX",
         company: "Universidad París 8",
-        industry: "Mundo académico",
+        industry: "Ámbito académico",
         startDate: "2021",
         endDate: "",
-        tasks: ["Liderar el proceso de diseño desde la investigación hasta el prototipado y la prueba de un prototipo de wearable pionero."]
+        tasks: [
+          "Liderar todas las fases del proceso de diseño de un prototipo <em>wearable</em> involucrando a 70 participantes y 20+ sesiones de investigación.",
+          "Elaborar 3 prototipos, iterar y llevar a cabo 5 rondas de pruebas sobre uno de ellos, confirmando el potencial para trabajos futuros."
+        ]
       },
       {
-        title: "Ingeniero UX",
+        title: "Diseñador UX/UI",// & Desarrollador Frontend",
         company: "DV Business Solutions",
-        industry: "Telecomunicación",
+        industry: "telecomunicaciones",
         startDate: "2016",
         endDate: "2019",
         tasks: [
-          "Crear artefactos de diseño y funcionalidades, mejorando la experiencia del usuario y aumentando el Net Promoter Score en un 11 % para más de 10000 usuarios.",
-          "Equilibrar objetivos de UX, técnicos y empresariales para informar la toma de decisiones y la dirección del producto.",
-          "Unificar varios productos en una solución cloud sin fisuras, fomentando la colaboración con equipos multidisciplinares.",
-          "Desempeñar un papel clave en la creación de requisitos del producto y la promoción del diseño (creando una guía de estilos, una biblioteca de componentes, etc.)."
+          "<strong>Aumentar el <em>Net Promoter Score</em> en un 11%</strong> y lograr <strong>ahorros anuales</strong> de al menos <strong>€7,500</strong> mediante diseño centrado en el usuario.", // al reducir el tiempo de servicio de soporte.",
+          "Liderar docenas de actividades de investigación con el personal de varios equipos, <strong>guiando decisiones de diseño y funcionalidad</strong>.",
+          "Elaborar e iterar <strong>cientos de artefactos de diseño</strong> para garantizar una comunicación clara de la intención de diseño y viabilidad técnica.",
+          "<strong>Lanzar dos nuevos productos</strong> utilizando un enfoque <em>MVP</em> y <strong>fusionar 7 productos en una única plataforma</strong> con 10,000+ usuarios.",
+
+          // "Elaboré artefactos de diseño que mejoraron la experiencia del usuario y aumentaron el Net Promoter Score en un 11% para 10,000+ usuarios.", // y funciones
+          // "Demostré habilidades de toma de decisiones al equilibrar las necesidades del usuario, los objetivos comerciales y las limitaciones técnicas para orientar la dirección del producto",
+          // "Unifiqué varios productos en una solución en la nube sin problemas, fomentando la colaboración con equipos de desarrollo.",
+          // "Colaboré estrechamente con gerentes de productos y desarrolladores para alinear objetivos de UX/UI con objetivos del producto, fomentando la sinergia y logrando hitos clave.",
+          // "Establecí una guía de estilo y una biblioteca de patrones de UI para mantener la consistencia de marca y coherencia en diversos productos."
         ]
       },
       {
-        title: "Ingeniero UX",
+        title: "Diseñador UX/UI",// & Desarrollador Frontend",
         company: "Universidad Politécnica de Madrid",
         industry: "educación",
         startDate: "2014",
         endDate: "2016",
         tasks: [
-          "Abogar por un diseño centrado en el usuario, promoviendo estándares de usabilidad y impulsando la excelencia UX.",
-          "Liderar y coordinar la investigación de usuarios y los test de usabilidad.",
-          "Liderar el desarrollo de la UI para una plataforma de aseguramiento de calidad, usada por más de 3000 educadores."
+          "Realizar 40+ pruebas de usabilidad, <strong>aumentando la usabilidad (SUS) en un 12%</strong> y <strong>recibiendo un feedback positivo del 72%</strong>.",
+          "Crear la UI de una plataforma de QA con 3,000+ educadores, aplicando sólidas prácticas centradas en el usuario y usabilidad."
         ]
       }
     ],
     skills: {
       research: [
-        "Investigación de Usuarios", "Entrevistas", "Focus groups", "Encuestas", "Test de Usabilidad", "Evaluación Heurística", "Personas", "User journeys", "Análisis de Tareas", "Escenarios", "Modelos Mentales", "Card sorting", "Investigación de Mercado", "Análisis Competitivo"
+        "Entrevistas", "Focus groups", "Encuestas", "Test de Usabilidad", "Evaluación Heurística", "Personas", "User journeys", "Análisis de Tareas", "Escenarios", "Modelos Mentales", "Card sorting", "Investigación de Mercado", "Análisis Competitivo"
       ],
       design: [
         "Diseño de Interacción", "Diseño de Interfaz de Usuario", "Diseño de Producto", "Arquitectura de Información", "Diseño Accesible (WCAG 2.0)", "Prototipado Rápido", "Wireframes", "Storyboards", "Prototipado de baja y alta fidelidad"
@@ -232,7 +242,7 @@ const resumes = ref([
       { language: "Inglés", proficiency: "C1" },
       { language: "Francés", proficiency: "B2" },
       { language: "Español", proficiency: "nativo" },
-      { language: "Lengua de Signos Española", proficiency: "nativo" }
+      { language: "Lengua de signos española", proficiency: "nativo" }
     ],
     educations: [
       {
@@ -647,11 +657,13 @@ article :deep(li) {
 }
 
 .side {
-  width: 32.5%;
+  width: 32.5%; /* EN */
+  width: 32.1%; /* ES */
 }
 
 .main {
-    width: 59.5%;
+    width: 59.5%; /* EN */
+    width: 61.8%; /* ES */
 }
 
 .section {
@@ -669,9 +681,11 @@ article :deep(li) {
 }
 
 article .highlight {
-  padding: 10px 50px 10px 20px;
+  padding: 10px 50px 10px 20px; /* EN */
+  padding: 10px 50px 10px 10px; /* ES */
   background-color: rgb(173 21 25 / 10%);
-  margin: 0 -50px 0 -20px;
+  margin: 0 -50px 0 -20px; /* EN */
+  margin: 0 -50px 0 -10px; /* ES */
   position: relative;
 }
 
