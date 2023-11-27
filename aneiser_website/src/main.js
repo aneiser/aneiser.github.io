@@ -38,7 +38,7 @@ const app = createApp(App);
 app.use(router);
 app.use(VueGtag, {
     config: { id: "G-CSWTNN351B" }
-})
+}, router); // pass the VueRouter instance as the third parameter will start tracking all your pages automatically
 app.use(vuetify);
 app.component('font-awesome-icon', FontAwesomeIcon)
 
