@@ -1,1 +1,0 @@
-import{_ as o,o as t,c as n,F as c,a as e}from"./index-6ea96355.js";const s={},a=e("h1",null,"Blog",-1),r=e("p",null,"Page content goes here.",-1);function _(l,d){return t(),n(c,null,[a,r],64)}const u=o(s,[["render",_]]);export{u as default};
