@@ -4,6 +4,9 @@ import App from "./App.vue";
 // Router
 import router from "./router";
 
+// VueGtag for GA4
+import VueGtag from "vue-gtag";
+
 // Styles
 import "./styles/main.css";
 
@@ -33,6 +36,9 @@ const vuetify = createVuetify({
 const app = createApp(App);
 
 app.use(router);
+app.use(VueGtag, {
+    config: { id: "G-CSWTNN351B" }
+})
 app.use(vuetify);
 app.component('font-awesome-icon', FontAwesomeIcon)
 
