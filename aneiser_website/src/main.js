@@ -7,6 +7,9 @@ import router from "./router";
 // VueGtag for GA4
 import VueGtag from "vue-gtag";
 
+// Hotjar
+import Hotjar from '@hotjar/browser';
+
 // Styles
 import "./styles/main.css";
 
@@ -32,6 +35,11 @@ const vuetify = createVuetify({
     components,
     directives,
 })
+
+// Hotjar
+const siteId = 3761611;
+const hotjarVersion = 6;
+Hotjar.init(siteId, hotjarVersion);
 
 const app = createApp(App);
 
