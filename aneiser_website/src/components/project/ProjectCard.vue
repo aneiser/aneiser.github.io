@@ -6,7 +6,7 @@ export default {
 
 <template>
     <v-hover v-slot="{ isHovering, props }">
-        <RouterLink v-if="!['projects/insignum'].includes(project.link)" :to="`/${project.link}`" class="px-8" style="text-decoration: none;">
+        <RouterLink v-if="true" :to="`/${project.link}`" class="px-8" style="text-decoration: none;">
             <article class="card d-flex flex-column transition-swing" v-bind="props"
                     :class="`elevation-${isHovering ? 8 : 1} ${project.theme}`"
                     :style="{ 'background-image': `url(${project.img})` }">

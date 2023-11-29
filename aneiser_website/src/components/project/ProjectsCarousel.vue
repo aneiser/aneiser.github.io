@@ -30,7 +30,7 @@ export default {
                   role: 'UX Research & Design',
                   industry: "Academia",
                   title: 'Prototyping for sound awareness',
-                  status: 'Coming soon',
+                  status: '',
                   theme: 'insignum',
                   img: '/assets/img/project_card/insignum.jpg',
                   link: 'projects/insignum'
