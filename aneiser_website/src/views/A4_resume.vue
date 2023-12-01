@@ -22,14 +22,14 @@ const resumes = ref([
     title: "UX Designer",
     contacts: [
       // { type: "Country", display: "Paris, France" },
-      { type: "Portfolio", href: "https://aneiser.github.io/?en", display: "aneiser.github.io" },
+      { type: "Portfolio", href: "https://aneiser.github.io/?en-portfolio", display: "aneiser.github.io" },
       // { type: "Phone", href: "tel:+33650674677", display: "+33 6 50 67 46 77" },
       { type: "Phone", href: "tel:+34649874542", display: "+34 649 87 45 42" },
       { type: "Email", href: "mailto:a.neiser13@gmail.com", display: "a.neiser13@gmail.com" },
       { type: "LinkedIn", href: "https://www.linkedin.com/in/aneiser-ux", display: "linkedin.com/in/aneiser-ux" }
     ],
     summary: [
-      "UX/UI Designer with 4+ years of experience in crafting user-centric experiences. Holding a <strong>M.Sc. in HCI Design</strong>, I'm skilled in both <strong>design</strong> and <strong>research</strong> aspects. My <strong>frontend background</strong> bridges design with technology. Comfortable in <strong>Agile</strong> and thriving in <strong>remote</strong> and <strong>multicultural</strong> global settings, I've successfully collaborated with diverse teams worldwide. With a <strong>curious mindset</strong>, I am always eager to delve into new learning and growing opportunities.",
+      "UX/UI Designer with 5 years of experience in crafting user-centric experiences. Holding a <strong>M.Sc. in HCI Design</strong>, I'm skilled in both <strong>design</strong> and <strong>research</strong> aspects. My <strong>frontend background</strong> bridges design with technology. Comfortable in <strong>Agile</strong> and thriving in <strong>remote</strong> and <strong>multicultural</strong> global settings, I've successfully collaborated with diverse teams worldwide. With a <strong>curious mindset</strong>, I am always eager to delve into new learning and growing opportunities.",
       // "Skilled at translating user research into high-quality UX/UI solutions, from wireframes to high-fidelity prototypes. Adept at collaborating with multidisciplinary teams to deliver user-centric and business-aligned designs."
     ],
     // competencies: [
@@ -104,14 +104,13 @@ const resumes = ref([
     ],
     skills: {
       research: [
-        "Interviews", "Focus Groups", "Surveys", "Usability Testing", "Heuristic Evaluation", "Personas", "User Flows", "Card Sorting", "Design Thinking", // "Market Research", "Competitive Analysis"
+        "Etnography studies", "Interviews", "Surveys", "Usability Testing", "Heuristic Evaluation", "Focus Groups", "Design Thinking", "Personas", "User Journeys & Flows", "Competitive Research", "Scenarios", "Card Sorting",
       ],
       design: [
-        "User-centred Design", "Wireframes", "Interactive Prototypes", "Mockups", "User Interfaces",
-        "Information Architecture", "Accessible Design (WCAG 2)",
+        "Human-Centred Design", "Interaction Design", "Accessible Design (WCAG 2)", "Adaptive Design", "Wireframing", "Low- & High-fidelity Prototyping", "Design Systems", "Storyboards", "Information Architecture", "Interactive Prototyping"
       ],
-      tools: ["Figma", "Adobe XD", "Miro", "Notion", "Trello"],
-      development: ["HTML", "CSS", "Javascript", "Vue.js", "Git", "npm"]
+      // tools: ["Figma", "Adobe XD", "Miro", "Notion", "Trello"],
+      // development: ["HTML", "CSS", "Javascript", "Vue.js", "Git", "npm"]
     },
     languages: [
       { language: "English", proficiency: "fluent - C1" },
@@ -120,11 +119,11 @@ const resumes = ref([
       { language: "Spanish Sign Language", proficiency: "native" }
     ],
     educations: [
-      {
-        degree: "Blockchain / Web 3 developer",
-        institute: "Alyra",
-        graduated: "2023"
-      },
+      // {
+      //   degree: "Blockchain / Web 3 developer",
+      //   institute: "Alyra",
+      //   graduated: "2023"
+      // },
       {
         degree: "M.Sc. Human-Computer Interaction & Design",// (Hybrid)",
         institute: "KTH Royal Institute of Technology & Université Paris Saclay",
@@ -148,7 +147,7 @@ const resumes = ref([
     name: ["Adrian", "Neila", "Serrano"],
     title: "Diseñador UX",
     contacts: [
-      { type: "Portfolio", href: "https://aneiser.github.io/?es", display: "aneiser.github.io" },
+      { type: "Portfolio", href: "https://aneiser.github.io/?es-portfolio", display: "aneiser.github.io" },
       { type: "Phone", href: "tel:+34649874542", display: "+34 649 87 45 42" },
       { type: "Email", href: "mailto:a.neiser13@gmail.com", display: "a.neiser13@gmail.com" },
       { type: "LinkedIn", href: "https://www.linkedin.com/in/aneiser-ux", display: "linkedin.com/in/aneiser-ux" }
@@ -273,7 +272,7 @@ const resumes = ref([
     name: ["Adrian", "NEILA", "SERRANO"],
     title: "Designer UX",
     contacts: [
-      { type: "Portfolio", href: "https://aneiser.github.io/?fr", display: "aneiser.github.io" },
+      { type: "Portfolio", href: "https://aneiser.github.io/?fr-portfolio", display: "aneiser.github.io" },
       { type: "Phone", href: "tel:+330650674677", display: "+33 06.50.67.46.77" },
       { type: "Email", href: "mailto:a.neiser13@gmail.com", display: "a.neiser13@gmail.com" },
       { type: "LinkedIn", href: "https://www.linkedin.com/in/aneiser-ux", display: "linkedin.com/in/aneiser-ux" }
@@ -498,7 +497,7 @@ updateCurrentResume();
           <!-- EXPERIENCE SECTION -->
           <section v-if="currentResume.experiences" class="main">
             <h2 class="section">{{ sectionTitles.experiences }}</h2>
-            <ResumeExperience v-for="(experience, index) in currentResume.experiences" :key="experience.id" :experience="experience" :class="{ highlight: index === 3 }" />
+            <ResumeExperience v-for="(experience, index) in currentResume.experiences" :key="experience.id" :experience="experience" :class="{ highlight: index === 9 }" />
           </section>
         </div>
       </article>
@@ -651,24 +650,32 @@ article :deep(li) {
   text-align: justify;
 }
 
-.side .section:first-child,
-.main .section:first-child {
+.side > section:first-child > h2,
+.main h2.section {
   margin-top: 0;
 }
 
+.side > section:first-child > div:last-child {
+  margin-top: 15px;
+}
+
 .side {
-  width: 32.5%; /* EN */
-  width: 32.1%; /* ES */
+  width: 32.1%;
 }
 
 .main {
-    width: 59.5%; /* EN */
-    width: 61.8%; /* ES */
+  width: 61.8%; /* ES */
+  width: 59.3%; /* EN */
+}
+
+section {
+    background-color: var(--color-white);
 }
 
 .section {
   font-size: 22pt;
-  margin: 20px 0 10px;
+  margin: 44px 0 16px;
+  padding: 0;
 }
 
 .section::after {
