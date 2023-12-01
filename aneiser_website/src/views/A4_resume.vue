@@ -502,6 +502,7 @@ updateCurrentResume();
         </div>
       </article>
     </div>
+    <v-btn class="floating-button" to="/Adrian_UX_Designer.pdf" target="_blank">Download CV</v-btn>
   </div>
 </template>
 
@@ -511,6 +512,7 @@ updateCurrentResume();
 .a4-page-bg {
   background: radial-gradient(var(--color-gray-lighter) 1px, transparent 1px);
   background-size: 24px 24px;
+  overflow: auto;
 }
 .a4-page {
     width: 210mm;
@@ -524,7 +526,7 @@ updateCurrentResume();
     position: relative; /* Establece la posición relativa para los elementos internos */
   }
 
-  article {
+article {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-size: 13px;
     font-size: 14px;
@@ -549,26 +551,10 @@ article :deep(h4) {
   font-weight: normal;
 }
 
-article :deep(ul) {
-  /* padding-left: 0; */
-}
-
 article :deep(h4),
 article :deep(li) {
   margin-bottom: 4pt;
   /* list-style-type: none; */
-}
-
-/* article :deep(li::before) {
-    content: '-';
-    margin-left: -10px;
-    /* content: '\2013';
-    margin-left: -12px; *
-    margin-right: 6px;
-    display: inline-block;
-} */
-
-.header {
 }
 
 .hero {
@@ -576,6 +562,7 @@ article :deep(li) {
   justify-content: space-between; /* This ensures that the space between the three main children is maximized. */
   align-items: center; /* Vertically aligns items in the middle. */
 }
+
 .header__image {
   width: 128px; /* Or whatever size you prefer. */
   height: 128px; /* Make sure it's square to keep the circle shape. */
@@ -710,5 +697,19 @@ article .highlight::before {
   font-size: 10px;
   letter-spacing: 0.5em; /* Espaciado entre letras del 50% */
   color: var(--color-red-accent);
+}
+
+.floating-button {
+    color: var(--color-red);
+    border: 1px solid var(--color-red);
+    border-radius: 2rem;
+    text-shadow: none;
+    text-transform: none;
+    font-size: 1.2rem;
+
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 </style>
