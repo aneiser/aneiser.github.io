@@ -20,8 +20,8 @@ const router = createRouter({
     // ...Use "route level code-splitting" to optimize the loading and rendering.
     // This can significantly reduce the initial load time and improve the overall performance.
     { path: "/about",                 name: "about",        component: () => import("@/views/About.vue") },
-    { path: "/resume",                name: "resume",       component: () => import("@/views/Resume.vue") },
-    { path: "/a4-resume",             name: "A4Resume",     component: () => import("@/views/A4_resume.vue") },
+    { path: "/resume",                name: "resume",       component: () => import("@/views/A4_resume.vue") },
+    { path: "/a4-resume",             name: "A4Resume",     component: () => import("@/views/Resume.vue") },
     { path: "/blog",                  name: "blog",         component: () => import("@/views/Blog.vue") },
     // projects
     { path: "/projects/el-mundo",     name: "el-mundo",     component: () => import("@/views/projects/ProjectElMundo.vue") },
