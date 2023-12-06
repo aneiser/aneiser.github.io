@@ -7,7 +7,7 @@ import ResumeLanguage from '@/components/resume/ResumeLanguage.vue';
 import ResumeCoreCompetencies from '@/components/resume/ResumeCoreCompetencies.vue';
 import ResumeSummary from '@/components/resume/ResumeSummary.vue';
 
-const currentLanguage = ref('en');
+const currentLanguage = ref('fr');
 
 const resumes = ref([
   // en
@@ -109,7 +109,7 @@ const resumes = ref([
       design: [
         "Human-Centred Design", "Interaction Design", "Accessible Design (WCAG 2)", "Adaptive Design", "Wireframing", "Low- & High-fidelity Prototyping", "Design Systems", "Storyboards", "Information Architecture", "Interactive Prototyping"
       ],
-      // tools: ["Figma", "Adobe XD", "Miro", "Notion", "Trello"],
+      // tools: ["Figma", "Adobe XD", "Hotjar", "Miro", "Notion", "Trello"],
       // development: ["HTML", "CSS", "Javascript", "Vue.js", "Git", "npm"]
     },
     languages: [
@@ -233,8 +233,8 @@ const resumes = ref([
       design: [
         "Diseño de Interacción", "Diseño de Interfaz de Usuario", "Diseño de Producto", "Arquitectura de Información", "Diseño Accesible (WCAG 2.0)", "Prototipado Rápido", "Wireframes", "Storyboards", "Prototipado de baja y alta fidelidad"
       ],
-      development: ["HTML", "CSS", "Javascript", "Vue", "React", "Bootstrap", "Git", "npm"],
-      tools: ["Figma", "Adobe Xd", "Balsamiq", "Jira", "Notion", "Trello", "Wrike", "Office"]
+      tools: ["Figma", "Adobe Xd", "Hotjar", "Balsamiq", "Jira", "Notion", "Trello", "Wrike", "Office"],
+      development: ["HTML", "CSS", "Javascript", "Vue", "React", "Bootstrap", "Git", "npm"]
 
     },
     languages: [
@@ -272,97 +272,109 @@ const resumes = ref([
     name: ["Adrian", "NEILA", "SERRANO"],
     title: "Designer UX",
     contacts: [
+      { type: "Country", display: "Paris, France" },
       { type: "Portfolio", href: "https://aneiser.github.io/?fr-portfolio", display: "aneiser.github.io" },
       { type: "Phone", href: "tel:+330650674677", display: "+33 06.50.67.46.77" },
       { type: "Email", href: "mailto:a.neiser13@gmail.com", display: "a.neiser13@gmail.com" },
       { type: "LinkedIn", href: "https://www.linkedin.com/in/aneiser-ux", display: "linkedin.com/in/aneiser-ux" }
     ],
     summary: [
-      "Designer UX avec 5 ans d'expérience traduisant la recherche utilisateur en expériences numériques intuitives alignées avec les objectifs commerciaux. — Titulaire d'un BAC+5 en Conception d'Interaction Homme-Ordinateur, je suis compétent dans tous les aspects du processus de conception UX, y compris la recherche, la conception et les tests. — Profitant d'une expérience en frontend, je fais le lien entre la conception et la faisabilité technique dans des environnements Agile, garantissant une collaboration efficace avec des équipes multidisciplinaires."
+      "Designer UX/UI avec 5 ans d'expérience dans la création d'expériences centrées sur l'utilisateur. Titulaire d'un <strong>M.Sc. en Conception IHM</strong>, je suis compétent dans les aspects de <strong>conception</strong> et de <strong>recherche</strong>. Mon expérience en <strong>développement frontend</strong> relie la conception à la technologie. À l'aise dans un environnement <strong>Agile</strong> et prospérant dans des contextes <strong>à distance</strong> et <strong>multiculturels</strong>, j'ai collaboré avec succès avec des équipes diversifiées à l'échelle mondiale. Avec un <strong>esprit curieux</strong>, je suis toujours impatient de m'investir dans de nouvelles opportunités d'apprentissage et de croissance."
       // "Doué pour traduire la recherche utilisateur en solutions UX/UI de haute qualité, des wireframes aux prototypes haute fidélité. Apte à collaborer avec des équipes multidisciplinaires pour livrer des conceptions centrées sur l'utilisateur et alignées sur les objectifs commerciaux.",
     ],
-    competencies: [
-      "Création et gestion d'artefacts de conception.", // "tels que wireframes, storyboards, diagrammes de flux et prototypes.", "pour les applications web et mobiles.", "En utilisant Figma, Adobe Xd, etc.",
-      "Conduire des recherches multi-phases avec des méthodes mixtes et des tests d'utilisabilité.", // "pour optimiser les éléments pour une meilleure expérience utilisateur.",
-      "Suivi des tâches Agile et collaboration avec des équipes interfonctionnelles."
-      // "Diriger le processus de conception et garantir l'alignement avec les objectifs commerciaux.",
-    ],
+    // competencies: [
+    //   "Création et gestion d'artefacts de conception.", // "tels que wireframes, storyboards, diagrammes de flux et prototypes.", "pour les applications web et mobiles.", "En utilisant Figma, Adobe Xd, etc.",
+    //   "Conduire des recherches multi-phases avec des méthodes mixtes et des tests d'utilisabilité.", // "pour optimiser les éléments pour une meilleure expérience utilisateur.",
+    //   "Suivi des tâches Agile et collaboration avec des équipes interfonctionnelles."
+    //   // "Diriger le processus de conception et garantir l'alignement avec les objectifs commerciaux.",
+    // ],
     experiences: [
       {
-        title: "Ingénieur UX",
+        title: "Designer UX/UI (à distance)",
         company: "Evoloom",
         industry: "e-learning",
         startDate: "2023",
         endDate: "",
-        tasks: ["Élaborer des cours en ligne captivants pour une plateforme d'e-learning en exploitant les ressources éducatives existantes."]
+        tasks: [
+          "Développement d'une UI convaincante pour des cours sur une plateforme d'apprentissage en ligne, respectant des délais serrés."
+        ]
       },
       {
-        title: "Chercheur utilisateur",
+        title: "Chercheur Utilisateur",
         company: "Ubisoft",
         industry: "jeux vidéo",
         startDate: "2022",
         endDate: "",
         tasks: [
-          "Réaliser des recherches utilisateurs, des playtesting et collecté des données qualitatives, quantitatives et biométriques.",
-          "Synthétiser les résultats de recherche en insights actionnables pour différents intervenants dans un environnement agile."
+          "Conduction de 50+ sessions de recherche utilisateur et playtests, collectant des données pour <strong>détecter des problèmes de gameplay</strong>.",
+          "Fourniture d'informations exploitables à 15+ parties prenantes, <strong>traitant les frustrations des joueurs</strong> et <strong>améliorant l'engagement</strong>."
         ]
       },
       {
-        title: "Chercheur / Designer UX",
+        title: "Chercheur et Designer UX",
         company: "Université Paris 8",
         industry: "milieu universitaire",
         startDate: "2021",
         endDate: "",
-        tasks: ["Diriger le processus de conception de la recherche au prototypage et au test d'un prototype wearable pionnier."]
+        tasks: [
+          "Conception d'un prototype portable de la phase conceptuelle à la réalisation, avec 70 participants et 20+ sessions de recherche.",
+          "Création de 3 prototypes, effectuation de 2 mises à jour sur l'un d'eux et réalisation de 5 rounds de tests, confirmant le potentiel."
+        ]
       },
       {
-        title: "Ingénieur UX",
+        title: "Designer UX/UI",// & Développeur Frontend",
         company: "DV Business Solutions",
-        industry: "telecommunications",
+        industry: "télécommunications",
         startDate: "2016",
         endDate: "2019",
         tasks: [
-          "Concevoir des artefacts de design et des fonctionnalités, améliorant l'UX et augmentant le Net Promoter Score de 11% pour plus de 10000 utilisateurs.",
-          "Équilibrer les perspectives commerciales, techniques et UX pour éclairer la prise de décision et l'orientation du produit.",
-          "Unifier plusieurs produits en une solution cloud fluide, favorisant la collaboration avec plusieurs équipes.", // des équipes multidisciplinaires | des équipes cross-functional
-          "Jouer un rôle clé dans la création des exigences du produit et la défense de la conception (création d'un style guide, d'une bibliothèque de composants, etc.)."
+          "Les efforts de conception centrés sur l'utilisateur ont abouti à une <strong>augmentation de 11% du Net Promoter Score</strong> et à des <strong>économies annuelles d'au moins</strong> <strong>7500 €</strong>.", // en réduisant le temps de service d'assistance.",
+          "Direction de nombreuses activités de recherche avec le personnel, <strong>orientant les décisions de conception et de fonctionnalités</strong>.",
+          "Création et itération de <strong>centaines d'artefacts de conception visuelle</strong> pour assurer une communication claire de l'intention de conception et de la viabilité technique.",
+          "<strong>Lancement de deux nouveaux produits</strong> et <strong>fusion de 7 produits en une plateforme unifiée</strong> desservant 10000+  utilisateurs.",
+
+          // "Création d'artefacts de conception qui ont amélioré l'expérience utilisateur et ont augmenté le Net Promoter Score de 11% pour 10000+  utilisateurs.", // et fonctionnalités
+          // "Démonstration de compétences en prise de décision en équilibrant les besoins des utilisateurs, les objectifs commerciaux et les contraintes techniques pour orienter la direction du produit",
+          // "Unification de plusieurs produits en une solution cloud transparente, favorisant la collaboration avec les équipes de développeurs.",
+          // "Collaboration étroite avec les chefs de produit et les développeurs pour aligner les objectifs UX/UI avec les objectifs du produit, favorisant la synergie et atteignant des jalons clés.",
+          // "Établissement d'un guide de style et d'une bibliothèque de motifs d'interface utilisateur pour maintenir la cohérence de la marque et la cohérence à travers divers produits.",
         ]
       },
       {
-        title: "Ingénieur UX",
+        title: "Designer UX/UI",// & Développeur Frontend",
         company: "Universidad Politécnica Madrid",
-        industry: "education",
+        industry: "éducation",
         startDate: "2014",
         endDate: "2016",
         tasks: [
-          "Prôner la centralité de l'utilisateur, promouvant les normes d'utilisabilité et favorisant l'excellence UX.",
-          "Diriger et coordonner la recherche utilisateur et les tests d'utilisabilité.",
-          "Diriger le développement UI pour une plateforme d'assurance qualité, approuvée par plus de 3000 éducateurs."
+          "Conduction de 40+ tests de convivialité, <strong>augmentation du score de l'échelle SUS de 12%</strong> et <strong>retours positifs de 72%</strong>.",
+          "Création de l'UI pour une plateforme QA utilisée par 3000+ éducateurs, basée sur de solides pratiques centrées sur l'utilisateur et de convivialité."
         ]
       }
     ],
+
     skills: {
       research: [
-        "Recherche utilisateur", "Entretiens", "Groupes de discussion", "Enquêtes", "Tests d'utilisabilité", "Évaluation heuristique", "Personas", "Parcours utilisateur", "Analyse de tâches", "Scénarios", "Modèles mentaux", "Tri de cartes", "Recherche de marché", "Analyse concurrentielle"
+        "Études ethnographiques", "Entretiens", "Enquêtes", "Tests de convivialité", "Évaluation heuristique", "Groupes de discussion", "Design Thinking", "Personas", "Parcours et flux utilisateur", "Recherche concurrentielle", "Scénarios", "Tri de cartes"
       ],
       design: [
-        "Conception d'interaction", "Conception d'UI", "Conception de produit", "Architecture de l'information", "Conception accessible (WCAG 2.0)", "Prototypage rapide", "Wireframes", "Storyboards", "Prototypage basse et haute fidélité"
+        "Conception centrée sur l'humain", "Conception d'interaction", "Conception accessible (WCAG 2)", "Conception adaptative", "Création de wireframes", "Prototypage basse et haute fidélité", "Design Systems", "Scénarios", "Architecture de l'information", "Prototypage interactif"
       ],
-      development: ["HTML", "CSS", "Javascript", "Vue", "React", "Bootstrap", "Git", "npm"],
-      tools: ["Figma", "Adobe Xd", "Balsamiq", "Jira", "Notion", "Trello", "Wrike", "Office"],
+      // development: ["HTML", "CSS", "Javascript", "Vue", "React", "Bootstrap", "Git", "npm"],
+      tools: ["Figma", "Adobe Xd", "Hotjar", "Balsamiq", "Jira", "Notion", "Trello", "Wrike", "Office"],
     },
     languages: [
       { language: "Anglais", proficiency: "C1" },
       { language: "Français", proficiency: "B2" },
       { language: "Espagnol", proficiency: "maternelle" },
-      { language: "Langue des signes espagnole", proficiency: "maternelle" }
+      { language: "Langue Signes Espagnole", proficiency: "maternelle" }
     ],
     educations: [
-      {
-        degree: "Blockchain / Web 3 développer ",
-        institute: "Alyra",
-        graduated: "2023"
-      },
+      // {
+      //   degree: "Blockchain / Web 3 développer ",
+      //   institute: "Alyra",
+      //   graduated: "2023"
+      // },
       {
         degree: "BAC+5 en Interaction Homme-Ordinateur",
         institute: "Université Paris Saclay & KTH Royal Institute of Technology",
