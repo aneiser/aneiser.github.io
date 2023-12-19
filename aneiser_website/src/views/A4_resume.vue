@@ -7,7 +7,7 @@ import ResumeLanguage from '@/components/resume/ResumeLanguage.vue';
 import ResumeCoreCompetencies from '@/components/resume/ResumeCoreCompetencies.vue';
 import ResumeSummary from '@/components/resume/ResumeSummary.vue';
 
-const currentLanguage = ref('fr');
+const currentLanguage = ref('en');
 
 const resumes = ref([
   // en
@@ -23,7 +23,7 @@ const resumes = ref([
     contacts: [
       // { type: "Country", display: "Paris, France" },
       { type: "Portfolio", href: "https://aneiser.github.io/?en-portfolio", display: "aneiser.github.io" },
-      // { type: "Phone", href: "tel:+33650674677", display: "+33 6 50 67 46 77" },
+      // { type: "Phone", href: "tel:+330650674677", display: "+33 06.50.67.46.77" },
       { type: "Phone", href: "tel:+34649874542", display: "+34 649 87 45 42" },
       { type: "Email", href: "mailto:a.neiser13@gmail.com", display: "a.neiser13@gmail.com" },
       { type: "LinkedIn", href: "https://www.linkedin.com/in/aneiser-ux", display: "linkedin.com/in/aneiser-ux" }
@@ -61,7 +61,7 @@ const resumes = ref([
         ]
       },
       {
-        title: "UX Researcher & Designer",
+        title: "UX Researcher",
         company: "University Paris 8",
         industry: "academia",
         startDate: "2021",
@@ -72,7 +72,7 @@ const resumes = ref([
         ]
       },
       {
-        title: "UX/UI Designer",// & Frontend Developer",
+        title: "UX Researcher & Designer",// & Frontend Developer",
         company: "DV Business Solutions",
         industry: "telecommunications",
         startDate: "2016",
@@ -80,7 +80,7 @@ const resumes = ref([
         tasks: [
           "Direct user-centred design efforts culminated in an <strong>increase of 11% in Net Promoter Score</strong> and <strong>annual savings of</strong> at least <strong>€7,500</strong>.", // by trimming down support service time.",
           "Led dozens of research activities with staff across several teams and a competitive analysis, <strong>driving design and feature decisions</strong>.",
-          "Crafted and iterated <strong>hundreds of visual design artifacts</strong> to ensure clear communication of design intent and technical viability.",
+          "Crafted and iterated <strong>hundreds of design artifacts</strong> to ensure clear communication of design intent and technical viability.",
           "<strong>Launched two new products</strong> using an MVP approach and <strong>merged 7 products into a unified platform</strong> serving 10,000+ users.",
 
           // "Crafted design artefacts that enhanced user experience and boosted Net Promoter Score by 11% for over 10,000 users.", // and features
@@ -109,7 +109,7 @@ const resumes = ref([
       design: [
         "Human-Centred Design", "Interaction Design", "Accessible Design (WCAG 2)", "Adaptive Design", "Wireframing", "Low- & High-fidelity Prototyping", "Design Systems", "Storyboards", "Information Architecture", "Interactive Prototyping"
       ],
-      // tools: ["Figma", "Adobe XD", "Hotjar", "Miro", "Notion", "Trello"],
+      tools: ["Figma", "Adobe XD", "Hotjar", "Miro", "Notion", "Trello"],
       // development: ["HTML", "CSS", "Javascript", "Vue.js", "Git", "npm"]
     },
     languages: [
@@ -156,12 +156,12 @@ const resumes = ref([
       "Diseñador UX con 5 años de experiencia en la creación de experiencias centradas en el usuario. Con un <strong>Máster en Interacción Persona-Ordenador</strong>, tengo habilidades destacadas en <strong>todas las fases del proceso de diseño</strong>. Mi experiencia en <strong>frontend</strong> conecta el diseño con la tecnología y me familiariza con entornos <strong>Ágiles</strong> y <strong>remotos</strong>. Con una <strong>mentalidad curiosa</strong>, siempre estoy ansioso por sumergirme en nuevas oportunidades de aprendizaje y crecimiento.",
       // "Experto en traducir la investigación de usuarios en soluciones UX/UI de alta calidad, desde wireframes hasta prototipos de alta fidelidad. Hábil en colaborar con equipos multidisciplinares para entregar diseños centrados en el usuario y alineados con los objetivos empresariales."
     ],
-    competencies: [
-      "Creación y gestión de artefactos de diseño.", // "como wireframes, storyboards, diagramas de flujo y prototipos.", "para aplicaciones web y mobiles.", "utilizando Figma, Adobe Xd, etc.",
-      "Realizar investigaciones de múltiples fases y métodos mixtos y pruebas de usabilidad.", // "para optimizar elementos y mejorar la experiencia de usuario.",
-      "Seguimiento ágil de tareas y colaboración con equipos multifuncionales." // interfuncionales
-      // "Liderar el proceso de diseño y asegurar el alineamiento con los objetivos de negico.",
-    ],
+    // competencies: [
+    //   "Creación y gestión de artefactos de diseño.", // "como wireframes, storyboards, diagramas de flujo y prototipos.", "para aplicaciones web y mobiles.", "utilizando Figma, Adobe Xd, etc.",
+    //   "Realizar investigaciones de múltiples fases y métodos mixtos y pruebas de usabilidad.", // "para optimizar elementos y mejorar la experiencia de usuario.",
+    //   "Seguimiento ágil de tareas y colaboración con equipos multifuncionales." // interfuncionales
+    //   // "Liderar el proceso de diseño y asegurar el alineamiento con los objetivos de negico.",
+    // ],
     experiences: [
       {
         title: "Diseñador UX/UI (Remoto)",
@@ -181,7 +181,7 @@ const resumes = ref([
         endDate: "",
         tasks: [
           "Realizar 50+ sesiones de investigación de usuarios, recopilando datos de diversa naturaleza para <strong>descubrir problemas de jugabilidad</strong>.",
-          "Ofrecer información accionables a 15 <em>stakeholders</em>, abordando las frustraciones y <strong>mejorando la participación en el juego</strong>."
+          "Ofrecer información procesable a 15 <em>stakeholders</em>, abordando las frustraciones y <strong>mejorando la participación en el juego</strong>."
         ]
       },
       {
@@ -221,7 +221,7 @@ const resumes = ref([
         startDate: "2014",
         endDate: "2016",
         tasks: [
-          "Realizar 40+ pruebas de usabilidad, <strong>aumentando la usabilidad (SUS) en un 12%</strong> y <strong>recibiendo un feedback positivo del 72%</strong>.",
+          "Realizar 40+ pruebas de usabilidad, <strong>aumentando la usabilidad (SUS) en un 12%</strong> y <strong>mejorando el feedback en un 72%</strong>.",
           "Crear la UI de una plataforma de QA con 3,000+ educadores, aplicando sólidas prácticas centradas en el usuario y usabilidad."
         ]
       }
@@ -238,17 +238,17 @@ const resumes = ref([
 
     },
     languages: [
-      { language: "Inglés", proficiency: "C1" },
-      { language: "Francés", proficiency: "B2" },
+      { language: "Inglés", proficiency: "fluido - C1" },
+      { language: "Francés", proficiency: "intermedio - B2" },
       { language: "Español", proficiency: "nativo" },
       { language: "Lengua de signos española", proficiency: "nativo" }
     ],
     educations: [
-      {
-        degree: "Desarrollador Blockchain / Web 3.0",
-        institute: "Alyra",
-        graduated: "2023"
-      },
+      // {
+      //   degree: "Desarrollador Blockchain / Web 3.0",
+      //   institute: "Alyra",
+      //   graduated: "2023"
+      // },
       {
         degree: "Máster en Diseño de Interacción Persona-Ordenador",
         institute: "KTH Royal Institute of Technology & Université Paris Saclay",
@@ -279,7 +279,8 @@ const resumes = ref([
       { type: "LinkedIn", href: "https://www.linkedin.com/in/aneiser-ux", display: "linkedin.com/in/aneiser-ux" }
     ],
     summary: [
-      "Designer UX/UI avec 5 ans d'expérience dans la création d'expériences centrées sur l'utilisateur. Titulaire d'un <strong>M.Sc. en Conception IHM</strong>, je suis compétent dans les aspects de <strong>conception</strong> et de <strong>recherche</strong>. Mon expérience en <strong>développement frontend</strong> relie la conception à la technologie. À l'aise dans un environnement <strong>Agile</strong> et prospérant dans des contextes <strong>à distance</strong> et <strong>multiculturels</strong>, j'ai collaboré avec succès avec des équipes diversifiées à l'échelle mondiale. Avec un <strong>esprit curieux</strong>, je suis toujours impatient de m'investir dans de nouvelles opportunités d'apprentissage et de croissance."
+      "Designer UX avec 4+ ans d'expérience dans la création d'expériences centrées sur l'utilisateur. Titulaire d'un <strong>BAC+5 en Interaction Homme-Machine</strong>, je suis compétent dans les aspects de <strong>conception</strong> et de <strong>recherche</strong>. Mon expérience en <strong>développement frontend</strong> relie la conception à la technologie. À l'aise dans un environnement <strong>Agile</strong> et prospérant dans des contextes <strong>à distance</strong> et <strong>multiculturels</strong>, j'ai collaboré avec succès avec des équipes diversifiées à l'échelle mondiale. Avec un <strong>esprit curieux</strong>, je suis toujours impatient de m'investir dans de nouvelles opportunités d'apprentissage et de croissance.",
+      // "Designer UX avec 4+ ans d'expérience dans la création d'expériences centrées sur l'utilisateur. Titulaire d'un <strong>BAC+5 en Interaction Homme-Machine</strong> et ayant un passé en <strong>développement frontend</strong>, je suis compétent dans les aspects de la <strong>recherche utilisateur</strong> et du <strong>conception</strong>. Avec un <strong>esprit curieux</strong>, je suis toujours impatient de m'investir dans de nouvelles opportunités d'apprentissage et de croissance.",
       // "Doué pour traduire la recherche utilisateur en solutions UX/UI de haute qualité, des wireframes aux prototypes haute fidélité. Apte à collaborer avec des équipes multidisciplinaires pour livrer des conceptions centrées sur l'utilisateur et alignées sur les objectifs commerciaux.",
     ],
     // competencies: [
@@ -290,7 +291,7 @@ const resumes = ref([
     // ],
     experiences: [
       {
-        title: "Designer UX/UI (à distance)",
+        title: "Designer UX/UI",
         company: "Evoloom",
         industry: "e-learning",
         startDate: "2023",
@@ -355,7 +356,7 @@ const resumes = ref([
 
     skills: {
       research: [
-        "Études ethnographiques", "Entretiens", "Enquêtes", "Tests de convivialité", "Évaluation heuristique", "Groupes de discussion", "Design Thinking", "Personas", "Parcours et flux utilisateur", "Recherche concurrentielle", "Scénarios", "Tri de cartes"
+        "Études ethnographiques", "Entretiens", "Enquêtes", "Tests de convivialité", "Évaluation heuristique", "Groupes de discussion", "Design Thinking", "Personas", "Parcours et flux utilisateur", "Analyse concurrentielle", "Scénarios", "Tri de cartes"
       ],
       design: [
         "Conception centrée sur l'humain", "Conception d'interaction", "Conception accessible (WCAG 2)", "Conception adaptative", "Création de wireframes", "Prototypage basse et haute fidélité", "Design Systems", "Scénarios", "Architecture de l'information", "Prototypage interactif"
@@ -364,8 +365,8 @@ const resumes = ref([
       tools: ["Figma", "Adobe Xd", "Hotjar", "Balsamiq", "Jira", "Notion", "Trello", "Wrike", "Office"],
     },
     languages: [
-      { language: "Anglais", proficiency: "C1" },
-      { language: "Français", proficiency: "B2" },
+      { language: "Anglais", proficiency: "courant - C1" },
+      { language: "Français", proficiency: "intermédiaire - B2" },
       { language: "Espagnol", proficiency: "maternelle" },
       { language: "Langue Signes Espagnole", proficiency: "maternelle" }
     ],
@@ -531,6 +532,8 @@ updateCurrentResume();
     height: 297mm;
     margin: auto;
     padding: 13mm;
+    padding: 10mm 13mm; /* ES */
+    /*padding: 7mm 13mm; /* FR */
     background-color: var(--color-white);
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
@@ -660,11 +663,14 @@ article :deep(li) {
 
 .side {
   width: 32.1%;
+  width: 32.3%; /* ES */
+  /*width: 33.9%; /* FR */
 }
 
 .main {
-  width: 61.8%; /* ES */
+  width: 61.8%; /* FR */
   width: 59.3%; /* EN */
+  width: 61.1%; /* ES */
 }
 
 section {
