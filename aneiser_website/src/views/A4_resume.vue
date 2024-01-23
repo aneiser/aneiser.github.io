@@ -46,7 +46,7 @@ const resumes = ref([
         startDate: "2023",
         endDate: "",
         tasks: [
-          "Developed compelling UI for courses on an e-learning platform, meeting tight deadlines, using existing educational resources.",
+          "Developed compelling UIs for courses on an e-learning platform, meeting tight deadlines, using existing educational resources.",
         ]
       },
       {
@@ -661,8 +661,8 @@ article :deep(li) {
 }
 
 .side {
-  width: 32.1%;
-  width: 34.1%; /* ES */
+  width: 31.4%;
+  /*width: 34.1%; /* ES */
   /*width: 33.9%; /* FR */
 }
 
