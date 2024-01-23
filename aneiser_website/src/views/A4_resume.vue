@@ -145,7 +145,7 @@ const resumes = ref([
     // █████ █     █   █ █   █ █████ █████ █   █
     lang: "es",
     name: ["Adrian", "Neila", "Serrano"],
-    title: "Diseñador UX",
+    title: "Product Designer",
     contacts: [
       { type: "Portfolio", href: "https://aneiser.github.io/?es-portfolio", display: "aneiser.github.io" },
       { type: "Phone", href: "tel:+34649874542", display: "+34 649 87 45 42" },
@@ -153,7 +153,7 @@ const resumes = ref([
       { type: "LinkedIn", href: "https://www.linkedin.com/in/aneiser-ux", display: "linkedin.com/in/aneiser-ux" }
     ],
     summary: [
-      "Diseñador UX con 5 años de experiencia en la creación de experiencias centradas en el usuario. Con un <strong>Máster en Interacción Persona-Ordenador</strong>, tengo habilidades destacadas en <strong>todas las fases del proceso de diseño</strong>. Mi experiencia en <strong>frontend</strong> conecta el diseño con la tecnología y me familiariza con entornos <strong>Ágiles</strong> y <strong>remotos</strong>. Con una <strong>mentalidad curiosa</strong>, siempre estoy ansioso por sumergirme en nuevas oportunidades de aprendizaje y crecimiento.",
+      "Product Designer con 4+ años de experiencia creando experiencias centradas en el usuario. Con un <strong>Máster en Interacción Persona-Ordenador</strong>, tengo habilidades tanto en <strong>investigación con usuarios</strong> como en <strong>diseño UX</strong>. Mi <strong>pasado en frontend</strong> asegura una buena collaboración entre diseño y tecnología y me familiariza con <strong>entornos Agile y remotos</strong>. Con una <strong>mentalidad curiosa</strong>, me encanta descubrir nuevas oportunidades de aprendizaje y crecimiento.",
       // "Experto en traducir la investigación de usuarios en soluciones UX/UI de alta calidad, desde wireframes hasta prototipos de alta fidelidad. Hábil en colaborar con equipos multidisciplinares para entregar diseños centrados en el usuario y alineados con los objetivos empresariales."
     ],
     // competencies: [
@@ -226,16 +226,15 @@ const resumes = ref([
         ]
       }
     ],
-    skills: {
-      research: [
-        "Entrevistas", "Focus groups", "Encuestas", "Test de Usabilidad", "Evaluación Heurística", "Personas", "User journeys", "Análisis de Tareas", "Escenarios", "Modelos Mentales", "Card sorting", "Investigación de Mercado", "Análisis Competitivo"
-      ],
-      design: [
-        "Diseño de Interacción", "Diseño de Interfaz de Usuario", "Diseño de Producto", "Arquitectura de Información", "Diseño Accesible (WCAG 2.0)", "Prototipado Rápido", "Wireframes", "Storyboards", "Prototipado de baja y alta fidelidad"
-      ],
-      tools: ["Figma", "Adobe Xd", "Hotjar", "Balsamiq", "Jira", "Notion", "Trello", "Wrike", "Office"],
-      development: ["HTML", "CSS", "Javascript", "Vue", "React", "Bootstrap", "Git", "npm"]
-
+      skills: {
+        research: [
+          "Entrevistas", "Encuestas", "Focus Groups", "Test de Usabilidad", "Personas", "User Journeys & Flows", "Design Thinking", "Escenarios", "Evaluación Heurística", "Card Sorting", "Análisis Competitivo"
+        ],
+        design: [
+          "Diseño Centrado en Usuario", "Diseño de Interacción", "Storyboards", "Arquitectura de Información", "Sistemas de Diseño", "Diseño Adaptativo", "Diseño Accesible (WCAG 2)", "Prototipado de Baja y Alta Fidelidad, Interactivo y de Video",
+        ],
+        tools: ["Figma", "Adobe XD", "Hotjar", "Miro", "Notion"],
+        development: ["HTML", "CSS", "Javascript", "Vue.js", "Git"]
     },
     languages: [
       { language: "Inglés", proficiency: "fluido - C1" },
@@ -663,7 +662,7 @@ article :deep(li) {
 
 .side {
   width: 32.1%;
-  width: 32.3%; /* ES */
+  width: 34.1%; /* ES */
   /*width: 33.9%; /* FR */
 }
 
@@ -679,7 +678,7 @@ section {
 
 .section {
   font-size: 22pt;
-  margin: 44px 0 16px;
+  margin: 35px 0 10px;
   padding: 0;
 }
 
