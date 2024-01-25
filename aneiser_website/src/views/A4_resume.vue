@@ -22,7 +22,7 @@ const resumes = ref([
     title: "UX Designer",
     contacts: [
       // { type: "Country", display: "Paris, France" },
-      { type: "Portfolio", href: "https://aneiser.github.io/?en-portfolio", display: "aneiser.github.io" },
+      { type: "Portfolio", href: "https://aneiser.github.io/?utm_source=resume&utm_campaign=PERSON__COMPANY&utm_language=english", display: "aneiser.github.io" },
       // { type: "Phone", href: "tel:+330650674677", display: "+33 06.50.67.46.77" },
       { type: "Phone", href: "tel:+34649874542", display: "+34 649 87 45 42" },
       { type: "Email", href: "mailto:a.neiser13@gmail.com", display: "a.neiser13@gmail.com" },
@@ -147,7 +147,7 @@ const resumes = ref([
     name: ["Adrian", "Neila", "Serrano"],
     title: "Product Designer",
     contacts: [
-      { type: "Portfolio", href: "https://aneiser.github.io/?es-portfolio", display: "aneiser.github.io" },
+      { type: "Portfolio", href: "https://aneiser.github.io/?utm_source=resume&utm_campaign=PERSON__COMPANY&utm_language=spanish", display: "aneiser.github.io" },
       { type: "Phone", href: "tel:+34649874542", display: "+34 649 87 45 42" },
       { type: "Email", href: "mailto:a.neiser13@gmail.com", display: "a.neiser13@gmail.com" },
       { type: "LinkedIn", href: "https://www.linkedin.com/in/aneiser-ux", display: "linkedin.com/in/aneiser-ux" }
@@ -272,7 +272,7 @@ const resumes = ref([
     title: "Designer UX",
     contacts: [
       { type: "Country", display: "Paris, France" },
-      { type: "Portfolio", href: "https://aneiser.github.io/?fr-portfolio", display: "aneiser.github.io" },
+      { type: "Portfolio", href: "https://aneiser.github.io/?utm_source=resume&utm_campaign=PERSON__COMPANY&utm_language=french", display: "aneiser.github.io" },
       { type: "Phone", href: "tel:+330650674677", display: "+33 06.50.67.46.77" },
       { type: "Email", href: "mailto:a.neiser13@gmail.com", display: "a.neiser13@gmail.com" },
       { type: "LinkedIn", href: "https://www.linkedin.com/in/aneiser-ux", display: "linkedin.com/in/aneiser-ux" }
