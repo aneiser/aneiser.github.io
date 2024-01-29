@@ -56,8 +56,9 @@ const resumes = ref([
         startDate: "2022",
         endDate: "",
         tasks: [
-          "Conducted 50+ user research sessions and playtests, gathering qualitative and biometric data to <strong>uncover gameplay issues</strong>.",
-          "Delivered actionable insights to 15+ stakeholders, <strong>tackling player frustrations</strong> and <strong>enhancing gameplay engagement</strong>.",
+          // "Defined UX research scope, methods, and target participant profiles and driving participant recruitment.",
+          "Conducted <strong>50+ user research sessions</strong> and playtests, gathering qualitative and quantitative/biometric data to <strong>uncover gameplay issues</strong>.",
+          "Delivered actionable insights based on research findings to 15+ stakeholders, <strong>tackling frustrations</strong> and <strong>enhancing engagement</strong>.",
         ]
       },
       {
@@ -99,24 +100,35 @@ const resumes = ref([
         tasks: [
           "Conducted 40+ usability tests, <strong>raising the System Usability Scale (SUS) score by 12%</strong> and <strong>positive feedback by 72%</strong>.",
           "Created the UI for a QA platform used by 3,000+ educators, driven by strong user-centred and usability best practices."
+          // "<strong>Evangelized UCD</strong> and advocated for a user centric perspective, <strong>involving the team</strong> and promoting usability standards."
         ]
       }
     ],
     skills: {
       research: [
         "Etnography studies", "Interviews", "Surveys", "Usability Testing", "Heuristic Evaluation", "Focus Groups", "Design Thinking", "Personas", "User Journeys & Flows", "Competitive Research", "Scenarios", "Card Sorting",
+        // "Qualitative & Quantitative Research", "A/B Testing", "Analytics Analysis", "brainstorming", "Card Sorting", "Contextual Inquiry", "Field Studies", "Focus Groups", "Formative & Summative Usability Testing", "Heuristic Evaluations", "In-depth Interviews", "Participatory Design", "Surveys", "Usability Studies", "Workshops"
       ],
       design: [
         "Human-Centred Design", "Interaction Design", "Accessible Design (WCAG 2)", "Adaptive Design", "Wireframing", "Low- & High-fidelity Prototyping", "Design Systems", "Storyboards", "Information Architecture", "Interactive Prototyping"
+        // "Accessible Design (WCAG 2)", "Empathy Maps", "Experience Maps", "Information Architecture", "Journey Maps", "Personas", "Storyboarding", "User-Centered Design"
       ],
       tools: ["Figma", "Adobe XD", "Hotjar", "Miro", "Notion", "Trello"],
       // development: ["HTML", "CSS", "Javascript", "Vue.js", "Git", "npm"]
     },
     languages: [
-      { language: "English", proficiency: "fluent - C1" },
-      { language: "French", proficiency: "intermediate - B2" },
-      { language: "Spanish", proficiency: "native" },
-      { language: "Spanish Sign Language", proficiency: "native" }
+      { language: "English",
+        proficiency: "fluent - C1"
+      },
+      { language: "French",
+        proficiency: "intermediate - B2"
+      },
+      { language: "Spanish",
+        proficiency: "native"
+      },
+      { language: "Spanish Sign Language",
+        proficiency: "native"
+      }
     ],
     educations: [
       // {
@@ -125,7 +137,7 @@ const resumes = ref([
       //   graduated: "2023"
       // },
       {
-        degree: "M.Sc. Human-Computer Interaction & Design",// (Hybrid)",
+        degree: "M.Sc. Human-Computer Interaction Design",// (Hybrid)",
         institute: "KTH Royal Institute of Technology & Université Paris Saclay",
         graduated: "2021"
       },
