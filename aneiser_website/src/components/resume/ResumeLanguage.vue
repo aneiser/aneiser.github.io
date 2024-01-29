@@ -7,7 +7,7 @@
     <p v-for="(language, index) in languages" :key="index">
       <span class="language-item">
         <span class="language-name">{{ language.language }}</span>
-        <span class="language-proficiency">({{ language.proficiency }})</span>
+        <span v-if="language.proficiency" class="language-proficiency">({{ language.proficiency }})</span>
       </span>
     </p>
   </div>
