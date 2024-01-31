@@ -159,13 +159,13 @@ const resumes = ref([
     name: ["Adrian", "Neila", "Serrano"],
     title: "Frontend Dev.",
     contacts: [
-      { type: "Portfolio", href: "https://aneiser.github.io/?utm_source=resume&utm_campaign=indra&utm_language=spanish", display: "aneiser.github.io" },
+      { type: "Portfolio", href: "https://aneiser.github.io/?utm_source=resume&utm_campaign=santander&utm_language=spanish", display: "aneiser.github.io" },
       { type: "Phone", href: "tel:+34649874542", display: "+34 649 87 45 42" },
       { type: "Email", href: "mailto:a.neiser13@gmail.com", display: "a.neiser13@gmail.com" },
       { type: "LinkedIn", href: "https://www.linkedin.com/in/aneiser-ux", display: "linkedin.com/in/aneiser-ux" }
     ],
     summary: [
-      "<strong>Ingeniero informático</strong> con 4 años de <strong>experiencia en frontend</strong> y <strong>máster en Interacción Persona-Ordenador</strong>. Especializado en diseño UX/UI centrado en el usuario para mejorar <strong>su satisfacción y la usabilidad</strong>, cuyo aspecto de investigación de usuario es transferible y se alinea perfectamente al <strong>análisis funcional e interlocución con cliente</strong>. Mi trayectoria internacional en entornos colaborativos y multidisciplinares demuestra mi <strong>capacidad de adaptación</strong>.",
+      "<strong>Ingeniero informático</strong> con 4 años de <strong>experiencia en frontend</strong> y <strong>máster en Interacción Persona-Ordenador</strong>. Especializado en diseño centrado en el usuario para <strong>mejorar su satisfacción y la experiencia de usuario</strong>, cuyo aspecto de investigación de usuario es transferible al <strong>desarrollo de soluciones para clientes y empleados</strong>. Mi <strong>trayectoria internacional</strong> en <strong>entornos <em>agile</em></strong> y multidisciplinares demuestra mi <strong>capacidad de adaptación</strong>.",
       // "Experto en traducir la investigación de usuarios en soluciones UX/UI de alta calidad, desde wireframes hasta prototipos de alta fidelidad. Hábil en colaborar con equipos multidisciplinares para entregar diseños centrados en el usuario y alineados con los objetivos empresariales."
     ],
     // competencies: [
@@ -183,7 +183,7 @@ const resumes = ref([
         endDate: "",
         tasks: [
           // "Desarrollar la interfaz de usuario para los cursos de una plataforma de e-learning, cumpliendo con plazos ajustados."
-          "Desarrollar la UI para los cursos de una plataforma de e-learning."
+          "Desarrollar el front de la aplicación de una plataforma de e-learning."
         ]
       },
       {
@@ -207,7 +207,7 @@ const resumes = ref([
         tasks: [
           // "Liderar todas las fases del proceso de diseño de un prototipo <em>wearable</em> involucrando a 70 participantes y 20+ sesiones de investigación.",
           // "Elaborar 3 prototipos, iterar y llevar a cabo 5 rondas de pruebas sobre uno de ellos, confirmando el potencial para trabajos futuros.",
-          "Desarrollar y programar prototipos <em>wearables</em> en Arduino, integrando componentes para validar conceptos y funcionalidades."
+          "Desarrollar y programar software para prototipos con Arduino, integrando componentes para validar conceptos y funcionalidades."
         ]
       },
       {
@@ -218,10 +218,10 @@ const resumes = ref([
         endDate: "2019",
         tasks: [
           // "Elaborar e iterar <strong>cientos de artefactos de diseño</strong> para garantizar una comunicación clara de la intención de diseño y viabilidad técnica.",
-          "Desarrollar el frontend (Vue.js) de <strong>3 nuevos productos y unificar en una única plataforma 7 productos</strong> con 10000+ usuarios. Con enfoque <em>MVP</em>, colaboración con varios equipos y alineación con negocio",
+          "Desarrollar el frontend (Vue.js) de <strong>3 nuevos productos e integrar en una única plataforma 7 productos</strong> con 10000+ usuarios. Con enfoque <em>MVP</em> y <strong>alineado a las necesidades de negocio</strong>",
           // "Demostré habilidades de toma de decisiones al equilibrar las necesidades del usuario, los objetivos comerciales y las limitaciones técnicas para orientar la dirección del producto",
           // "Colaboré estrechamente con gerentes de productos y desarrolladores para alinear objetivos de UX/UI con objetivos del producto, fomentando la sinergia y logrando hitos clave.",
-          "Desarrollar una <strong>biblioteca de componentes</strong> para <strong>mantener la consistencia</strong> de marca y coherencia en diversos productos.",
+          "Implementar una <strong>biblioteca de componentes</strong> para <strong>mantener la consistencia</strong> de marca y coherencia en diversos productos.",
           "<strong>Aumentar el <em>Net Promoter Score</em> en un 11%</strong> y lograr <strong>ahorros anuales</strong> de al menos <strong>€7500</strong> al reducir el tiempo de soporte.", // mediante diseño centrado en el usuario.", // al reducir el tiempo de servicio de soporte.",
         ]
       },
@@ -233,17 +233,20 @@ const resumes = ref([
         endDate: "2016",
         tasks: [
           "Realizar 40+ pruebas de usabilidad, <strong>aumentando la usabilidad en un 12%</strong> y <strong>mejorando el feedback en un 72%</strong>.",
-          "Crear la UI de una plataforma de QA con 3000+ educadores, aplicando sólidas prácticas centradas en el usuario y usabilidad."
+          "Desarrollar el frontend de una plataforma de calidad docente con 3000+ usuarios, aplicando buenas practicas de desarrollosó y calidad."
         ]
       }
     ],
       skills: {
         development: [
-          "HTML", "CSS", "Javascript ES6", "Vue.js", "Git", "npm (Node Package Manager)", "Yarn", "Bootstrap", "React.js", "SASS", "PostCSS", "Pruebas unitarias", "Optimización de imágenes", "Proceso de Integración y Entrega Continua (CI y CD)",
+          "HTML", "CSS", "Javascript ES6", "Vue.js", "Git", "npm (Node Package Manager)", "Yarn", "Bootstrap", "React", "SASS", "PostCSS",  "Webcomponents", "Testing automático","Application Delivery Process, CI & CD, PWA",
           // "Comunicación y trabajo en equipo: Habilidades de comunicación efectiva y capacidad para trabajar en colaboración con diseñadores, desarrolladores backend y otros miembros del equipo.",
         ],
+        web3: [
+          "Solidity", "Web3.js", "Truffle", "Hardhat", "ERC-20", "ERC-721", "IPFS (Inter Planetary File System)", "Wagmi", "RainbowKit", "Remix", "Hardhat", "Ganache"
+        ],
         design: [
-          "Experiencia en Diseño Centrado en Usuario (UCD), Diseño Responsive y Adaptativo, Sistemas de Diseño, Arquitectura de la Información y Estándar de accesibilidad (WCAG 2) para desarrollar software altamente funcional, usable y accesible",
+          "Experiencia en Diseño Centrado en Usuario (UCD), Diseño Responsive y Adaptativo, Atomic Design, Design Systems, Arquitectura de la Información y Estándar de accesibilidad (WCAG 2) para desarrollar software altamente funcional, usable y accesible",
           // "Diseño Centrado en Usuario", "Diseño de Interacción", "Storyboards",  "Diseño Adaptativo", "Diseño Accesible (WCAG 2)", "Prototipado de Baja y Alta Fidelidad, Interactivo y de Video",
         ],
         // research: [
@@ -251,9 +254,6 @@ const resumes = ref([
         // ],
         tools: [
           "Visual Studio Code", "Sublime Text", "GitHub", "GitLab", "Bitbucket", "Google Chrome developer tools", "Figma", "Adobe XD", "Hotjar", "Miro", "Jira", "Notion", "Slack", "Microsoft Teams", "Zoom", "Vercel", "GitHub Pages",
-        ],
-        web3: [
-          "Solidity", "Web3.js", "Truffle", "Hardhat", "ERC-20", "ERC-721", "IPFS (Inter Planetary File System)", "Wagmi", "RainbowKit", "Remix", "Hardhat", "Ganache"
         ],
     },
     languages: [
@@ -264,7 +264,7 @@ const resumes = ref([
     ],
     educations: [
       {
-        degree: "Desarrollador Blockchain / Web 3.0",
+        degree: "Desarrollador Blockchain / Web 3",
         institute: "Alyra",
         graduated: "2023"
       },
@@ -432,7 +432,7 @@ const sectionTitles = computed(() => {
           research: "Investigación de Usuarios",
           design: "Diseño UX y Accesibilidad",
           development: "Desarrollo Frontend",
-          web3: "Desarrollo Web 3",
+          web3: "Desarrollo Blockchain / Web 3",
           tools: "Herramientas",
         languages: "Idiomas",
         educations: "FORMACIÓN",
