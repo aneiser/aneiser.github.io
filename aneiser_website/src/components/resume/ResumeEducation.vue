@@ -12,5 +12,9 @@
 <style scoped>
 h3 {
  text-align: left;
+ margin-right: 8px;
 }
+h3, h4 {
+  display: inline
+};
 </style>

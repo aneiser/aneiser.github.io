@@ -7,7 +7,7 @@ import ResumeLanguage from '@/components/resume/ResumeLanguage.vue';
 import ResumeCoreCompetencies from '@/components/resume/ResumeCoreCompetencies.vue';
 import ResumeSummary from '@/components/resume/ResumeSummary.vue';
 
-const currentLanguage = ref('en');
+const currentLanguage = ref('es');
 
 const resumes = ref([
   // en
@@ -157,15 +157,15 @@ const resumes = ref([
     // █████ █     █   █ █   █ █████ █████ █   █
     lang: "es",
     name: ["Adrian", "Neila", "Serrano"],
-    title: "Product Designer",
+    title: "Frontend Dev.",
     contacts: [
-      { type: "Portfolio", href: "https://aneiser.github.io/?utm_source=resume&utm_campaign=PERSON__COMPANY&utm_language=spanish", display: "aneiser.github.io" },
+      { type: "Portfolio", href: "https://aneiser.github.io/?utm_source=resume&utm_campaign=indra&utm_language=spanish", display: "aneiser.github.io" },
       { type: "Phone", href: "tel:+34649874542", display: "+34 649 87 45 42" },
       { type: "Email", href: "mailto:a.neiser13@gmail.com", display: "a.neiser13@gmail.com" },
       { type: "LinkedIn", href: "https://www.linkedin.com/in/aneiser-ux", display: "linkedin.com/in/aneiser-ux" }
     ],
     summary: [
-      "Product Designer con 4+ años de experiencia creando experiencias centradas en el usuario. Con un <strong>Máster en Interacción Persona-Ordenador</strong>, tengo habilidades tanto en <strong>investigación con usuarios</strong> como en <strong>diseño UX</strong>. Mi <strong>pasado en frontend</strong> asegura una buena collaboración entre diseño y tecnología y me familiariza con <strong>entornos Agile y remotos</strong>. Con una <strong>mentalidad curiosa</strong>, me encanta descubrir nuevas oportunidades de aprendizaje y crecimiento.",
+      "<strong>Ingeniero informático</strong> con 4 años de <strong>experiencia en frontend</strong> y <strong>máster en Interacción Persona-Ordenador</strong>. Especializado en diseño UX/UI centrado en el usuario para mejorar <strong>su satisfacción y la usabilidad</strong>, cuyo aspecto de investigación de usuario es transferible y se alinea perfectamente al <strong>análisis funcional e interlocución con cliente</strong>. Mi trayectoria internacional en entornos colaborativos y multidisciplinares demuestra mi <strong>capacidad de adaptación</strong>.",
       // "Experto en traducir la investigación de usuarios en soluciones UX/UI de alta calidad, desde wireframes hasta prototipos de alta fidelidad. Hábil en colaborar con equipos multidisciplinares para entregar diseños centrados en el usuario y alineados con los objetivos empresariales."
     ],
     // competencies: [
@@ -176,13 +176,14 @@ const resumes = ref([
     // ],
     experiences: [
       {
-        title: "Diseñador UX/UI (Remoto)",
+        title: "Desarrollador UI",
         company: "Evoloom",
         industry: "e-learning",
         startDate: "2023",
         endDate: "",
         tasks: [
-          "Desarrollar una interfaz de usuario para cursos de una plataforma de e-learning, cumpliendo con plazos ajustados."
+          // "Desarrollar la interfaz de usuario para los cursos de una plataforma de e-learning, cumpliendo con plazos ajustados."
+          "Desarrollar la UI para los cursos de una plataforma de e-learning."
         ]
       },
       {
@@ -192,61 +193,68 @@ const resumes = ref([
         startDate: "2022",
         endDate: "",
         tasks: [
-          "Realizar 50+ sesiones de investigación de usuarios, recopilando datos de diversa naturaleza para <strong>descubrir problemas de jugabilidad</strong>.",
-          "Ofrecer información procesable a 15 <em>stakeholders</em>, abordando las frustraciones y <strong>mejorando la participación en el juego</strong>."
+          "Analizar resultados de investigación y ofrecer información práctica a 15+ <em>stakeholders</em> abordando problemas, frustraciones y el <em>engagement</em>.",
+          // "Realizar 50+ sesiones de investigación de usuarios, recopilando datos de diversa naturaleza para <strong>descubrir problemas de jugabilidad</strong>.",
+          // "Ofrecer información procesable a 15 <em>stakeholders</em>, abordando las frustraciones y <strong>mejorando la participación en el juego</strong>."
         ]
       },
       {
-        title: "Investigador y Diseñador UX",
+        title: "UX Researcher / developer",
         company: "Universidad París 8",
         industry: "Ámbito académico",
         startDate: "2021",
         endDate: "",
         tasks: [
-          "Liderar todas las fases del proceso de diseño de un prototipo <em>wearable</em> involucrando a 70 participantes y 20+ sesiones de investigación.",
-          "Elaborar 3 prototipos, iterar y llevar a cabo 5 rondas de pruebas sobre uno de ellos, confirmando el potencial para trabajos futuros."
+          // "Liderar todas las fases del proceso de diseño de un prototipo <em>wearable</em> involucrando a 70 participantes y 20+ sesiones de investigación.",
+          // "Elaborar 3 prototipos, iterar y llevar a cabo 5 rondas de pruebas sobre uno de ellos, confirmando el potencial para trabajos futuros.",
+          "Desarrollar y programar prototipos <em>wearables</em> en Arduino, integrando componentes para validar conceptos y funcionalidades."
         ]
       },
       {
-        title: "Diseñador UX/UI",// & Desarrollador Frontend",
+        title: "UX/UI Frontend developer",// & Desarrollador Frontend",
         company: "DV Business Solutions",
         industry: "telecomunicaciones",
         startDate: "2016",
         endDate: "2019",
         tasks: [
-          "<strong>Aumentar el <em>Net Promoter Score</em> en un 11%</strong> y lograr <strong>ahorros anuales</strong> de al menos <strong>€7,500</strong> mediante diseño centrado en el usuario.", // al reducir el tiempo de servicio de soporte.",
-          "Liderar docenas de actividades de investigación con el personal de varios equipos, <strong>guiando decisiones de diseño y funcionalidad</strong>.",
-          "Elaborar e iterar <strong>cientos de artefactos de diseño</strong> para garantizar una comunicación clara de la intención de diseño y viabilidad técnica.",
-          "<strong>Lanzar dos nuevos productos</strong> utilizando un enfoque <em>MVP</em> y <strong>fusionar 7 productos en una única plataforma</strong> con 10,000+ usuarios.",
-
-          // "Elaboré artefactos de diseño que mejoraron la experiencia del usuario y aumentaron el Net Promoter Score en un 11% para 10,000+ usuarios.", // y funciones
+          // "Elaborar e iterar <strong>cientos de artefactos de diseño</strong> para garantizar una comunicación clara de la intención de diseño y viabilidad técnica.",
+          "Desarrollar el frontend (Vue.js) de <strong>3 nuevos productos y unificar en una única plataforma 7 productos</strong> con 10000+ usuarios. Con enfoque <em>MVP</em>, colaboración con varios equipos y alineación con negocio",
           // "Demostré habilidades de toma de decisiones al equilibrar las necesidades del usuario, los objetivos comerciales y las limitaciones técnicas para orientar la dirección del producto",
-          // "Unifiqué varios productos en una solución en la nube sin problemas, fomentando la colaboración con equipos de desarrollo.",
           // "Colaboré estrechamente con gerentes de productos y desarrolladores para alinear objetivos de UX/UI con objetivos del producto, fomentando la sinergia y logrando hitos clave.",
-          // "Establecí una guía de estilo y una biblioteca de patrones de UI para mantener la consistencia de marca y coherencia en diversos productos."
+          "Desarrollar una <strong>biblioteca de componentes</strong> para <strong>mantener la consistencia</strong> de marca y coherencia en diversos productos.",
+          "<strong>Aumentar el <em>Net Promoter Score</em> en un 11%</strong> y lograr <strong>ahorros anuales</strong> de al menos <strong>€7500</strong> al reducir el tiempo de soporte.", // mediante diseño centrado en el usuario.", // al reducir el tiempo de servicio de soporte.",
         ]
       },
       {
-        title: "Diseñador UX/UI",// & Desarrollador Frontend",
+        title: "UX/UI Frontend developer",// & Desarrollador Frontend",
         company: "Universidad Politécnica de Madrid",
         industry: "educación",
         startDate: "2014",
         endDate: "2016",
         tasks: [
-          "Realizar 40+ pruebas de usabilidad, <strong>aumentando la usabilidad (SUS) en un 12%</strong> y <strong>mejorando el feedback en un 72%</strong>.",
-          "Crear la UI de una plataforma de QA con 3,000+ educadores, aplicando sólidas prácticas centradas en el usuario y usabilidad."
+          "Realizar 40+ pruebas de usabilidad, <strong>aumentando la usabilidad en un 12%</strong> y <strong>mejorando el feedback en un 72%</strong>.",
+          "Crear la UI de una plataforma de QA con 3000+ educadores, aplicando sólidas prácticas centradas en el usuario y usabilidad."
         ]
       }
     ],
       skills: {
-        research: [
-          "Entrevistas", "Encuestas", "Focus Groups", "Test de Usabilidad", "Personas", "User Journeys & Flows", "Design Thinking", "Escenarios", "Evaluación Heurística", "Card Sorting", "Análisis Competitivo"
+        development: [
+          "HTML", "CSS", "Javascript ES6", "Vue.js", "Git", "npm (Node Package Manager)", "Yarn", "Bootstrap", "React.js", "SASS", "PostCSS", "Pruebas unitarias", "Optimización de imágenes", "Proceso de Integración y Entrega Continua (CI y CD)",
+          // "Comunicación y trabajo en equipo: Habilidades de comunicación efectiva y capacidad para trabajar en colaboración con diseñadores, desarrolladores backend y otros miembros del equipo.",
         ],
         design: [
-          "Diseño Centrado en Usuario", "Diseño de Interacción", "Storyboards", "Arquitectura de Información", "Sistemas de Diseño", "Diseño Adaptativo", "Diseño Accesible (WCAG 2)", "Prototipado de Baja y Alta Fidelidad, Interactivo y de Video",
+          "Experiencia en Diseño Centrado en Usuario (UCD), Diseño Responsive y Adaptativo, Sistemas de Diseño, Arquitectura de la Información y Estándar de accesibilidad (WCAG 2) para desarrollar software altamente funcional, usable y accesible",
+          // "Diseño Centrado en Usuario", "Diseño de Interacción", "Storyboards",  "Diseño Adaptativo", "Diseño Accesible (WCAG 2)", "Prototipado de Baja y Alta Fidelidad, Interactivo y de Video",
         ],
-        tools: ["Figma", "Adobe XD", "Hotjar", "Miro", "Notion"],
-        development: ["HTML", "CSS", "Javascript", "Vue.js", "Git"]
+        // research: [
+          //   "Entrevistas", "Encuestas", "Focus Groups", "Test de Usabilidad", "Personas", "User Journeys & Flows", "Design Thinking", "Escenarios", "Evaluación Heurística", "Card Sorting", "Análisis Competitivo"
+        // ],
+        tools: [
+          "Visual Studio Code", "Sublime Text", "GitHub", "GitLab", "Bitbucket", "Google Chrome developer tools", "Figma", "Adobe XD", "Hotjar", "Miro", "Jira", "Notion", "Slack", "Microsoft Teams", "Zoom", "Vercel", "GitHub Pages",
+        ],
+        web3: [
+          "Solidity", "Web3.js", "Truffle", "Hardhat", "ERC-20", "ERC-721", "IPFS (Inter Planetary File System)", "Wagmi", "RainbowKit", "Remix", "Hardhat", "Ganache"
+        ],
     },
     languages: [
       { language: "Inglés", proficiency: "fluido - C1" },
@@ -255,14 +263,14 @@ const resumes = ref([
       { language: "Lengua de signos española", proficiency: "nativo" }
     ],
     educations: [
-      // {
-      //   degree: "Desarrollador Blockchain / Web 3.0",
-      //   institute: "Alyra",
-      //   graduated: "2023"
-      // },
       {
-        degree: "Máster en Diseño de Interacción Persona-Ordenador",
-        institute: "KTH Royal Institute of Technology & Université Paris Saclay",
+        degree: "Desarrollador Blockchain / Web 3.0",
+        institute: "Alyra",
+        graduated: "2023"
+      },
+      {
+        degree: "Máster Interacción Persona-Ordenador",
+        institute: "KTH y Paris Saclay",
         graduated: "2021"
       },
       {
@@ -422,8 +430,9 @@ const sectionTitles = computed(() => {
         competencies: "COMPETENCIAS",
         skills: "COMPETENCIAS",
           research: "Investigación de Usuarios",
-          design: "Diseño",
+          design: "Diseño UX y Accesibilidad",
           development: "Desarrollo Frontend",
+          web3: "Desarrollo Web 3",
           tools: "Herramientas",
         languages: "Idiomas",
         educations: "FORMACIÓN",
@@ -511,17 +520,19 @@ updateCurrentResume();
               <h2 class="section">{{ sectionTitles.languages }}</h2>
               <ResumeLanguage :languages="currentResume.languages" />
             </section>
-
-            <section v-if="currentResume.educations">
-              <h2 class="section">{{ sectionTitles.educations }}</h2>
-              <ResumeEducation v-for="education in currentResume.educations" :key="education.id" :education="education" />
-            </section>
           </aside>
 
           <!-- EXPERIENCE SECTION -->
-          <section v-if="currentResume.experiences" class="main">
-            <h2 class="section">{{ sectionTitles.experiences }}</h2>
-            <ResumeExperience v-for="(experience, index) in currentResume.experiences" :key="experience.id" :experience="experience" :class="{ highlight: index === 9 }" />
+          <section class="main">
+            <section v-if="currentResume.experiences">
+              <h2 class="section">{{ sectionTitles.experiences }}</h2>
+              <ResumeExperience v-for="(experience, index) in currentResume.experiences" :key="experience.id" :experience="experience" :class="{ highlight: index === 9 }" />
+            </section>
+
+            <section v-if="currentResume.educations" class="education-section">
+              <h2 class="section">{{ sectionTitles.educations }}</h2>
+              <ResumeEducation v-for="education in currentResume.educations" :key="education.id" :education="education" />
+            </section>
           </section>
         </div>
       </article>
@@ -579,7 +590,7 @@ article :deep(h4) {
 
 article :deep(h4),
 article :deep(li) {
-  margin-bottom: 4pt;
+  margin-bottom: 4.3pt;
   /* list-style-type: none; */
 }
 
@@ -667,13 +678,16 @@ article :deep(li) {
 .main h2.section {
   margin-top: 0;
 }
+.main > section:last-child > h2 {
+  margin-top: 35px;
+}
 
 .side > section:first-child > div:last-child {
   margin-top: 15px;
 }
 
 .side {
-  width: 31.4%;
+  width: 31.1%;
   /*width: 34.1%; /* ES */
   /*width: 33.9%; /* FR */
 }
@@ -681,7 +695,7 @@ article :deep(li) {
 .main {
   width: 61.8%; /* FR */
   width: 59.3%; /* EN */
-  width: 61.1%; /* ES */
+  width: 61.5%; /* ES y Frontend */
 }
 
 section {
@@ -692,6 +706,9 @@ section {
   font-size: 22pt;
   margin: 35px 0 10px;
   padding: 0;
+}
+.education-section div {
+  margin: 5px 0 8px;
 }
 
 .section::after {
