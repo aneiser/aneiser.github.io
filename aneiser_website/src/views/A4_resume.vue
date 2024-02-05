@@ -165,7 +165,7 @@ const resumes = ref([
       { type: "LinkedIn", href: "https://www.linkedin.com/in/aneiser-ux", display: "linkedin.com/in/aneiser-ux" }
     ],
     summary: [
-      "Product Designer con 4+ años de experiencia creando experiencias centradas en el usuario. Con un <strong>Máster en Interacción Persona-Ordenador</strong>, tengo habilidades tanto en <strong>investigación con usuarios</strong> como en <strong>diseño UX</strong>. Mi <strong>pasado en frontend</strong> asegura una buena collaboración entre diseño y tecnología y me familiariza con <strong>entornos Agile y remotos</strong>. Con una <strong>mentalidad curiosa</strong>, me encanta descubrir nuevas oportunidades de aprendizaje y crecimiento.",
+      "Product Designer con 4+ años de experiencia creando experiencias centradas en el usuario. Con un <strong>Máster en Interacción Persona-Ordenador</strong>, tengo habilidades tanto en <strong>investigación con usuarios</strong> como en <strong>diseño UX</strong>. Mi <strong>pasado en frontend</strong> asegura una buena colaboración entre diseño y tecnología y me familiariza con <strong>entornos Agile y remotos</strong>. Con una <strong>mentalidad curiosa</strong>, me encanta descubrir nuevas oportunidades de aprendizaje y crecimiento.",
       // "Experto en traducir la investigación de usuarios en soluciones UX/UI de alta calidad, desde wireframes hasta prototipos de alta fidelidad. Hábil en colaborar con equipos multidisciplinares para entregar diseños centrados en el usuario y alineados con los objetivos empresariales."
     ],
     // competencies: [
