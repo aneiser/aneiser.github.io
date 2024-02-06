@@ -22,14 +22,14 @@ const resumes = ref([
     title: "Frontend Dev.",
     contacts: [
       // { type: "Country", display: "Paris, France" },
-      { type: "Portfolio", href: "https://aneiser.github.io/?utm_source=resume&utm_campaign=PERSON__COMPANY&utm_language=english", display: "aneiser.github.io" },
-      // { type: "Phone", href: "tel:+330650674677", display: "+33 6.50.67.46.77" },
-      { type: "Phone", href: "tel:+34649874542", display: "+34 649 87 45 42" },
+      { type: "Portfolio", href: "https://aneiser.github.io/?utm_source=resume&utm_campaign=lisssolution&utm_language=english", display: "aneiser.github.io" },
+      { type: "Phone", href: "tel:+330650674677", display: "+33 6.50.67.46.77" },
+      // { type: "Phone", href: "tel:+34649874542", display: "+34 649 87 45 42" },
       { type: "Email", href: "mailto:a.neiser13@gmail.com", display: "a.neiser13@gmail.com" },
       { type: "LinkedIn", href: "https://www.linkedin.com/in/aneiser-ux", display: "linkedin.com/in/aneiser-ux" }
     ],
     summary: [
-      "<strong>Computer engineer</strong> with 4 years of <strong>frontend experience</strong> and <strong>master's degree in Human-Computer Interaction</strong>. Specialized in user-centered methodologies to <strong>improve user satisfaction and experience</strong>, whose user research aspect is transferable to <strong>developing solutions for clients and employees</strong>. My <strong>international background</strong> in <strong>agile environments</strong> and multidisciplinary teams demonstrates my <strong>adaptability</strong>."
+      "<strong>Computer engineer</strong> with 4 years of <strong>frontend experience</strong> and <strong>M.Sc. in Human-Computer Interaction</strong>. Specialized in User-Centered Design, I possess strong problem-solving skills and attention to detail to create <strong>exceptional web experiences</strong> and <strong>user-friendly interfaces</strong>. My <strong>international experience in cross-functional remote teams</strong> highlights my <strong>communication and teamwork abilities</strong>, and my ability to work independently and manage time effectively.",
     ],
     // competencies: [
     //   "Crafting and managing design artefacts.", // "such as wireframes, storyboards, flow diagrams, and prototypes.", "for both web and mobile applications.", "Utilizing Figma, Adobe Xd, etc.",
@@ -39,14 +39,14 @@ const resumes = ref([
     // ],
     experiences: [
       {
-        title: "UI Frontend Developer (Remote)",
+        title: "Frontend Developer (Remote)",
         company: "Evoloom",
         industry: "e-learning",
         startDate: "2023",
         endDate: "",
         tasks: [
           // "Develop user interface for e-learning platform courses, meeting tight deadlines."
-          "Develop the front end of an e-learning platform application."
+          "Translated design mockups into a functional web application, focusing on developing the frontend of an e-learning platform."
         ]
       },
       {
@@ -56,13 +56,13 @@ const resumes = ref([
         startDate: "2022",
         endDate: "",
         tasks: [
-          "Analyze research findings and provide practical insights to 15+ stakeholders addressing issues, frustrations, and engagement.",
+          "Analyzed research findings and provided practical insights to 15+ stakeholders addressing issues, frustrations, and engagement.",
           // "Conduct 50+ user research sessions, collecting data of diverse nature to <strong>uncover gameplay issues</strong>.",
           // "Provide actionable insights to 15 stakeholders, addressing frustrations and <strong>enhancing game engagement</strong>."
         ]
       },
       {
-        title: "Developer & UX Researcher",
+        title: "Full-Stack Developer",
         company: "University Paris 8",
         industry: "academia",
         startDate: "2021",
@@ -70,46 +70,46 @@ const resumes = ref([
         tasks: [
           // "Lead all phases of the design process for a wearable prototype involving 70 participants and 20+ research sessions.",
           // "Develop 3 prototypes, iterate and conduct 5 rounds of testing on one of them, confirming potential for future work.",
-          "Develop and program software for prototypes with Arduino, integrating components to validate concepts and functionalities."
+          "Developed and programmed software for prototypes with Arduino, integrating components to validate concepts and functionalities."
         ]
       },
       {
-        title: "UX/UI Frontend Developer",
+        title: "Frontend Developer",
         company: "DV Business Solutions",
         industry: "telecommunications",
         startDate: "2016",
         endDate: "2019",
         tasks: [
           // "Develop and iterate <strong>hundreds of design artifacts</strong> to ensure clear communication of design intent and technical feasibility.",
-          "Develop the frontend (Vue.js) of <strong>3 new products and integrate 7 products</strong> into a single platform with 10000+ users. With an <em>MVP</em> approach and <strong>aligned with business needs</strong>.",
+          "Developed the frontend (Vue.js) of <strong>3 new products and integrated 7 products</strong> into a single SaaS platform with 10000+ users.",
           // "Demonstrated decision-making skills by balancing user needs, business objectives, and technical constraints to guide product direction",
           // "Collaborated closely with product managers and developers to align UX/UI goals with product objectives, fostering synergy and achieving key milestones.",
-          "Implement a <strong>component library</strong> to <strong>maintain brand consistency</strong> and coherence across various products.",
-          "<strong>Increase Net Promoter Score by 11%</strong> and achieve annual savings of at least <strong>€7500</strong> by reducing support time.", // through user-centered design.", // by reducing support service time.",
+          "Implemented a component library to ensure clean, efficient, and maintainable code and achieve coherence across various products.",
+          "<strong>Increased Net Promoter Score by 11%</strong> and achieved annual savings of at least <strong>€7500</strong> by reducing support time.", // through user-centered design.", // by reducing support service time.",
         ]
       },
       {
-        title: "UX/UI Frontend Developer",
+        title: "Frontend Developer",
         company: "Polytechnic University of Madrid",
         industry: "education",
         startDate: "2014",
         endDate: "2016",
         tasks: [
-          "Conduct 40+ usability tests, <strong>increasing usability by 12%</strong> and <strong>improving feedback by 72%</strong>.",
-          "Develop the frontend of a quality teaching platform with 3000+ users, applying development best practices and quality."
+          "Conducted 40+ usability tests, <strong>increasing usability by 12%</strong> and <strong>improving feedback by 72%</strong>.",
+          "Developed the frontend of a quality teaching platform with 3000+ users, participating in code reviews and applying best practices."
         ]
       }
     ],
     skills: {
       development: [
-        "HTML", "CSS", "Javascript ES6", "Vue.js", "Git", "npm (Node Package Manager)", "Yarn", "Bootstrap", "React", "SASS", "PostCSS", "Webcomponents", "Automatic Testing", "Application Delivery Process, CI & CD, PWA",
+        "HTML", "CSS", "Javascript ES6", "Vue.js", "Git", "npm (Node Package Manager)", "Yarn", "Webcomponents", "Bootstrap", "React", "SASS", "PostCSS",  "Application Delivery Process, CI & CD, Progressive Web Applications",
         // "Communication and teamwork: Effective communication skills and ability to work collaboratively with designers, backend developers, and other team members.",
       ],
       web3: [
         "Solidity", "Web3.js", "Truffle", "Hardhat", "ERC-20", "ERC-721", "IPFS (Inter Planetary File System)", "Wagmi", "RainbowKit", "Remix", "Hardhat", "Ganache"
       ],
       design: [
-        "User-Centered Design (UCD), Responsive and Adaptive Design, Atomic Design, Design Systems, Information Architecture, and Accessibility Standard (WCAG 2) to develop highly functional, usable, and accessible software",
+        "Responsive and Adaptive Design across various devices, Design Mockups, Wireframes, Information Architecture, and Accessibility Standard (WCAG 2) to develop highly functional, usable, and accessible web applications",
         // "User-Centered Design", "Interaction Design", "Storyboards",  "Adaptive Design", "Accessible Design (WCAG 2)", "Low and High Fidelity Prototyping, Interactive and Video Prototyping",
       ],
       // research: [
