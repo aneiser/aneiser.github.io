@@ -7,7 +7,7 @@ import ResumeLanguage from '@/components/resume/ResumeLanguage.vue';
 import ResumeCoreCompetencies from '@/components/resume/ResumeCoreCompetencies.vue';
 import ResumeSummary from '@/components/resume/ResumeSummary.vue';
 
-const currentLanguage = ref('es');
+const currentLanguage = ref('en');
 
 const resumes = ref([
   // en
@@ -19,7 +19,7 @@ const resumes = ref([
     // █████ █   █  ███  █████ █████ █████ █   █
     lang: "en",
     name: ["Adrian", "Neila", "Serrano"],
-    title: "UX Designer",
+    title: "Frontend Dev.",
     contacts: [
       // { type: "Country", display: "Paris, France" },
       { type: "Portfolio", href: "https://aneiser.github.io/?utm_source=resume&utm_campaign=PERSON__COMPANY&utm_language=english", display: "aneiser.github.io" },
@@ -29,8 +29,7 @@ const resumes = ref([
       { type: "LinkedIn", href: "https://www.linkedin.com/in/aneiser-ux", display: "linkedin.com/in/aneiser-ux" }
     ],
     summary: [
-      "UX/UI Designer with 5 years of experience in crafting user-centric experiences. Holding a <strong>M.Sc. in HCI Design</strong>, I'm skilled in both <strong>design</strong> and <strong>research</strong> aspects. My <strong>frontend background</strong> bridges design with technology. Comfortable in <strong>Agile</strong> and thriving in <strong>remote</strong> and <strong>multicultural</strong> global settings, I've successfully collaborated with diverse teams worldwide. With a <strong>curious mindset</strong>, I am always eager to delve into new learning and growing opportunities.",
-      // "Skilled at translating user research into high-quality UX/UI solutions, from wireframes to high-fidelity prototypes. Adept at collaborating with multidisciplinary teams to deliver user-centric and business-aligned designs."
+      "<strong>Computer engineer</strong> with 4 years of <strong>frontend experience</strong> and <strong>master's degree in Human-Computer Interaction</strong>. Specialized in user-centered methodologies to <strong>improve user satisfaction and experience</strong>, whose user research aspect is transferable to <strong>developing solutions for clients and employees</strong>. My <strong>international background</strong> in <strong>agile environments</strong> and multidisciplinary teams demonstrates my <strong>adaptability</strong>."
     ],
     // competencies: [
     //   "Crafting and managing design artefacts.", // "such as wireframes, storyboards, flow diagrams, and prototypes.", "for both web and mobile applications.", "Utilizing Figma, Adobe Xd, etc.",
@@ -40,13 +39,14 @@ const resumes = ref([
     // ],
     experiences: [
       {
-        title: "UX/UI Designer (Remote)",
+        title: "UI Frontend Developer (Remote)",
         company: "Evoloom",
         industry: "e-learning",
         startDate: "2023",
         endDate: "",
         tasks: [
-          "Developed compelling UIs for courses on an e-learning platform, meeting tight deadlines, using existing educational resources.",
+          // "Develop user interface for e-learning platform courses, meeting tight deadlines."
+          "Develop the front end of an e-learning platform application."
         ]
       },
       {
@@ -56,65 +56,68 @@ const resumes = ref([
         startDate: "2022",
         endDate: "",
         tasks: [
-          // "Defined UX research scope, methods, and target participant profiles and driving participant recruitment.",
-          "Conducted <strong>50+ user research sessions</strong> and playtests, gathering qualitative and quantitative/biometric data to <strong>uncover gameplay issues</strong>.",
-          "Delivered actionable insights based on research findings to 15+ stakeholders, <strong>tackling frustrations</strong> and <strong>enhancing engagement</strong>.",
+          "Analyze research findings and provide practical insights to 15+ stakeholders addressing issues, frustrations, and engagement.",
+          // "Conduct 50+ user research sessions, collecting data of diverse nature to <strong>uncover gameplay issues</strong>.",
+          // "Provide actionable insights to 15 stakeholders, addressing frustrations and <strong>enhancing game engagement</strong>."
         ]
       },
       {
-        title: "UX Researcher",
+        title: "Developer & UX Researcher",
         company: "University Paris 8",
         industry: "academia",
         startDate: "2021",
         endDate: "",
         tasks: [
-          "Led the design of a pioneering wearable prototype from concept to completion, involving 70 participants and 20+ research sessions.",
-          "Crafted 3 initial prototypes, made 2 major updates to one, and executed 5 testing rounds, confirming potential for further work.",
+          // "Lead all phases of the design process for a wearable prototype involving 70 participants and 20+ research sessions.",
+          // "Develop 3 prototypes, iterate and conduct 5 rounds of testing on one of them, confirming potential for future work.",
+          "Develop and program software for prototypes with Arduino, integrating components to validate concepts and functionalities."
         ]
       },
       {
-        title: "UX Researcher & Designer",// & Frontend Developer",
+        title: "UX/UI Frontend Developer",
         company: "DV Business Solutions",
         industry: "telecommunications",
         startDate: "2016",
         endDate: "2019",
         tasks: [
-          "Direct user-centred design efforts culminated in an <strong>increase of 11% in Net Promoter Score</strong> and <strong>annual savings of</strong> at least <strong>€7,500</strong>.", // by trimming down support service time.",
-          "Led dozens of research activities with staff across several teams and a competitive analysis, <strong>driving design and feature decisions</strong>.",
-          "Crafted and iterated <strong>hundreds of design artifacts</strong> to ensure clear communication of design intent and technical viability.",
-          "<strong>Launched two new products</strong> using an MVP approach and <strong>merged 7 products into a unified platform</strong> serving 10,000+ users.",
-
-          // "Crafted design artefacts that enhanced user experience and boosted Net Promoter Score by 11% for over 10,000 users.", // and features
-          // "Demonstrated decision-making skills by balancing user needs, business goals, and technical constraints to steer product direction",
-          // "Unified multiple products into a seamless cloud solution, fostering collaboration with developers teams.",
+          // "Develop and iterate <strong>hundreds of design artifacts</strong> to ensure clear communication of design intent and technical feasibility.",
+          "Develop the frontend (Vue.js) of <strong>3 new products and integrate 7 products</strong> into a single platform with 10000+ users. With an <em>MVP</em> approach and <strong>aligned with business needs</strong>.",
+          // "Demonstrated decision-making skills by balancing user needs, business objectives, and technical constraints to guide product direction",
           // "Collaborated closely with product managers and developers to align UX/UI goals with product objectives, fostering synergy and achieving key milestones.",
-          // "Established a style guide and a UI pattern library to maintain brand consistency and coherence across diverse products.",
+          "Implement a <strong>component library</strong> to <strong>maintain brand consistency</strong> and coherence across various products.",
+          "<strong>Increase Net Promoter Score by 11%</strong> and achieve annual savings of at least <strong>€7500</strong> by reducing support time.", // through user-centered design.", // by reducing support service time.",
         ]
       },
       {
-        title: "UX/UI Designer",// & Frontend Developer",
+        title: "UX/UI Frontend Developer",
         company: "Polytechnic University of Madrid",
         industry: "education",
         startDate: "2014",
         endDate: "2016",
         tasks: [
-          "Conducted 40+ usability tests, <strong>raising the System Usability Scale (SUS) score by 12%</strong> and <strong>positive feedback by 72%</strong>.",
-          "Created the UI for a QA platform used by 3,000+ educators, driven by strong user-centred and usability best practices."
-          // "<strong>Evangelized UCD</strong> and advocated for a user centric perspective, <strong>involving the team</strong> and promoting usability standards."
+          "Conduct 40+ usability tests, <strong>increasing usability by 12%</strong> and <strong>improving feedback by 72%</strong>.",
+          "Develop the frontend of a quality teaching platform with 3000+ users, applying development best practices and quality."
         ]
       }
     ],
     skills: {
-      research: [
-        "Etnography studies", "Interviews", "Surveys", "Usability Testing", "Heuristic Evaluation", "Focus Groups", "Design Thinking", "Personas", "User Journeys & Flows", "Competitive Research", "Scenarios", "Card Sorting",
-        // "Qualitative & Quantitative Research", "A/B Testing", "Analytics Analysis", "brainstorming", "Card Sorting", "Contextual Inquiry", "Field Studies", "Focus Groups", "Formative & Summative Usability Testing", "Heuristic Evaluations", "In-depth Interviews", "Participatory Design", "Surveys", "Usability Studies", "Workshops"
+      development: [
+        "HTML", "CSS", "Javascript ES6", "Vue.js", "Git", "npm (Node Package Manager)", "Yarn", "Bootstrap", "React", "SASS", "PostCSS", "Webcomponents", "Automatic Testing", "Application Delivery Process, CI & CD, PWA",
+        // "Communication and teamwork: Effective communication skills and ability to work collaboratively with designers, backend developers, and other team members.",
+      ],
+      web3: [
+        "Solidity", "Web3.js", "Truffle", "Hardhat", "ERC-20", "ERC-721", "IPFS (Inter Planetary File System)", "Wagmi", "RainbowKit", "Remix", "Hardhat", "Ganache"
       ],
       design: [
-        "Human-Centred Design", "Interaction Design", "Accessible Design (WCAG 2)", "Adaptive Design", "Wireframing", "Low- & High-fidelity Prototyping", "Design Systems", "Storyboards", "Information Architecture", "Interactive Prototyping"
-        // "Accessible Design (WCAG 2)", "Empathy Maps", "Experience Maps", "Information Architecture", "Journey Maps", "Personas", "Storyboarding", "User-Centered Design"
+        "User-Centered Design (UCD), Responsive and Adaptive Design, Atomic Design, Design Systems, Information Architecture, and Accessibility Standard (WCAG 2) to develop highly functional, usable, and accessible software",
+        // "User-Centered Design", "Interaction Design", "Storyboards",  "Adaptive Design", "Accessible Design (WCAG 2)", "Low and High Fidelity Prototyping, Interactive and Video Prototyping",
       ],
-      tools: ["Figma", "Adobe XD", "Hotjar", "Miro", "Notion", "Trello"],
-      // development: ["HTML", "CSS", "Javascript", "Vue.js", "Git", "npm"]
+      // research: [
+      //   "Interviews", "Surveys", "Focus Groups", "Usability Testing", "Personas", "User Journeys & Flows", "Design Thinking", "Scenarios", "Heuristic Evaluation", "Card Sorting", "Competitive Analysis"
+      // ],
+      tools: [
+        "Visual Studio Code", "Sublime Text", "GitHub", "GitLab", "Bitbucket", "Google Chrome developer tools", "Figma", "Adobe XD", "Hotjar", "Miro", "Jira", "Notion", "Slack", "Microsoft Teams", "Zoom", "Vercel", "GitHub Pages",
+      ],
     },
     languages: [
       { language: "English",
@@ -131,14 +134,14 @@ const resumes = ref([
       }
     ],
     educations: [
-      // {
-      //   degree: "Blockchain / Web 3 developer",
-      //   institute: "Alyra",
-      //   graduated: "2023"
-      // },
       {
-        degree: "M.Sc. Human-Computer Interaction Design",// (Hybrid)",
-        institute: "KTH Royal Institute of Technology & Université Paris Saclay",
+        degree: "Blockchain / Web 3 developer",
+        institute: "Alyra",
+        graduated: "2023"
+      },
+      {
+        degree: "M.Sc. Human-Computer Interaction",// (Hybrid)",
+        institute: "KTH & Paris Saclay",
         graduated: "2021"
       },
       {
@@ -237,24 +240,24 @@ const resumes = ref([
         ]
       }
     ],
-      skills: {
-        development: [
-          "HTML", "CSS", "Javascript ES6", "Vue.js", "Git", "npm (Node Package Manager)", "Yarn", "Bootstrap", "React", "SASS", "PostCSS",  "Webcomponents", "Testing automático","Application Delivery Process, CI & CD, PWA",
-          // "Comunicación y trabajo en equipo: Habilidades de comunicación efectiva y capacidad para trabajar en colaboración con diseñadores, desarrolladores backend y otros miembros del equipo.",
-        ],
-        web3: [
-          "Solidity", "Web3.js", "Truffle", "Hardhat", "ERC-20", "ERC-721", "IPFS (Inter Planetary File System)", "Wagmi", "RainbowKit", "Remix", "Hardhat", "Ganache"
-        ],
-        design: [
-          "Experiencia en Diseño Centrado en Usuario (UCD), Diseño Responsive y Adaptativo, Atomic Design, Design Systems, Arquitectura de la Información y Estándar de accesibilidad (WCAG 2) para desarrollar software altamente funcional, usable y accesible",
-          // "Diseño Centrado en Usuario", "Diseño de Interacción", "Storyboards",  "Diseño Adaptativo", "Diseño Accesible (WCAG 2)", "Prototipado de Baja y Alta Fidelidad, Interactivo y de Video",
-        ],
-        // research: [
-          //   "Entrevistas", "Encuestas", "Focus Groups", "Test de Usabilidad", "Personas", "User Journeys & Flows", "Design Thinking", "Escenarios", "Evaluación Heurística", "Card Sorting", "Análisis Competitivo"
-        // ],
-        tools: [
-          "Visual Studio Code", "Sublime Text", "GitHub", "GitLab", "Bitbucket", "Google Chrome developer tools", "Figma", "Adobe XD", "Hotjar", "Miro", "Jira", "Notion", "Slack", "Microsoft Teams", "Zoom", "Vercel", "GitHub Pages",
-        ],
+    skills: {
+      development: [
+        "HTML", "CSS", "Javascript ES6", "Vue.js", "Git", "npm (Node Package Manager)", "Yarn", "Bootstrap", "React", "SASS", "PostCSS",  "Webcomponents", "Testing automático","Application Delivery Process, CI & CD, PWA",
+        // "Comunicación y trabajo en equipo: Habilidades de comunicación efectiva y capacidad para trabajar en colaboración con diseñadores, desarrolladores backend y otros miembros del equipo.",
+      ],
+      web3: [
+        "Solidity", "Web3.js", "Truffle", "Hardhat", "ERC-20", "ERC-721", "IPFS (Inter Planetary File System)", "Wagmi", "RainbowKit", "Remix", "Hardhat", "Ganache"
+      ],
+      design: [
+        "Experiencia en Diseño Centrado en Usuario (UCD), Diseño Responsive y Adaptativo, Atomic Design, Design Systems, Arquitectura de la Información y Estándar de accesibilidad (WCAG 2) para desarrollar software altamente funcional, usable y accesible",
+        // "Diseño Centrado en Usuario", "Diseño de Interacción", "Storyboards",  "Diseño Adaptativo", "Diseño Accesible (WCAG 2)", "Prototipado de Baja y Alta Fidelidad, Interactivo y de Video",
+      ],
+      // research: [
+        //   "Entrevistas", "Encuestas", "Focus Groups", "Test de Usabilidad", "Personas", "User Journeys & Flows", "Design Thinking", "Escenarios", "Evaluación Heurística", "Card Sorting", "Análisis Competitivo"
+      // ],
+      tools: [
+        "Visual Studio Code", "Sublime Text", "GitHub", "GitLab", "Bitbucket", "Google Chrome developer tools", "Figma", "Adobe XD", "Hotjar", "Miro", "Jira", "Notion", "Slack", "Microsoft Teams", "Zoom", "Vercel", "GitHub Pages",
+      ],
     },
     languages: [
       { language: "Inglés", proficiency: "fluido - C1" },
@@ -418,8 +421,9 @@ const sectionTitles = computed(() => {
         competencies: "CORE COMPETENCIES",
         skills: "SKILLS",
           research: "User research",
-          design: "Design",
+          design: "Accessibility & UX Design",
           development: "Frontend development",
+          web3: "Web 3 development",// "Blockchain / Web 3 development",
           tools: "Tools",
         languages: "LANGUAGES",
         educations: "EDUCATION",
