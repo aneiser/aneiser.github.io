@@ -281,7 +281,7 @@ const resumes = ref([
     // █     █   █ █████ █   █  ████ █   █
     lang: "fr",
     name: ["Adrian", "NEILA", "SERRANO"],
-    title: "Designer UX",
+    title: "UX Designer",
     contacts: [
       { type: "Country", display: "Paris, France" },
       { type: "Portfolio", href: "https://aneiser.github.io/?utm_source=resume&utm_campaign=PERSON__COMPANY&utm_language=french", display: "aneiser.github.io" },
@@ -290,8 +290,8 @@ const resumes = ref([
       { type: "LinkedIn", href: "https://www.linkedin.com/in/aneiser-ux", display: "linkedin.com/in/aneiser-ux" }
     ],
     summary: [
-      "Designer UX avec 4+ ans d'expérience dans la création d'expériences centrées sur l'utilisateur. Titulaire d'un <strong>BAC+5 en Interaction Homme-Machine</strong>, je suis compétent dans les aspects de <strong>conception</strong> et de <strong>recherche</strong>. Mon expérience en <strong>développement frontend</strong> relie la conception à la technologie. À l'aise dans un environnement <strong>Agile</strong> et prospérant dans des contextes <strong>à distance</strong> et <strong>multiculturels</strong>, j'ai collaboré avec succès avec des équipes diversifiées à l'échelle mondiale. Avec un <strong>esprit curieux</strong>, je suis toujours impatient de m'investir dans de nouvelles opportunités d'apprentissage et de croissance.",
-      // "Designer UX avec 4+ ans d'expérience dans la création d'expériences centrées sur l'utilisateur. Titulaire d'un <strong>BAC+5 en Interaction Homme-Machine</strong> et ayant un passé en <strong>développement frontend</strong>, je suis compétent dans les aspects de la <strong>recherche utilisateur</strong> et du <strong>conception</strong>. Avec un <strong>esprit curieux</strong>, je suis toujours impatient de m'investir dans de nouvelles opportunités d'apprentissage et de croissance.",
+      "UX Designer avec 4+ ans d'expérience dans la création d'expériences centrées sur l'utilisateur. Titulaire d'un <strong>BAC+5 en Interaction Homme-Machine</strong>, je suis compétent dans les aspects de <strong>conception</strong> et de <strong>recherche</strong>. Mon expérience en <strong>développement frontend</strong> relie la conception à la technologie. À l'aise dans un environnement <strong>Agile</strong> et prospérant dans des contextes <strong>à distance</strong> et <strong>multiculturels</strong>, j'ai collaboré avec succès avec des équipes diversifiées à l'échelle mondiale. Avec un <strong>esprit curieux</strong>, je suis toujours impatient de m'investir dans de nouvelles opportunités d'apprentissage et de croissance.",
+      // "UX Designer avec 4+ ans d'expérience dans la création d'expériences centrées sur l'utilisateur. Titulaire d'un <strong>BAC+5 en Interaction Homme-Machine</strong> et ayant un passé en <strong>développement frontend</strong>, je suis compétent dans les aspects de la <strong>recherche utilisateur</strong> et du <strong>conception</strong>. Avec un <strong>esprit curieux</strong>, je suis toujours impatient de m'investir dans de nouvelles opportunités d'apprentissage et de croissance.",
       // "Doué pour traduire la recherche utilisateur en solutions UX/UI de haute qualité, des wireframes aux prototypes haute fidélité. Apte à collaborer avec des équipes multidisciplinaires pour livrer des conceptions centrées sur l'utilisateur et alignées sur les objectifs commerciaux.",
     ],
     // competencies: [
@@ -302,7 +302,7 @@ const resumes = ref([
     // ],
     experiences: [
       {
-        title: "Designer UX/UI",
+        title: "UX/UI Designer",
         company: "Evoloom",
         industry: "e-learning",
         startDate: "2023",
@@ -312,7 +312,7 @@ const resumes = ref([
         ]
       },
       {
-        title: "Chercheur Utilisateur",
+        title: "User researcher",
         company: "Ubisoft",
         industry: "jeux vidéo",
         startDate: "2022",
@@ -323,7 +323,7 @@ const resumes = ref([
         ]
       },
       {
-        title: "Chercheur et Designer UX",
+        title: "User researcher et UX Designer",
         company: "Université Paris 8",
         industry: "milieu universitaire",
         startDate: "2021",
@@ -334,7 +334,7 @@ const resumes = ref([
         ]
       },
       {
-        title: "Designer UX/UI",// & Développeur Frontend",
+        title: "UX Designer",// & Développeur Frontend",
         company: "DV Business Solutions",
         industry: "télécommunications",
         startDate: "2016",
@@ -353,7 +353,7 @@ const resumes = ref([
         ]
       },
       {
-        title: "Designer UX/UI",// & Développeur Frontend",
+        title: "UX/UI Designer",// & Développeur Frontend",
         company: "Universidad Politécnica Madrid",
         industry: "éducation",
         startDate: "2014",
@@ -388,12 +388,12 @@ const resumes = ref([
       //   graduated: "2023"
       // },
       {
-        degree: "BAC+5 en Interaction Homme-Ordinateur",
+        degree: "BAC+5 Human-Computer Interaction",
         institute: "Université Paris Saclay & KTH Royal Institute of Technology",
         graduated: "2021"
       },
       {
-        degree: "BAC+3 en ingénierie informatique",
+        degree: "BAC+3 Ingénierie Informatique",
         institute: "Universidad Politécnica Madrid",
         graduated: "2014"
       }
@@ -433,8 +433,8 @@ const sectionTitles = computed(() => {
       return {
         competencies: "COMPÉTENCES",
         skills: "COMPÉTENCES",
-          research: "Recherche utilisateur",
-          design: "Conception",
+          research: "User research",
+          design: "Design",
           development: "Development Frontend",
           tools: "Outils",
         languages: "LANGUES",
