@@ -192,7 +192,7 @@ const resumes = ref([
         startDate: "2022",
         endDate: "",
         tasks: [
-          "Realizar 50+ sesiones de investigación de usuarios, recopilando datos de diversa naturaleza para <strong>descubrir problemas de jugabilidad</strong>.",
+          "Realizar +50 sesiones de investigación de usuarios, recopilando datos de diversa naturaleza para <strong>descubrir problemas de jugabilidad</strong>.",
           "Ofrecer información procesable a 15 <em>stakeholders</em>, abordando las frustraciones y <strong>mejorando la participación en el juego</strong>."
         ]
       },
@@ -203,7 +203,7 @@ const resumes = ref([
         startDate: "2021",
         endDate: "",
         tasks: [
-          "Liderar todas las fases del proceso de diseño de un prototipo <em>wearable</em> involucrando a 70 participantes y 20+ sesiones de investigación.",
+          "Liderar todas las fases del proceso de diseño de un prototipo <em>wearable</em> involucrando a 70 participantes y +20 sesiones de investigación.",
           "Elaborar 3 prototipos, iterar y llevar a cabo 5 rondas de pruebas sobre uno de ellos, confirmando el potencial para trabajos futuros."
         ]
       },
@@ -217,9 +217,9 @@ const resumes = ref([
           "<strong>Aumentar el <em>Net Promoter Score</em> en un 11%</strong> y lograr <strong>ahorros anuales</strong> de al menos <strong>€7,500</strong> mediante diseño centrado en el usuario.", // al reducir el tiempo de servicio de soporte.",
           "Liderar docenas de actividades de investigación con el personal de varios equipos, <strong>guiando decisiones de diseño y funcionalidad</strong>.",
           "Elaborar e iterar <strong>cientos de artefactos de diseño</strong> para garantizar una comunicación clara de la intención de diseño y viabilidad técnica.",
-          "<strong>Lanzar dos nuevos productos</strong> utilizando un enfoque <em>MVP</em> y <strong>fusionar 7 productos en una única plataforma</strong> con 10,000+ usuarios.",
+          "<strong>Lanzar dos nuevos productos</strong> utilizando un enfoque <em>MVP</em> y <strong>fusionar 7 productos en una única plataforma</strong> con +10,000 usuarios.",
 
-          // "Elaboré artefactos de diseño que mejoraron la experiencia del usuario y aumentaron el Net Promoter Score en un 11% para 10,000+ usuarios.", // y funciones
+          // "Elaboré artefactos de diseño que mejoraron la experiencia del usuario y aumentaron el Net Promoter Score en un 11% para +10,000 usuarios.", // y funciones
           // "Demostré habilidades de toma de decisiones al equilibrar las necesidades del usuario, los objetivos comerciales y las limitaciones técnicas para orientar la dirección del producto",
           // "Unifiqué varios productos en una solución en la nube sin problemas, fomentando la colaboración con equipos de desarrollo.",
           // "Colaboré estrechamente con gerentes de productos y desarrolladores para alinear objetivos de UX/UI con objetivos del producto, fomentando la sinergia y logrando hitos clave.",
@@ -233,8 +233,8 @@ const resumes = ref([
         startDate: "2014",
         endDate: "2016",
         tasks: [
-          "Realizar 40+ pruebas de usabilidad, <strong>aumentando la usabilidad (SUS) en un 12%</strong> y <strong>mejorando el feedback en un 72%</strong>.",
-          "Crear la UI de una plataforma de QA con 3,000+ educadores, aplicando sólidas prácticas centradas en el usuario y usabilidad."
+          "Realizar +40 pruebas de usabilidad, <strong>aumentando la usabilidad (SUS) en un 12%</strong> y <strong>mejorando el feedback en un 72%</strong>.",
+          "Crear la UI de una plataforma de QA con +3,000 educadores, aplicando sólidas prácticas centradas en el usuario y usabilidad."
         ]
       }
     ],
@@ -290,8 +290,8 @@ const resumes = ref([
       { type: "LinkedIn", href: "https://www.linkedin.com/in/aneiser-ux", display: "linkedin.com/in/aneiser-ux" }
     ],
     summary: [
-      "UX Designer avec 4+ ans d'expérience dans la création d'expériences centrées sur l'utilisateur. Titulaire d'un <strong>BAC+5 en Interaction Homme-Machine</strong>, je suis compétent dans les aspects de <strong>conception</strong> et de <strong>recherche</strong>. Mon expérience en <strong>développement frontend</strong> relie la conception à la technologie. À l'aise dans un environnement <strong>Agile</strong> et prospérant dans des contextes <strong>à distance</strong> et <strong>multiculturels</strong>, j'ai collaboré avec succès avec des équipes diversifiées à l'échelle mondiale. Avec un <strong>esprit curieux</strong>, je suis toujours impatient de m'investir dans de nouvelles opportunités d'apprentissage et de croissance.",
-      // "UX Designer avec 4+ ans d'expérience dans la création d'expériences centrées sur l'utilisateur. Titulaire d'un <strong>BAC+5 en Interaction Homme-Machine</strong> et ayant un passé en <strong>développement frontend</strong>, je suis compétent dans les aspects de la <strong>recherche utilisateur</strong> et du <strong>conception</strong>. Avec un <strong>esprit curieux</strong>, je suis toujours impatient de m'investir dans de nouvelles opportunités d'apprentissage et de croissance.",
+      "UX Designer avec +4 ans d'expérience dans la création d'expériences centrées sur l'utilisateur. Titulaire d'un <strong>BAC+5 en Interaction Homme-Machine</strong>, je suis compétent dans les aspects de <strong>conception</strong> et de <strong>recherche</strong>. Mon expérience en <strong>développement frontend</strong> relie la conception à la technologie. À l'aise dans un environnement <strong>Agile</strong> et prospérant dans des contextes <strong>à distance</strong> et <strong>multiculturels</strong>, j'ai collaboré avec succès avec des équipes diversifiées à l'échelle mondiale. Avec un <strong>esprit curieux</strong>, je suis toujours impatient de m'investir dans de nouvelles opportunités d'apprentissage et de croissance.",
+      // "UX Designer avec +4 ans d'expérience dans la création d'expériences centrées sur l'utilisateur. Titulaire d'un <strong>BAC+5 en Interaction Homme-Machine</strong> et ayant un passé en <strong>développement frontend</strong>, je suis compétent dans les aspects de la <strong>recherche utilisateur</strong> et du <strong>conception</strong>. Avec un <strong>esprit curieux</strong>, je suis toujours impatient de m'investir dans de nouvelles opportunités d'apprentissage et de croissance.",
       // "Doué pour traduire la recherche utilisateur en solutions UX/UI de haute qualité, des wireframes aux prototypes haute fidélité. Apte à collaborer avec des équipes multidisciplinaires pour livrer des conceptions centrées sur l'utilisateur et alignées sur les objectifs commerciaux.",
     ],
     // competencies: [
@@ -318,8 +318,8 @@ const resumes = ref([
         startDate: "2022",
         endDate: "",
         tasks: [
-          "Conduction de 50+ sessions de recherche utilisateur et playtests, collectant des données pour <strong>détecter des problèmes de gameplay</strong>.",
-          "Fourniture d'informations exploitables à 15+ parties prenantes, <strong>traitant les frustrations des joueurs</strong> et <strong>améliorant l'engagement</strong>."
+          "Conduction de +50 sessions de recherche utilisateur et playtests, collectant des données pour <strong>détecter des problèmes de gameplay</strong>.",
+          "Fourniture d'informations exploitables à +15 parties prenantes, <strong>traitant les frustrations des joueurs</strong> et <strong>améliorant l'engagement</strong>."
         ]
       },
       {
@@ -329,7 +329,7 @@ const resumes = ref([
         startDate: "2021",
         endDate: "",
         tasks: [
-          "Conception d'un prototype portable de la phase conceptuelle à la réalisation, avec 70 participants et 20+ sessions de recherche.",
+          "Conception d'un prototype portable de la phase conceptuelle à la réalisation, avec 70 participants et +20 sessions de recherche.",
           "Création de 3 prototypes, effectuation de 2 mises à jour sur l'un d'eux et réalisation de 5 rounds de tests, confirmant le potentiel."
         ]
       },
@@ -343,9 +343,9 @@ const resumes = ref([
           "Les efforts de conception centrés sur l'utilisateur ont abouti à une <strong>augmentation de 11% du Net Promoter Score</strong> et à des <strong>économies annuelles d'au moins</strong> <strong>7500 €</strong>.", // en réduisant le temps de service d'assistance.",
           "Direction de nombreuses activités de recherche avec le personnel, <strong>orientant les décisions de conception et de fonctionnalités</strong>.",
           "Création et itération de <strong>centaines d'artefacts de conception visuelle</strong> pour assurer une communication claire de l'intention de conception et de la viabilité technique.",
-          "<strong>Lancement de deux nouveaux produits</strong> et <strong>fusion de 7 produits en une plateforme unifiée</strong> desservant 10000+  utilisateurs.",
+          "<strong>Lancement de deux nouveaux produits</strong> et <strong>fusion de 7 produits en une plateforme unifiée</strong> desservant +10000  utilisateurs.",
 
-          // "Création d'artefacts de conception qui ont amélioré l'expérience utilisateur et ont augmenté le Net Promoter Score de 11% pour 10000+  utilisateurs.", // et fonctionnalités
+          // "Création d'artefacts de conception qui ont amélioré l'expérience utilisateur et ont augmenté le Net Promoter Score de 11% pour +10000  utilisateurs.", // et fonctionnalités
           // "Démonstration de compétences en prise de décision en équilibrant les besoins des utilisateurs, les objectifs commerciaux et les contraintes techniques pour orienter la direction du produit",
           // "Unification de plusieurs produits en une solution cloud transparente, favorisant la collaboration avec les équipes de développeurs.",
           // "Collaboration étroite avec les chefs de produit et les développeurs pour aligner les objectifs UX/UI avec les objectifs du produit, favorisant la synergie et atteignant des jalons clés.",
@@ -359,8 +359,8 @@ const resumes = ref([
         startDate: "2014",
         endDate: "2016",
         tasks: [
-          "Conduction de 40+ tests de convivialité, <strong>augmentation du score de l'échelle SUS de 12%</strong> et <strong>retours positifs de 72%</strong>.",
-          "Création de l'UI pour une plateforme QA utilisée par 3000+ éducateurs, basée sur de solides pratiques centrées sur l'utilisateur et de convivialité."
+          "Conduction de +40 tests de convivialité, <strong>augmentation du score de l'échelle SUS de 12%</strong> et <strong>retours positifs de 72%</strong>.",
+          "Création de l'UI pour une plateforme QA utilisée par +3000 éducateurs, basée sur de solides pratiques centrées sur l'utilisateur et de convivialité."
         ]
       }
     ],
