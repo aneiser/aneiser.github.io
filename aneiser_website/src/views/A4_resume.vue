@@ -176,7 +176,7 @@ const resumes = ref([
     // ],
     experiences: [
       {
-        title: "Diseñador UX/UI (Remoto)",
+        title: "UX/UI Designer (Remoto)",
         company: "Evoloom",
         industry: "e-learning",
         startDate: "2023",
@@ -186,7 +186,7 @@ const resumes = ref([
         ]
       },
       {
-        title: "Investigador de Usuarios",
+        title: "User Researcher",
         company: "Ubisoft",
         industry: "videojuegos",
         startDate: "2022",
@@ -197,7 +197,7 @@ const resumes = ref([
         ]
       },
       {
-        title: "Investigador y Diseñador UX",
+        title: "UX Researcher/Designer",
         company: "Universidad París 8",
         industry: "Ámbito académico",
         startDate: "2021",
@@ -208,7 +208,7 @@ const resumes = ref([
         ]
       },
       {
-        title: "Diseñador UX/UI",// & Desarrollador Frontend",
+        title: "UX/UI Designer",// & Desarrollador Frontend",
         company: "DV Business Solutions",
         industry: "telecomunicaciones",
         startDate: "2016",
@@ -227,7 +227,7 @@ const resumes = ref([
         ]
       },
       {
-        title: "Diseñador UX/UI",// & Desarrollador Frontend",
+        title: "UX/UI Designer",// & Desarrollador Frontend",
         company: "Universidad Politécnica de Madrid",
         industry: "educación",
         startDate: "2014",
@@ -252,7 +252,7 @@ const resumes = ref([
       { language: "Inglés", proficiency: "fluido - C1" },
       { language: "Francés", proficiency: "intermedio - B2" },
       { language: "Español", proficiency: "nativo" },
-      { language: "Lengua de signos española", proficiency: "nativo" }
+      { language: "Lengua de Signos Española", proficiency: "nativo" }
     ],
     educations: [
       // {
