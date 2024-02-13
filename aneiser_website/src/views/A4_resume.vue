@@ -7,7 +7,7 @@ import ResumeLanguage from '@/components/resume/ResumeLanguage.vue';
 import ResumeCoreCompetencies from '@/components/resume/ResumeCoreCompetencies.vue';
 import ResumeSummary from '@/components/resume/ResumeSummary.vue';
 
-const currentLanguage = ref('en');
+const currentLanguage = ref('fr');
 
 const resumes = ref([
   // en
@@ -292,120 +292,107 @@ const resumes = ref([
     // █     █   █ █████ █   █  ████ █   █
     lang: "fr",
     name: ["Adrian", "NEILA", "SERRANO"],
-    title: "Designer UX",
+    title: "Frontend Dev.",
     contacts: [
       { type: "Country", display: "Paris, France" },
-      { type: "Portfolio", href: "https://aneiser.github.io/?utm_source=resume&utm_campaign=PERSON__COMPANY&utm_language=french", display: "aneiser.github.io" },
+      { type: "Portfolio", href: "https://aneiser.github.io/?utm_source=resume&utm_campaign=FabriceClair__SAP&utm_language=french", display: "aneiser.github.io" },
       { type: "Phone", href: "tel:+33650674677", display: "+33 6.50.67.46.77" },
       { type: "Email", href: "mailto:a.neiser13@gmail.com", display: "a.neiser13@gmail.com" },
       { type: "LinkedIn", href: "https://www.linkedin.com/in/aneiser-ux", display: "linkedin.com/in/aneiser-ux" }
     ],
     summary: [
-      "Designer UX avec 4+ ans d'expérience dans la création d'expériences centrées sur l'utilisateur. Titulaire d'un <strong>BAC+5 en Interaction Homme-Machine</strong>, je suis compétent dans les aspects de <strong>conception</strong> et de <strong>recherche</strong>. Mon expérience en <strong>développement frontend</strong> relie la conception à la technologie. À l'aise dans un environnement <strong>Agile</strong> et prospérant dans des contextes <strong>à distance</strong> et <strong>multiculturels</strong>, j'ai collaboré avec succès avec des équipes diversifiées à l'échelle mondiale. Avec un <strong>esprit curieux</strong>, je suis toujours impatient de m'investir dans de nouvelles opportunités d'apprentissage et de croissance.",
-      // "Designer UX avec 4+ ans d'expérience dans la création d'expériences centrées sur l'utilisateur. Titulaire d'un <strong>BAC+5 en Interaction Homme-Machine</strong> et ayant un passé en <strong>développement frontend</strong>, je suis compétent dans les aspects de la <strong>recherche utilisateur</strong> et du <strong>conception</strong>. Avec un <strong>esprit curieux</strong>, je suis toujours impatient de m'investir dans de nouvelles opportunités d'apprentissage et de croissance.",
-      // "Doué pour traduire la recherche utilisateur en solutions UX/UI de haute qualité, des wireframes aux prototypes haute fidélité. Apte à collaborer avec des équipes multidisciplinaires pour livrer des conceptions centrées sur l'utilisateur et alignées sur les objectifs commerciaux.",
+     "<strong>Ingénieur informaticien</strong> avec 4 ans d'expérience en <strong>frontend</strong> et <strong>BAC+5 en Interaction Homme-Machine</strong>. Spécialisé dans la Conception Centrée Utilisateur, je possède des compétences en résolution de problèmes et une attention aux détails pour créer des <strong>expériences web exceptionnelles</strong> et des <strong>interfaces conviviales</strong>. Mon <strong>expérience internationale au sein d'équipes pluridisciplinaires</strong> met en avant mes <strong>compétences en communication et en travail d'équipe</strong>.",
     ],
-    // competencies: [
-    //   "Création et gestion d'artefacts de conception.", // "tels que wireframes, storyboards, diagrammes de flux et prototypes.", "pour les applications web et mobiles.", "En utilisant Figma, Adobe Xd, etc.",
-    //   "Conduire des recherches multi-phases avec des méthodes mixtes et des tests d'utilisabilité.", // "pour optimiser les éléments pour une meilleure expérience utilisateur.",
-    //   "Suivi des tâches Agile et collaboration avec des équipes interfonctionnelles."
-    //   // "Diriger le processus de conception et garantir l'alignement avec les objectifs commerciaux.",
-    // ],
     experiences: [
       {
-        title: "Designer UX/UI",
+        title: "Frontend Developer (Remote)",
         company: "Evoloom",
         industry: "e-learning",
         startDate: "2023",
         endDate: "",
         tasks: [
-          "Développement d'une UI convaincante pour des cours sur une plateforme d'apprentissage en ligne, respectant des délais serrés."
+          "Développement du frontend pour les cours d'une plateforme d'e-learning, en traduisant les wireframes en une UI fonctionnelle."
         ]
       },
       {
-        title: "Chercheur Utilisateur",
+        title: "User Researcher",
         company: "Ubisoft",
         industry: "jeux vidéo",
         startDate: "2022",
         endDate: "",
         tasks: [
-          "Conduction de 50+ sessions de recherche utilisateur et playtests, collectant des données pour <strong>détecter des problèmes de gameplay</strong>.",
-          "Fourniture d'informations exploitables à 15+ parties prenantes, <strong>traitant les frustrations des joueurs</strong> et <strong>améliorant l'engagement</strong>."
+          "Analyser les résultats de recherche et fournir des insights à +15 parties prenantes, abordant les problèmes, les frustrations et l'engagement."
         ]
       },
       {
-        title: "Chercheur et Designer UX",
+        title: "Full-Stack Developer",
         company: "Université Paris 8",
         industry: "milieu universitaire",
         startDate: "2021",
         endDate: "",
         tasks: [
-          "Conception d'un prototype portable de la phase conceptuelle à la réalisation, avec 70 participants et 20+ sessions de recherche.",
-          "Création de 3 prototypes, effectuation de 2 mises à jour sur l'un d'eux et réalisation de 5 rounds de tests, confirmant le potentiel."
+          "Développement des logiciels pour des prototypes avec Arduino, en intégrant des composants pour valider concepts et fonctionnalités.",
         ]
       },
       {
-        title: "Designer UX/UI",// & Développeur Frontend",
+        title: "Frontend Developer",
         company: "DV Business Solutions",
         industry: "télécommunications",
         startDate: "2016",
         endDate: "2019",
         tasks: [
-          "Les efforts de conception centrés sur l'utilisateur ont abouti à une <strong>augmentation de 11% du Net Promoter Score</strong> et à des <strong>économies annuelles d'au moins</strong> <strong>7500 €</strong>.", // en réduisant le temps de service d'assistance.",
-          "Direction de nombreuses activités de recherche avec le personnel, <strong>orientant les décisions de conception et de fonctionnalités</strong>.",
-          "Création et itération de <strong>centaines d'artefacts de conception visuelle</strong> pour assurer une communication claire de l'intention de conception et de la viabilité technique.",
-          "<strong>Lancement de deux nouveaux produits</strong> et <strong>fusion de 7 produits en une plateforme unifiée</strong> desservant 10000+  utilisateurs.",
-
-          // "Création d'artefacts de conception qui ont amélioré l'expérience utilisateur et ont augmenté le Net Promoter Score de 11% pour 10000+  utilisateurs.", // et fonctionnalités
-          // "Démonstration de compétences en prise de décision en équilibrant les besoins des utilisateurs, les objectifs commerciaux et les contraintes techniques pour orienter la direction du produit",
-          // "Unification de plusieurs produits en une solution cloud transparente, favorisant la collaboration avec les équipes de développeurs.",
-          // "Collaboration étroite avec les chefs de produit et les développeurs pour aligner les objectifs UX/UI avec les objectifs du produit, favorisant la synergie et atteignant des jalons clés.",
-          // "Établissement d'un guide de style et d'une bibliothèque de motifs d'interface utilisateur pour maintenir la cohérence de la marque et la cohérence à travers divers produits.",
+          "Développement du frontend (Vue) de <strong>3 nouveaux produits et intégré 7 produits</strong> dans une plateforme SaaS unique avec +10000 utilisateurs.",
+          "Mise en place une bibliothèque de composants pour garantir un code propre et maintenable et assurer la cohérence entre les produits.",
+          "<strong>Augmentation du Net Promoter Score de 11%</strong> et <strong>économies annuelles d'au moins 7500€</strong> en réduisant le temps de support.", // grâce à la conception centrée sur l'utilisateur.", // en réduisant le temps de support.",
         ]
       },
       {
-        title: "Designer UX/UI",// & Développeur Frontend",
+        title: "Frontend Developer",
         company: "Universidad Politécnica Madrid",
         industry: "éducation",
         startDate: "2014",
         endDate: "2016",
         tasks: [
-          "Conduction de 40+ tests de convivialité, <strong>augmentation du score de l'échelle SUS de 12%</strong> et <strong>retours positifs de 72%</strong>.",
-          "Création de l'UI pour une plateforme QA utilisée par 3000+ éducateurs, basée sur de solides pratiques centrées sur l'utilisateur et de convivialité."
+          "Réalisation de plus de 40 tests d'utilisabilité, <strong>augmentant l'utilisabilité de 12%</strong> et <strong>améliorant le feedback de 72%</strong>.",
+          "Développement du frontend d'une plateforme de QA avec +3000 utilisateurs, révision du code et application des meilleures pratiques."
         ]
       }
     ],
 
     skills: {
-      research: [
-        "Études ethnographiques", "Entretiens", "Enquêtes", "Tests de convivialité", "Évaluation heuristique", "Groupes de discussion", "Design Thinking", "Personas", "Parcours et flux utilisateur", "Analyse concurrentielle", "Scénarios", "Tri de cartes"
+      development: [
+        "HTML", "CSS", "Javascript ES6", "Vue.js", "Git", "npm (Node Package Manager)", "Yarn", "Webcomponents", "Bootstrap", "React", "SASS", "PostCSS", "Application Delivery Process, CI & CD, Progressive Web Applications",
+      ],
+      web3: [
+        "Solidity", "Web3.js", "Truffle", "Hardhat", "ERC-20", "ERC-721", "IPFS (Inter Planetary File System)", "Wagmi", "RainbowKit", "Remix", "Hardhat", "Ganache"
       ],
       design: [
-        "Conception centrée sur l'humain", "Conception d'interaction", "Conception accessible (WCAG 2)", "Conception adaptative", "Création de wireframes", "Prototypage basse et haute fidélité", "Design Systems", "Scénarios", "Architecture de l'information", "Prototypage interactif"
+        "Responsive and Adaptive Design across various devices, Design Mockups, Wireframes, Information Architecture, and Accessibility Standard (WCAG 2) to develop highly functional, usable, and accessible web applications",
       ],
-      // development: ["HTML", "CSS", "Javascript", "Vue", "React", "Bootstrap", "Git", "npm"],
-      tools: ["Figma", "Adobe Xd", "Hotjar", "Balsamiq", "Jira", "Notion", "Trello", "Wrike", "Office"],
+      tools: [
+        "Visual Studio Code", "Sublime Text", "GitHub", "GitLab", "Bitbucket", "Google Chrome developer tools", "Figma", "Adobe XD", "Hotjar", "Miro", "Jira", "Notion", "Slack", "Microsoft Teams", "Zoom", "Vercel", "GitHub Pages",
+      ],
     },
     languages: [
       { language: "Anglais", proficiency: "courant - C1" },
       { language: "Français", proficiency: "intermédiaire - B2" },
-      { language: "Espagnol", proficiency: "maternelle" },
-      { language: "Langue Signes Espagnole", proficiency: "maternelle" }
+      { language: "Espagnol", proficiency: "natif" },
+      { language: "Langue Signes Espagnole", proficiency: "natif" }
     ],
     educations: [
-      // {
-      //   degree: "Blockchain / Web 3 développer ",
-      //   institute: "Alyra",
-      //   graduated: "2023"
-      // },
       {
-        degree: "BAC+5 en Interaction Homme-Ordinateur",
-        institute: "Université Paris Saclay & KTH Royal Institute of Technology",
+        degree: "Blockchain / Web 3 Developer ",
+        institute: "Alyra",
+        graduated: "2023"
+      },
+      {
+        degree: "BAC+5 Interaction Homme-Machine",
+        institute: "KTH & Paris Saclay",
         graduated: "2021"
       },
       {
-        degree: "BAC+3 en ingénierie informatique",
-        institute: "Universidad Politécnica Madrid",
+        degree: "BAC+3 Ingénierie Informatique",
+        institute: "Université Polytech. Madrid",
         graduated: "2014"
       }
     ]
@@ -449,6 +436,7 @@ const sectionTitles = computed(() => {
           research: "Recherche utilisateur",
           design: "Conception",
           development: "Development Frontend",
+          web3: "Web 3 development",// "Blockchain / Web 3 development",
           tools: "Outils",
         languages: "LANGUES",
         educations: "FORMATION",
@@ -559,7 +547,7 @@ updateCurrentResume();
     margin: auto;
     padding: 13mm;
     padding: 10mm 13mm; /* ES */
-    /*padding: 7mm 13mm; /* FR */
+    padding: 8mm 13mm; /* FR */
     background-color: var(--color-white);
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
@@ -699,7 +687,7 @@ article :deep(li) {
 .main {
   width: 61.8%; /* FR */
   width: 59.3%; /* EN */
-  width: 61.5%; /* ES y Frontend */
+  width: 62.4%; /* ES y Frontend */
 }
 
 section {
