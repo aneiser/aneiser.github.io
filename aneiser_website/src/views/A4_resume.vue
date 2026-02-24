@@ -19,46 +19,49 @@ const resumes = ref([
     // █████ █   █  ███  █████ █████ █████ █   █
     lang: "en",
     name: ["Adrian", "Neila", "Serrano"],
-    title: "UX Designer",
+    title: "Product Designer",
     contacts: [
       // { type: "Country", display: "Paris, France" },
       { type: "Portfolio", href: "https://aneiser.github.io/?utm_source=resume&utm_campaign=PERSON__COMPANY&utm_language=english", display: "aneiser.github.io" },
       // { type: "Phone", href: "tel:+330650674677", display: "+33 6.50.67.46.77" },
+      { type: "LinkedIn", href: "https://www.linkedin.com/in/aneiser-ux", display: "LinkedIn" },
       { type: "Phone", href: "tel:+34649874542", display: "+34 649 87 45 42" },
       { type: "Email", href: "mailto:a.neiser13@gmail.com", display: "a.neiser13@gmail.com" },
-      { type: "LinkedIn", href: "https://www.linkedin.com/in/aneiser-ux", display: "linkedin.com/in/aneiser-ux" }
     ],
     summary: [
-      "UX/UI Designer with 5 years of experience in crafting user-centric experiences. Holding a <strong>M.Sc. in HCI Design</strong>, I'm skilled in both <strong>design</strong> and <strong>research</strong> aspects. My <strong>frontend background</strong> bridges design with technology. Comfortable in <strong>Agile</strong> and thriving in <strong>remote</strong> and <strong>multicultural</strong> global settings, I've successfully collaborated with diverse teams worldwide. With a <strong>curious mindset</strong>, I am always eager to delve into new learning and growing opportunities.",
-      // "Skilled at translating user research into high-quality UX/UI solutions, from wireframes to high-fidelity prototypes. Adept at collaborating with multidisciplinary teams to deliver user-centric and business-aligned designs."
+      "Product Designer with 6+ years of experience designing digital products end-to-end in corporate and product environments. Strong background in ideation, prototyping, usability testing, supporting user research activities, and collaborating closely with product managers, developers, and researchers. Experienced refining solutions through feedback while balancing user needs, business goals, and technical constraints to deliver consistent user experiences.",
     ],
-    // competencies: [
-    //   "Crafting and managing design artefacts.", // "such as wireframes, storyboards, flow diagrams, and prototypes.", "for both web and mobile applications.", "Utilizing Figma, Adobe Xd, etc.",
-    //   "Conduct multi-phased, mixed-methods research and usability tests.", // "to optimize elements for improved user experience.",
-    //   "Agile task tracking and collaboration with cross-functional teams."
-    //   // "Leading design process and ensuring alignment with business objectives.",
-    // ],
     experiences: [
       {
-        title: "UX/UI Designer (Remote)",
+        title: "Digital Product Designer",
+        company: "Procter & Gamble",
+        industry: "ecommerce",
+        startDate: "2024",
+        endDate: "Present",
+        tasks: [
+          "Redesigned digital loyalty program across EU markets, achieving +17% SUS in testing and setting the base for an European app.",
+          "Ideated, prototyped and validated solutions in Figma, collaborating closely with product managers, developers, legal and brand teams.",
+          "Established a continuous user feedback loop adapting the HEART framework, to monitor UX impact and inform design decisions.",
+        ]
+      }, {
+        title: "UI/UX Designer (Remote)",
         company: "Evoloom",
-        industry: "e-learning",
+        industry: "elearning",
         startDate: "2023",
         endDate: "",
         tasks: [
-          "Developed compelling UIs for courses on an e-learning platform, meeting tight deadlines, using existing educational resources.",
+          "Designed and implemented accessible UI components, flows, and layouts to support the creation and delivery of educational content."
         ]
       },
       {
         title: "User Researcher",
         company: "Ubisoft",
-        industry: "video games",
+        industry: "videogames",
         startDate: "2022",
         endDate: "",
         tasks: [
-          // "Defined UX research scope, methods, and target participant profiles and driving participant recruitment.",
-          "Conducted <strong>50+ user research sessions</strong> and playtests, gathering qualitative and quantitative/biometric data to <strong>uncover gameplay issues</strong>.",
-          "Delivered actionable insights based on research findings to 15+ stakeholders, <strong>tackling frustrations</strong> and <strong>enhancing engagement</strong>.",
+          "Conducted playtesting sessions & interviews to analyse qualitative, quantitative, and biometric data to assess player experience.",
+          "Synthesized insights to support game design decisions by the team.",
         ]
       },
       {
@@ -68,8 +71,7 @@ const resumes = ref([
         startDate: "2021",
         endDate: "",
         tasks: [
-          "Led the design of a pioneering wearable prototype from concept to completion, involving 70 participants and 20+ research sessions.",
-          "Crafted 3 initial prototypes, made 2 major updates to one, and executed 5 testing rounds, confirming potential for further work.",
+          "Designed & evaluated an experimental wearable from research to validation by prototyping & testing different interaction concepts.",
         ]
       },
       {
@@ -79,16 +81,9 @@ const resumes = ref([
         startDate: "2016",
         endDate: "2019",
         tasks: [
-          "Direct user-centred design efforts culminated in an <strong>increase of 11% in Net Promoter Score</strong> and <strong>annual savings of</strong> at least <strong>€7,500</strong>.", // by trimming down support service time.",
-          "Led dozens of research activities with staff across several teams and a competitive analysis, <strong>driving design and feature decisions</strong>.",
-          "Crafted and iterated <strong>hundreds of design artifacts</strong> to ensure clear communication of design intent and technical viability.",
-          "<strong>Launched two new products</strong> using an MVP approach and <strong>merged 7 products into a unified platform</strong> serving 10,000+ users.",
-
-          // "Crafted design artefacts that enhanced user experience and boosted Net Promoter Score by 11% for over 10,000 users.", // and features
-          // "Demonstrated decision-making skills by balancing user needs, business goals, and technical constraints to steer product direction",
-          // "Unified multiple products into a seamless cloud solution, fostering collaboration with developers teams.",
-          // "Collaborated closely with product managers and developers to align UX/UI goals with product objectives, fostering synergy and achieving key milestones.",
-          // "Established a style guide and a UI pattern library to maintain brand consistency and coherence across diverse products.",
+          "Unified six disconnected products into a single cloud platform, redesigning information architecture and interaction patterns.",
+          "Improved usability and interaction quality, achieving a +11% NPS for the digital product and services",
+          "Developed reusable UI components and a style guide to increase consistency and efficiency in design delivery.",
         ]
       },
       {
@@ -98,23 +93,19 @@ const resumes = ref([
         startDate: "2014",
         endDate: "2016",
         tasks: [
-          "Conducted 40+ usability tests, <strong>raising the System Usability Scale (SUS) score by 12%</strong> and <strong>positive feedback by 72%</strong>.",
-          "Created the UI for a QA platform used by 3,000+ educators, driven by strong user-centred and usability best practices."
-          // "<strong>Evangelized UCD</strong> and advocated for a user centric perspective, <strong>involving the team</strong> and promoting usability standards."
+          "Designed UI for a QA platform & conducted usability testing to achieve +12% improvement in SUS and +72% in positive feedback."
         ]
       }
     ],
     skills: {
-      research: [
-        "Etnography studies", "Interviews", "Surveys", "Usability Testing", "Heuristic Evaluation", "Focus Groups", "Design Thinking", "Personas", "User Journeys & Flows", "Competitive Research", "Scenarios", "Card Sorting",
-        // "Qualitative & Quantitative Research", "A/B Testing", "Analytics Analysis", "brainstorming", "Card Sorting", "Contextual Inquiry", "Field Studies", "Focus Groups", "Formative & Summative Usability Testing", "Heuristic Evaluations", "In-depth Interviews", "Participatory Design", "Surveys", "Usability Studies", "Workshops"
-      ],
       design: [
-        "Human-Centred Design", "Interaction Design", "Accessible Design (WCAG 2)", "Adaptive Design", "Wireframing", "Low- & High-fidelity Prototyping", "Design Systems", "Storyboards", "Information Architecture", "Interactive Prototyping"
-        // "Accessible Design (WCAG 2)", "Empathy Maps", "Experience Maps", "Information Architecture", "Journey Maps", "Personas", "Storyboarding", "User-Centered Design"
+        "Interaction Design", "Usability", "UCD", "User Flows", "Wireframing", "Journey mapping", "Prototyping", "Information Architecture", "Accessibility (WCAG)"
       ],
-      tools: ["Figma", "Adobe XD", "Hotjar", "Miro", "Notion", "Trello"],
-      // development: ["HTML", "CSS", "Javascript", "Vue.js", "Git", "npm"]
+      research: [
+        "User interviews", "Usability Testing", "UX & Product metrics", "Feedback loops", "Heuristic evaluation", "Surveys",
+      ],
+      tools: ["Figma", "Miro", "Confluence", "Hotjar", "Jira", "Notion", "Trello"],
+      development: ["Cross-functional collaboration", "Reqs. Documentation & Design Handover", "International settings"]
     },
     languages: [
       { language: "English",
@@ -238,15 +229,15 @@ const resumes = ref([
         ]
       }
     ],
-      skills: {
-        research: [
-          "Entrevistas", "Encuestas", "Focus Groups", "Test de Usabilidad", "Personas", "User Journeys & Flows", "Design Thinking", "Escenarios", "Evaluación Heurística", "Card Sorting", "Análisis Competitivo"
-        ],
-        design: [
-          "Diseño Centrado en Usuario", "Diseño de Interacción", "Storyboards", "Arquitectura de Información", "Sistemas de Diseño", "Diseño Adaptativo", "Diseño Accesible (WCAG 2)", "Prototipado de Baja y Alta Fidelidad, Interactivo y de Video",
-        ],
-        tools: ["Figma", "Adobe XD", "Hotjar", "Miro", "Notion"],
-        development: ["HTML", "CSS", "Javascript", "Vue.js", "Git"]
+    skills: {
+      research: [
+        "Entrevistas", "Encuestas", "Focus Groups", "Test de Usabilidad", "Personas", "User Journeys & Flows", "Design Thinking", "Escenarios", "Evaluación Heurística", "Card Sorting", "Análisis Competitivo"
+      ],
+      design: [
+        "Diseño Centrado en Usuario", "Diseño de Interacción", "Storyboards", "Arquitectura de Información", "Sistemas de Diseño", "Diseño Adaptativo", "Diseño Accesible (WCAG 2)", "Prototipado de Baja y Alta Fidelidad, Interactivo y de Video",
+      ],
+      tools: ["Figma", "Adobe XD", "Hotjar", "Miro", "Notion"],
+      development: ["HTML", "CSS", "Javascript", "Vue.js", "Git"]
     },
     languages: [
       { language: "Inglés", proficiency: "fluido - C1" },
@@ -366,11 +357,11 @@ const resumes = ref([
     ],
 
     skills: {
-      research: [
-        "Études ethnographiques", "Entretiens", "Enquêtes", "Tests de convivialité", "Évaluation heuristique", "Groupes de discussion", "Design Thinking", "Personas", "Parcours et flux utilisateur", "Analyse concurrentielle", "Scénarios", "Tri de cartes"
-      ],
       design: [
         "Conception centrée sur l'humain", "Conception d'interaction", "Conception accessible (WCAG 2)", "Conception adaptative", "Création de wireframes", "Prototypage basse et haute fidélité", "Design Systems", "Scénarios", "Architecture de l'information", "Prototypage interactif"
+      ],
+      research: [
+        "Études ethnographiques", "Entretiens", "Enquêtes", "Tests de convivialité", "Évaluation heuristique", "Groupes de discussion", "Design Thinking", "Personas", "Parcours et flux utilisateur", "Analyse concurrentielle", "Scénarios", "Tri de cartes"
       ],
       // development: ["HTML", "CSS", "Javascript", "Vue", "React", "Bootstrap", "Git", "npm"],
       tools: ["Figma", "Adobe Xd", "Hotjar", "Balsamiq", "Jira", "Notion", "Trello", "Wrike", "Office"],
@@ -409,10 +400,10 @@ const sectionTitles = computed(() => {
       return {
         competencies: "CORE COMPETENCIES",
         skills: "SKILLS",
-          research: "User research",
-          design: "Design",
-          development: "Frontend development",
-          tools: "Tools",
+        research: "User Research & Testing",
+        design: "Product & Interaction Design",
+        development: "Collaboration & Delivery",
+        tools: "Tools",
         languages: "LANGUAGES",
         educations: "EDUCATION",
         experiences: "EXPERIENCE",
@@ -421,10 +412,10 @@ const sectionTitles = computed(() => {
       return {
         competencies: "COMPETENCIAS",
         skills: "COMPETENCIAS",
-          research: "Investigación de Usuarios",
-          design: "Diseño",
-          development: "Desarrollo Frontend",
-          tools: "Herramientas",
+        research: "Investigación de Usuarios",
+        design: "Diseño",
+        development: "Desarrollo Frontend",
+        tools: "Herramientas",
         languages: "Idiomas",
         educations: "FORMACIÓN",
         experiences: "EXPERIENCIA",
@@ -433,10 +424,10 @@ const sectionTitles = computed(() => {
       return {
         competencies: "COMPÉTENCES",
         skills: "COMPÉTENCES",
-          research: "User research",
-          design: "Design",
-          development: "Development Frontend",
-          tools: "Outils",
+        research: "User research",
+        design: "Design",
+        development: "Development Frontend",
+        tools: "Outils",
         languages: "LANGUES",
         educations: "FORMATION",
         experiences: "EXPÉRIENCE",
@@ -476,18 +467,26 @@ updateCurrentResume();
 
             <div class="header__fullname">
               <div class="header__name">
-                <span class="header__name"><h1>{{ currentResume.name[0] }}</h1></span>
+                <span class="header__name">
+                  <h1>{{ currentResume.name[0] }}</h1>
+                </span>
                 <div class="header__surname">
-                  <span><h1>{{ currentResume.name[1] }}</h1></span>
-                  <span><h1>{{ currentResume.name[2] }}</h1></span>
+                  <span>
+                    <h1>{{ currentResume.name[1] }}</h1>
+                  </span>
+                  <span>
+                    <h1>{{ currentResume.name[2] }}</h1>
+                  </span>
                 </div>
               </div>
-              <span class="header__title"><h1>{{ currentResume.title }}</h1></span>
+              <span class="header__title">
+                <h1>{{ currentResume.title }}</h1>
+              </span>
             </div>
 
             <div class="header__contact">
               <div v-for="item in currentResume.contacts" :key="item.type">
-                  <a :href="item.href">{{ item.display }}</a>
+                <a :href="item.href">{{ item.display }}</a>
               </div>
             </div>
           </div>
@@ -538,32 +537,34 @@ updateCurrentResume();
   background-size: 24px 24px;
   overflow: auto;
 }
-.a4-page {
-    width: 210mm;
-    height: 297mm;
-    margin: auto;
-    padding: 13mm;
-    padding: 10mm 13mm; /* ES */
-    /*padding: 7mm 13mm; /* FR */
-    background-color: var(--color-white);
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
-    overflow: hidden; /* Oculta el contenido que desborda el contenedor */
-    position: relative; /* Establece la posición relativa para los elementos internos */
-  }
 
-article {
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    font-size: 13px;
-    font-size: 14px;
-    font-size: 10pt;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
-    line-height: 1.35;
+.a4-page {
+  width: 210mm;
+  height: 297mm;
+  margin: auto;
+  padding: 13mm;
+  padding: 10mm 13mm; /* ES */
+  /*padding: 7mm 13mm; /* FR */
+  background-color: var(--color-white);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  overflow: hidden; /* Oculta el contenido que desborda el contenedor */
+  position: relative; /* Establece la posición relativa para los elementos internos */
 }
 
-article h1, article h2 {
+article {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 13px;
+  font-size: 14px;
+  font-size: 10pt;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  line-height: 1.35;
+}
+
+article h1,
+article h2 {
   font-family: 'Bebas Neue', Impact, 'Arial Black', 'Helvetica Neue Bold', 'Helvetica Bold', Tahoma, 'Trebuchet MS', sans-serif;
   font-weight: normal;
 }
@@ -604,42 +605,43 @@ article :deep(li) {
 }
 
 .header__fullname {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  flex-grow: 1;
 }
 
 .header__name {
-    display: flex;
-    align-items: flex-start;
+  display: flex;
+  align-items: flex-start;
 }
+
 .header__name {
-    font-size: 36px;
-    line-height: 0.9;
-    margin-right: 6px; /* Espacio entre "Adrian" y los otros dos nombres */
+  font-size: 36px;
+  line-height: 0.9;
+  margin-right: 6px; /* Espacio entre "Adrian" y los otros dos nombres */
 }
 
 .header__surname {
-    display: flex;
-    flex-direction: column;
-    margin-top: 2px;
-    letter-spacing: 0.5px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2px;
+  letter-spacing: 0.5px;
 }
 
 .header__surname span {
-    font-size: 16px;
-    line-height: 21px;
+  font-size: 16px;
+  /*line-height: 21px;*/
 }
 
 .header__title {
-    font-size: 32px;
-    line-height: 32px;
-    line-height: 0.9;
-    letter-spacing: 1px;
-    color: white;
-    -webkit-text-stroke: 1px black;
-    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+  font-size: 24px;
+  line-height: 32px;
+  line-height: 0.9;
+  letter-spacing: 1px;
+  color: white;
+  -webkit-text-stroke: 1px black;
+  /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
 }
 
 .header__contact {
@@ -650,25 +652,27 @@ article :deep(li) {
   font-family: "calluma";
   color: var(--color-gray);
 }
+
 .header__contact a {
-    color: inherit; /* This will use the color of the parent element */
+  color: inherit; /* This will use the color of the parent element */
 }
 
 .body {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
+
 .body :deep(div) {
   margin: 5px 0 10px;
   text-align: justify;
 }
 
-.side > section:first-child > h2,
+.side>section:first-child>h2,
 .main h2.section {
   margin-top: 0;
 }
 
-.side > section:first-child > div:last-child {
+.side>section:first-child>div:last-child {
   margin-top: 15px;
 }
 
@@ -685,7 +689,7 @@ article :deep(li) {
 }
 
 section {
-    background-color: var(--color-white);
+  background-color: var(--color-white);
 }
 
 .section {
@@ -696,11 +700,11 @@ section {
 
 .section::after {
   content: "";
-  display: block;      /* To ensure the line takes up its own space */
+  display: block; /* To ensure the line takes up its own space */
   width: 16pt;
   height: 3px;
   background-color: var(--color-red-accent);
-  margin-top: -4px;     /* Optional: adds a bit of space between the h2 text and the red line */
+  margin-top: -4px; /* Optional: adds a bit of space between the h2 text and the red line */
 }
 
 article .highlight {
@@ -729,16 +733,15 @@ article .highlight::before {
 }
 
 .floating-button {
-    color: var(--color-red);
-    border: 1px solid var(--color-red);
-    border-radius: 2rem;
-    text-shadow: none;
-    text-transform: none;
-    font-size: 1.2rem;
+  color: var(--color-red);
+  border: 1px solid var(--color-red);
+  border-radius: 2rem;
+  text-shadow: none;
+  text-transform: none;
+  font-size: 1.2rem;
 
-    position: fixed;
-    bottom: 30px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-</style>
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}</style>
